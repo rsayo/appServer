@@ -1,0 +1,998 @@
+[
+  {
+      "id": "c3955cf318f60d815066daa73a622297",
+      "trackNum": "1",
+      "title": "Unfair",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6lack",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "3534553"
+  },
+  {
+      "id": "351325a660b25474456af5c9a5606c4e",
+      "trackNum":"2",
+      "title": "Loaded Gun",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "2345623"
+  },
+  {
+      "id": "d0fa06cd93335c8cae357ffe5cd1c4e9",
+      "trackNum": "3",
+      "title": "East Atlanta Love Letter",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "232345"
+  },
+  {
+      "id": "a9ddcf51419881bdee445181e32ede58",
+      "trackNum": "4",
+      "title": "Sorry",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "534624"
+  },
+  {
+      "id": "6226f7cbe59e99a90b5cef6f94f966fd",
+      "trackNum": "5",
+      "title": "Disconnect",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "346354"
+  },
+  {
+      "id": "121aa3ee4a7d5b1bbbc760fd0c6de79b",
+      "trackNum":"6",
+      "title": "Switch",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "525342"
+  },
+  {
+      "id": "f970e2767d0cfe75876ea857f92e319b",
+      "trackNum": "7",
+      "title": "Thugger's Interlude",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "335436"
+  },
+  {
+      "id": "12eccbdd9b32918131341f38907cbbb5",
+      "trackNum": "8",
+      "title": "Balenciago",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "363453"
+  },
+  {
+      "id": "e4a9cf8f4ae5a08cb937b21ee894602d",
+      "trackNum": "9",
+      "title": "Scripture",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount":"235626"
+  },
+  {
+      "id": "36eba1e1e343279857ea7f69a597324e",
+      "trackNum": "10",
+      "title": "Nonchalant",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "252352"
+  },
+  {
+      "id": "7c9df801238abe28cae2675fd3166a1a",
+      "trackNum":"11",
+      "title": "Seasons",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "254345"
+  },
+  {
+      "id": "ee33e909372d935d190f4fcb2a92d542",
+      "trackNum":"12",
+      "title": "Stan",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "artist": "6alck",
+      "imageURL": "6lack",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": "235234"
+  },
+  {
+      "id": "4979d619a7b7afcc24e732e9f724b2541c9924cf",
+      "trackNum": "1",
+      "title": "intro",
+      "artist": "Mac Ayres",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "albumId": "3691308f2a4c2f6983f2880d32e29c84",
+      "imageURL": "driveSlow"
+  },
+  {
+      "id": "72225239e26efc448ead1d3ac0db58e29f08546b",
+      "trackNum": "2",
+      "title": "Calvin's Joint",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "3691308f2a4c2f6983f2880d32e29c84",
+      "imageURL": "driveSlow"
+  },
+  {
+      "id": "57e8a7776d6892a83f2a49678f8141f4fb883e62",
+      "trackNum": "3",
+      "title": "Slow Down",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "3691308f2a4c2f6983f2880d32e29c84",
+      "imageURL": "driveSlow"
+  },
+  {
+      "id": "f17fe568d79d89ec9744879582034247c2d8723a",
+      "trackNum": "16",
+      "title": "Should We Take The Van?",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "3691308f2a4c2f6983f2880d32e29c84",
+      "imageURL": "driveSlow"
+  },
+  {
+      "id": "9fb29051f2217270a7b253a39f820310d85a78f0",
+      "trackNum":"4",
+      "title": "Show Me",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "3691308f2a4c2f6983f2880d32e29c84",
+      "imageURL": "driveSlow"
+  },
+  {
+      "id": "2689a5aa7f3f352630b6159ebbf0200f6a50e9ea",
+      "trackNum": "5",
+      "title": "Lonely",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "3691308f2a4c2f6983f2880d32e29c84",
+      "imageURL": "driveSlow"
+  },
+  {
+      "id": "2689a5aa7f3f352630b6159ebbf0200f6a50e9ea",
+      "trackNum": "6",
+      "title": "Easy",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "3691308f2a4c2f6983f2880d32e29c84",
+      "imageURL": "driveSlow"
+  },
+  {
+      "id": "7550b672e162c224c309bdea5d48ca975081a904",
+      "trackNum": "7",
+      "title": "Change Ya Mind",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "3691308f2a4c2f6983f2880d32e29c84",
+      "imageURL": "driveSlow"
+  },
+  {
+      "id": "67725c09bc145e469ec5a11876aac1dc69f66ef6",
+      "trackNum": "1",
+      "title": "Special One",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "ad782ecdac770fc6eb9a62e44f90873fb97fb26b",
+      "trackNum": "2",
+      "title": "End Of The niGht",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "b802f384302cb24fbab0a44997e820bf2e8507bb",
+      "trackNum": "3",
+      "title": "Baby Meet My Lover",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "9f8f7eec5dea5ac43738721939c120318cbff1df",
+      "trackNum": "4",
+      "title": "Smole To Get Sober",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "52fe6d7cb41afb2612576adc6d7db1c970dc16eb",
+      "trackNum": "5",
+      "title": "HelGa",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "bec9703f7a456cd2b4ab5fb3220ae016e3e394e3",
+      "trackNum": "6",
+      "title": "Someday",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "a00bbe560e6b0f5263e3e6cba4ff3fb9a6fe9ef0",
+      "trackNum": "7",
+      "title": "aGe of You",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "d479fa0ef92542c808003731bc478f714ec1da4c",
+      "trackNum": "8",
+      "title": "RExER",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "b4ddce182ecfb739a19a2b263412c2343dd4fc98",
+      "trackNum": "9",
+      "title": "Why iii Love The Moon",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "dd3562449147ffc783230d2a13d02a75ac42989b",
+      "trackNum": "10",
+      "title": "Take A Chance.",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "cc5a0c506761ce686f1f145da868c162f269480f",
+      "trackNum": "11",
+      "title": "Salute Of Liberty.",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "b521f9394fabb794ecc4f5902d1f4b42ca0b4744",
+      "trackNum": "12",
+      "title": "Special One. - Interlude",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "c24f5cff02c08728c9789791a4439cdb2fa10c39",
+      "trackNum": "13",
+      "title": "So Much Better.",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "8a13a01d705b372be5da08b0751c65714b10dfe0",
+      "trackNum": "14",
+      "title": "Compromise.",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "5cf896e678bdf9519adaa8b434a1676adcf45db5",
+      "trackNum": "15",
+      "title": "Somehow.",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "artist": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney"
+  },
+  {
+      "id": "1037db189f8632c9d76d60ed1db57d75ddf5b8ad",
+      "trackNum": "1",
+      "title": "Nikes",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "6d7748b3c0be1d4bc4f8e27a6a16873daaf619c6",
+      "trackNum": "2",
+      "title": "Ivy",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "528cef87d0bfb947548ab94679d1e5765f19089a",
+      "trackNum": "3",
+      "title": "Pink + White",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "986b1bc1eb8de89643c50722910f99001c232865",
+      "trackNum": "4",
+      "title": "Be Yourself",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "49f25741ff0db65a7c4290aa73f34b4d4a3644c6",
+      "trackNum": "5",
+      "title": "Solo",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "49f25741ff0db65a7c4290aa73f34b4d4a3644c6",
+      "trackNum": "6",
+      "title": "Skyline To",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "40380bc1d358a6f8665b37bbdc8c7ccc6c38a861",
+      "trackNum": "7",
+      "title": "Self Control",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "fc19318dd13128ce14344d066510a982269c241b",
+      "trackNum": "8",
+      "title": "Good Guy",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "1be2a44cb53dde903be8466c08dee9067da8ede3",
+      "trackNum": "9",
+      "title": "Nights",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "e5fd729e3ab451eaff7e7cddeb1f4349aecd81bd",
+      "trackNum": "10",
+      "title": "Solo (Reprise)",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "457774c6f0228627cad243f9b8d5ae6f27e1fac6",
+      "trackNum": "11",
+      "title": "Pretty Sweet)",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "d01593a7b3919244b959c893a0db44f8d82f92b7",
+      "trackNum": "12",
+      "title": "Facebook Story",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "da38860cb875cb64092e402d80d9fe29c4865b18",
+      "trackNum": "13",
+      "title": "Close To You",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "528cef87d0bfb947548ab94679d1e5765f19089a",
+      "trackNum": "14",
+      "title": "White Ferrari",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "e36d04f457bf9ea4e48de9c43c744f82dda0e11d",
+      "trackNum": "15",
+      "title": "Seigfried",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "a40f0f8ee402eb7f58094ae218677836eba6de13",
+      "trackNum": "16",
+      "title": "GodSpeed",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "4ff88aaddbd209d8026924c2cc2836b408698823",
+      "trackNum": "17",
+      "title": "Futura Free",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank"
+  },
+  {
+      "id": "ce7b578068bff098137ed28d590f031f49898c9f",
+      "trackNum": "1",
+      "title": "Late Night",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "b43c4b82570e182eb1c74072896167113d2c7345",
+      "trackNum": "2",
+      "title": "Extra",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "0a45ca53d16020b401c8df990106a6379c68460a",
+      "trackNum": "3",
+      "title": "Concentrate",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "75c0533730caf1f78561c0883fb87bc8d98ef04b",
+      "trackNum": "4",
+      "title": "Ready For Love (Interlude)",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "512423cb3a4857a38f472862b51e4ab1a1730f06",
+      "trackNum": "5",
+      "title": "Karma",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "79cccbb3266b5f72f8d3d150c6a6a0086d70016e",
+      "trackNum": "6",
+      "title": "Paint it",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "c9c64e071d2853bc7906c017a231ad1cc46ab630",
+      "trackNum": "7",
+      "title": "Real Games",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "64b8cefeebbdf01f8ef22d9a6a76c49f6f0181f3",
+      "trackNum": "8",
+      "title": "Misunderstood",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "682b67f20f47a712ebb24e7480a0cdfa2a7a0299",
+      "trackNum": "9",
+      "title": "Floods",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "bc8d8647b02deea0ab3e715c220d041ee78cc19d",
+      "trackNum": "10",
+      "title": "Call.",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "3240aa0fe3ca15051680641a59e8d7b61c286b23",
+      "trackNum": "11",
+      "title": "Try Your Fire.",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Luckcy Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "9f2feb0f1ef425b292f2f94bc8482494df430413",
+      "trackNum": "12",
+      "title": "Love You Too Much",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "artist": "Lucky Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye"
+  },
+  {
+      "id": "2346ad27d7568ba9896f1b7da6b5991251debdf2",
+      "trackNum": "1",
+      "title": "Kitty Ca$h Intro (with Kitty Ca$h)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "artist": "Love Renaissance (LVRN), Kitty Ca$h",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "lvrn"
+  },
+  {
+      "id": "9634cd1b08e8c4433775bf8d31de3749a9cdcaf6",
+      "trackNum": "2",
+      "title": "Ghetto christmas (with 6lack & Summer Walker)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "artist": "Love Renaissance (LVRN), 6lack, Summer Walker",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "lvrn"
+  },
+  {
+      "id": "ffe1197db77e6f306c363738963905b7286b71c8",
+      "trackNum": "3",
+      "title": "Faliz Navidad ( with Young Rog & Shelley FKA DRAM)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "artist": "Love Renaissance (LVRN), Young Rog, ShelleyFKA DRAM",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "lvrn"
+  },
+  {
+      "id": "1a860aecad7e550e6375650f1b79cfa21fb8251d",
+      "trackNum": "4",
+      "title": "Kitty's Wish List ( With Kitty Ca$h)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "artist": "Love Renaissance (LVRN), Kitty Ca$h",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "lvrn"
+  },
+  {
+      "id": "0a6189b2865a4eceda41252e8960cc210f314ed4",
+      "trackNum": "5",
+      "title": "12 Days of Bhrismas ( with OMB Bloodbath & Westside Boogie)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "artist": "Love Renaissance (LVRN), OMG Bloodbath, Westside Boogie",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "lvrn"
+  },
+  {
+      "id": "468431cda082eda3a4228b0d0d7bd0eaec45c4e4",
+      "trackNum": "6",
+      "title": "Ca$h Innovations (with Kitty Ca$h)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "artist": "Love Renaissance (LVRN), Kitty Ca$h",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "lvrn"
+  },
+  {
+      "id": "644a7e8688d2da4b5994bd242ebbf302bbbeb6cf",
+      "trackNum": "7",
+      "title": "Santa Baby (with Summer Walker)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "artist": "Love Renaissance (LVRN), Summer Walker",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "lvrn"
+  },
+  {
+      "id": "0706f7a1cdd047d90395662375f32d212c98b00f",
+      "trackNum": "8",
+      "title": "This christmas (with Eli Derby)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "artist": "Love Renaissance (LVRN), Eli Derby",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "lvrn"
+  },
+  {
+      "id": "50219f7e69db39d1425ead93d550068632fefc77",
+      "trackNum": "9",
+      "title": "This Christmas Song (Chestnuts Roasting on open fire) ( with Shelly FAK DRAM)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "artist": "Love Renaissance (LVRN), Shelly FAK DRAM",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "lvrn"
+  },
+  {
+      "id": "dfc60fabc457e928befef7a7ced29b7f085c3502",
+      "trackNum": "1",
+      "title": "Sunny & 62",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "e0a25e64c726a0035f2218a4e4eab82164cd04a5",
+      "trackNum": "2",
+      "title": "Sometimes",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "722e2253ed9d7bf4896e9c16126ccec91288809f",
+      "trackNum": "3",
+      "title": "Nothing Else",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "6d93ed99c4ce9165ecc3ef571866154c6668ba45",
+      "trackNum": "4",
+      "title": "Brand new",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "c26e0d2b862eb7fd0a34cdd61cc02ddbe4646d1e",
+      "trackNum": "5",
+      "title": "Never Let Me Go",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "07b2ff4b7e95e9604bf5cb112488c324d1cddf9e",
+      "trackNum": "6",
+      "title": "Every Time",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "3a298b8c62e24a4ac1189a2450612f2de85ddde2",
+      "trackNum": "7",
+      "title": "Where U Goin' Tonight",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "e801716c3542451e2e019f46da326c7c0d3f9281",
+      "trackNum": "8",
+      "title": "Almost Home",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "d3479b045d93b5fa26e7cb0a561c907022ebb9bf",
+      "trackNum": "1",
+      "title": "I Wana Give up",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "c1c0f48d5c8a9ad0ffbc3ac11fccaad9dcda183b",
+      "trackNum": "2",
+      "title": "Shadows",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "c1063169bfc7ab19c35a93330eb4e42131a05e33",
+      "trackNum": "3",
+      "title": "I Just Need Love",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "f22a4a681b35f1fa95ca85f97c269dae27591f7a",
+      "trackNum": "4",
+      "title": "Where Do We Go From Here?",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "bec31ff433d36e51707a3bdb3d7784127b515899",
+      "trackNum": "5",
+      "title": "Get Away",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "747d2d8e983875246dffca9e034a4d8ab18d8024",
+      "trackNum": "6",
+      "title": "Summertime - Live",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "704e6cea00caee5a080abe7772d96adff44e4242",
+      "trackNum": "7",
+      "title": "Jumping off the Moon",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "f9e7679b2ce9891bf5d509ad527962938a4c72b9",
+      "trackNum": "8",
+      "title": "Walking Home",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "b127fb3c0ee6b9d329ec5f3e8c7ee17329cff7e4",
+      "trackNum": "9",
+      "title": "Shit Covered in Gold",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "3c52b8023545f871f1b86b26e9bc6928990687e9",
+      "trackNum": "10",
+      "title": "Saving",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "f2bbd04ed655dfd4ec27037342b574dfcaac7ef0",
+      "trackNum": "11",
+      "title": "Caught up",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "daaeebf180925c8e83cc17351e074d78c1a94225",
+      "trackNum": "12",
+      "title": "Fears",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "f2a0bfeed6899cd5e79515700651963639b31333",
+      "trackNum": "13",
+      "title": "Smile Boy - Live",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "210be5bbdec97321a82183c9f5a010c624aba1b6",
+      "trackNum": "14",
+      "title": "Come Thru",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "e2b54131cd440e35dd568ccde4309023efb8abfa",
+      "trackNum": "15",
+      "title": "Better",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "16",
+      "title": "Something More",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+      "imageURL": "juicebox"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "1",
+      "title": "Next to You",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "2",
+      "title": "Roses",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "3",
+      "title": "Under",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "4",
+      "title": "Soon",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "5",
+      "title": "Get To You Again",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "6",
+      "title": "I've Always Been",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "7",
+      "title": "Waiting",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "8",
+      "title": "Pickled Ginger",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "9",
+      "title": "Something To Feel",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "10",
+      "title": "This Bag",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "778e60a21db30f3546f02c9f0f932eda6ec46bbf",
+      "trackNum": "11",
+      "title": "Stay",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "artist": "Mac Ayres",
+      "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+      "imageURL": "somethingtofeel"
+  }
+]

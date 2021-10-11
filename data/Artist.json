@@ -1,0 +1,56 @@
+[
+      {
+          "id": "2133e19292afc827cc42285f6f0e565c",
+          "name": "6lack",
+          "imageURL": "6lack1",
+          "isVerified": true
+        },
+        {
+          "id": "f16cb42875013a1118c1a0b3717202e9536851e0",
+          "name": "Mac Ayres",
+          "imageURL": "mac",
+          "isVerified": true
+        },
+        {
+          "id": "f65c7210ab215d55f9b8193e85044801d8661f16",
+          "name": "Kehlani",
+          "imageURL": "kehlani",
+          "isVerified": true
+        },
+        {
+          "id": "def370b0a6955293825079ddbed79e2b6f7a5529",
+          "name": "Drake",
+          "imageURL": "drake",
+          "isVerified": true
+        },
+        {
+          "id": "8fdc8713516a6e9fe043143ca65757cec24d4c84",
+          "name": "Meg Thee Stallion",
+          "imageURL": "meg",
+          "isVerified": true
+        },
+        {
+          "id": "e7e971e55af10f713238780785ec5e63720509f0",
+          "name": "Kali Uchis",
+          "imageURL": "kali",
+          "isVerified": true
+        },
+        {
+          "id": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+          "name": "Phoney Ppl",
+          "imageURL": "phoneyPpl",
+          "isVerified": true
+        },
+        {
+          "id": "6c1d77a1851c78aa2894f8b7be3f7af4",
+          "name": "Frank Ocean",
+          "imageURL": "frank",
+          "isVerified": true
+        },
+        {
+          "id": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+          "name": "Lucky Daye",
+          "imageURL": "lucky",
+          "isVerified": true
+        }
+]

@@ -1,0 +1,32 @@
+[
+        {
+            "id": "1",
+            "title": "Rap Life",
+            "artist": "",
+            "imageURL": "rap-life"
+        },
+        {
+            "id": "2",
+            "title": "R&B / Hip Hop",
+            "artist": "",
+            "imageURL": "rnb"
+        },
+        {
+            "id": "3",
+            "title": "Afro Vibes",
+            "artist": "",
+            "imageURL": "afro"
+        },
+        {
+            "id": "4",
+            "title": "Pop",
+            "artist": "",
+            "imageURL": "pop"
+        },
+        {
+            "id": "5",
+            "title": "Strictly RnB",
+            "artist": "",
+            "imageURL": "rnb"
+        }
+      ]

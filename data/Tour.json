@@ -1,0 +1,188 @@
+[
+  {
+    "id": 0,
+    "Tour":"Pained Tour ",
+    "Artist":"Lucky Daye",
+    "ImageUrl": "../public/84-og.jpg",
+    "Locations":[
+      {
+        "id": 0,
+        "toursRefId":0,
+        "Venue":"",
+        "City":"Portland",
+        "State": "Oragin",
+        "Day": 20,
+        "Month": 9,
+        "Year": 2019,
+        "Tickets Sold": 32
+      },
+      {
+        "id": 1,
+        "toursRefId":0,
+        "Venue":"",
+        "City":"Vancouver",
+        "State": "British Columbia",
+        "Day": 21,
+        "Month": 9,
+        "Year": 2019,
+        "Tickets Sold": 10
+      },
+      {
+        "id": 2,
+        "toursRefId":0,
+        "Venue":"",
+        "City":"Seatle",
+        "State": "Washington",
+        "Day": 22,
+        "Month": 9,
+        "Year": 2019,
+        "Tickets Sold": 12
+      },
+      {
+        "id": 3,
+        "toursRefId":0,
+        "Venue":"",
+        "City":"Denver",
+        "State": "Colorado",
+        "Day": 27,
+        "Month": 9,
+        "Year": 2019,
+        "Tickets Sold": 20
+      },
+      {
+        "id": 4,
+        "toursRefId":0,
+        "Venue":"",
+        "City":"Kansas City",
+        "State": "Missouri",
+        "Day": 28,
+        "Month": 9,
+        "Year": 2019,
+        "Tickets Sold": 22
+      },
+      {
+        "id": 5,
+        "toursRefId":0,
+        "Venue":"",
+        "City":"Mineapolis",
+        "State": "Minisoda",
+        "Day": 29,
+        "Month": 9,
+        "Year": 2019,
+        "Tickets Sold": 20
+      },
+      {
+        "id": 6,
+        "toursRefId":0,
+        "Venue":"",
+        "City":"Chicago",
+        "State": "Illinois",
+        "Day": 1,
+        "Month": 10,
+        "Year": 2019,
+        "Tickets Sold": 33
+      },
+      {
+        "id": 7,
+        "toursRefId":0,
+        "Venue":"",
+        "City":"Cinsinati",
+        "State": "Ohio",
+        "Day": 2,
+        "Month": 10,
+        "Year": 2019,
+        "Tickets Sold": 30
+      },
+      {
+        "id": 8,
+        "toursRefId":0,
+        "Venue":"",
+        "City":"Toronto",
+        "State": "Ontario",
+        "Day": 4,
+        "Month": 10,
+        "Year": 2019,
+        "Tickets Sold": 50
+      },
+      {
+        "id": 9,
+        "toursRefId":0,
+        "Venue":"",
+        "City":"Cleveland",
+        "State": "Ohio",
+        "Day": 3,
+        "Month": 10,
+        "Year": 2019,
+        "Tickets Sold": 11
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "Tour":"Conan Gray - The Comfort Crowd Tour  with Umi",
+    "Artist":"Umi",
+    "ImageUrl": "../public/UmiConanGray.jpg",
+    "Locations":[
+      {
+        "id": 0,
+        "toursRefId":1,
+        "Venue":"The Pageant",
+        "City":"St. Louis",
+        "State": "Missouri",
+        "Day": 30,
+        "Month": 10,
+        "Year": 2019,
+        "Tickets Sold": 15
+      }
+      ]
+  },
+  {
+    "id": 2,
+    "Tour":"The Juicebox North American Tour",
+    "Artist":"Mac Ayres Band",
+    "ImageUrl": "../public/MAC AYRES.jpg",
+    "Locations":[
+      {
+        "id": 0,
+        "toursRefId":2,
+        "Venue":"The Crocodile",
+        "City":"Seatle",
+        "State": "Washington",
+        "Day": 24,
+        "Month": 10,
+        "Year": 2019,
+        "Tickets Sold": 25
+      }
+      ]
+  },
+  {
+    "id": 3,
+    "Tour":"ASW 19 Erurope Toure - Its safer inside",
+    "Artist":"Coletrane",
+    "ImageUrl": "../public/MAC AYRES.jpg",
+    "Locations":[
+      {
+        "id": 0,
+        "toursRefId":3,
+        "Venue":"Botanique",
+        "City":"Brussels",
+        "State": "",
+        "Day": 1,
+        "Month": 11,
+        "Year": 2019,
+        "Tickets Sold": 50
+      },
+      {
+        "id": 0,
+        "toursRefId":3,
+        "Venue":"Le Bdabourm",
+        "City":"Paris",
+        "State": "",
+        "Day": 6,
+        "Month": 11,
+        "Year": 2019,
+        "Tickets Sold": 50
+      }
+      ]
+  }
+]

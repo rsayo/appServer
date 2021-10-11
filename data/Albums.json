@@ -1,0 +1,123 @@
+[
+  {
+      "id": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "type": "Album",
+      "title": "East Atlanta Love Letter",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "imageURL": "6lack"
+    },
+    {
+      "id": "3691308f2a4c2f6983f2880d32e29c84",
+      "type": "Album",
+      "title": "Drive Slow",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "imageURL": "driveSlow"
+    },
+    {
+      "id": "233692e0aad5a445107564ca1bb68d51",
+      "type": "Album",
+      "title": "Yesterday's Tomorrow",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "imageURL": "phoney"
+    },
+    {
+      "id": "457391c9c82bfdcbb4947278c0401e41",
+      "type": "Album",
+      "title": "Blonde",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "imageURL": "frank"
+    },
+    {
+       "id": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+       "type": "Album",
+       "title": "Home For The Holidays",
+       "artistId": "2133e19292afc827cc42285f6f0e565c",
+       "imageURL": "lvrn"
+    },
+    {
+      "id": "b40981aab75932c5b2f555f50769d878e44913d7",
+      "type": "Album",
+      "title": "Magic 8ball",
+      "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+      "imageURL": "8ball"
+    },
+    {
+       "id": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
+       "type": "Album",
+       "title": "Juice Box",
+       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+       "imageURL": "juicebox"
+    },
+    {
+       "id": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
+       "type": "Album",
+       "title": "Something To Feel",
+       "artist": "mac",
+       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
+       "imageURL": "somethingtofeel"
+    },
+    {
+        "id": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+        "type": "Album",
+        "title": "Channel Orange",
+        "artist": "Frank Ocean",
+        "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+        "imageURL": "channelOrange"
+    },
+    {
+        "id": "2133e19292afc827cc42285f6f0e565c",
+        "type": "Single",
+        "title": "In My Room",
+        "artist": "Frank Ocean",
+        "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+        "imageURL": "inmyroom"
+    },
+    {
+        "id": "2133e19292afc827cc42285f6f0e565c",
+        "type": "Single",
+        "title": "DHL",
+        "artist": "Frank Ocean",
+        "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+        "imageURL": "frank-ocean-dhl"
+    },
+    {
+        "id": "46dcd4dd65b63d106b8cfb4aad906b23716cc613",
+        "type": "Single",
+        "title": "Moon River",
+        "artist": "Frank Ocean",
+        "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+        "imageURL": "moonriver"
+    },
+    {
+        "id": "2133e19292afc827cc42285f6f0e565c",
+        "type": "Single",
+        "title": "Lens",
+        "artist": "Frank Ocean",
+        "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+        "imageURL": "lens"
+    },
+    {
+        "id": "2133e19292afc827cc42285f6f0e565c",
+        "type": "Single",
+        "title": "Biking",
+        "artist": "Frank Ocean",
+        "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+        "imageURL": "biking"
+    },
+    {
+        "id": "2133e19292afc827cc42285f6f0e565c",
+        "type": "Single",
+        "title": "Chanel",
+        "artist": "Frank Ocean",
+        "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+        "imageURL": "chanel"
+    },
+    {
+        "id": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+        "type": "Album",
+        "title": "Painted",
+        "artist": "Lucky Daye",
+        "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+        "imageURL": "Painted-Lucky-Daye"
+    }
+]
