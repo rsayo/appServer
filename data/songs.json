@@ -138,7 +138,8 @@
       "artist": "Mac Ayres",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
-      "imageURL": "driveSlow"
+      "imageURL": "driveSlow",
+      "playCount": "1241"
   },
   {
       "id": "72225239e26efc448ead1d3ac0db58e29f08546b",
@@ -147,7 +148,8 @@
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "artist": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
-      "imageURL": "driveSlow"
+      "imageURL": "driveSlow",
+      "playCount": "124141"
   },
   {
       "id": "57e8a7776d6892a83f2a49678f8141f4fb883e62",
@@ -156,7 +158,8 @@
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "artist": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
-      "imageURL": "driveSlow"
+      "imageURL": "driveSlow",
+      "playCount": "421241"
   },
   {
       "id": "f17fe568d79d89ec9744879582034247c2d8723a",
@@ -165,7 +168,8 @@
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "artist": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
-      "imageURL": "driveSlow"
+      "imageURL": "driveSlow",
+      "playCount": "122341"
   },
   {
       "id": "9fb29051f2217270a7b253a39f820310d85a78f0",
@@ -174,7 +178,8 @@
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "artist": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
-      "imageURL": "driveSlow"
+      "imageURL": "driveSlow",
+      "playCount": "412241"
   },
   {
       "id": "2689a5aa7f3f352630b6159ebbf0200f6a50e9ea",
@@ -183,7 +188,8 @@
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "artist": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
-      "imageURL": "driveSlow"
+      "imageURL": "driveSlow",
+      "playCount": "424131"
   },
   {
       "id": "2689a5aa7f3f352630b6159ebbf0200f6a50e9ea",
@@ -192,7 +198,8 @@
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "artist": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
-      "imageURL": "driveSlow"
+      "imageURL": "driveSlow",
+      "playCount": "1431241"
   },
   {
       "id": "7550b672e162c224c309bdea5d48ca975081a904",
@@ -201,7 +208,8 @@
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "artist": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
-      "imageURL": "driveSlow"
+      "imageURL": "driveSlow",
+      "playCount": "231241"
   },
   {
       "id": "67725c09bc145e469ec5a11876aac1dc69f66ef6",
@@ -210,7 +218,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "ad782ecdac770fc6eb9a62e44f90873fb97fb26b",
@@ -219,7 +227,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "b802f384302cb24fbab0a44997e820bf2e8507bb",
@@ -228,7 +236,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "9f8f7eec5dea5ac43738721939c120318cbff1df",
@@ -237,7 +245,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "52fe6d7cb41afb2612576adc6d7db1c970dc16eb",
@@ -246,7 +254,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "bec9703f7a456cd2b4ab5fb3220ae016e3e394e3",
@@ -255,7 +263,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "a00bbe560e6b0f5263e3e6cba4ff3fb9a6fe9ef0",
@@ -264,7 +272,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "d479fa0ef92542c808003731bc478f714ec1da4c",
@@ -273,7 +281,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "b4ddce182ecfb739a19a2b263412c2343dd4fc98",
@@ -282,7 +290,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "dd3562449147ffc783230d2a13d02a75ac42989b",
@@ -291,7 +299,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "cc5a0c506761ce686f1f145da868c162f269480f",
@@ -300,7 +308,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "b521f9394fabb794ecc4f5902d1f4b42ca0b4744",
@@ -309,7 +317,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "c24f5cff02c08728c9789791a4439cdb2fa10c39",
@@ -318,7 +326,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "8a13a01d705b372be5da08b0751c65714b10dfe0",
@@ -327,7 +335,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "5cf896e678bdf9519adaa8b434a1676adcf45db5",
@@ -336,7 +344,7 @@
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "artist": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
-      "imageURL": "phoney"
+      "imageURL": "phoneyPpl"
   },
   {
       "id": "1037db189f8632c9d76d60ed1db57d75ddf5b8ad",
