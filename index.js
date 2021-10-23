@@ -52,9 +52,9 @@ app.get('/api/v1/tracks', (req,res) => {
     console.log(err)
   })
 })
-app.get('/api/v1/artist/:id', (req,res) => {
-  console.log(req.params.id)
-  db.GetArtistProfile(req.params.id)
+app.get('/api/v1/artist', (req,res) => {
+  console.log(req.query.id)
+  db.GetArtistProfile(req.query.id)
   .then( data => {
     console.log(data)
     res.json(data)
