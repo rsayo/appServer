@@ -14,7 +14,7 @@ exports.GetFeaturedAlbums = () => {
       "id": uuid.v4(),
       "type": "Featured",
       "tagline": "In the Spotlight",
-      "items": getFile("FeaturedAlbums")
+      "items": getFile("Fe«aturedAlbums")
     }
 
     catalog.push(featured)
@@ -212,7 +212,7 @@ exports.GetArtistProfile = (id) => {
 
     // Configure header
     header.type = "Header"
-    getFile("artist").map((artist) => {
+    getFile("Artist").map((artist) => {
       if(artist.id == id){
 
         let detail =  new ProfileItem()
