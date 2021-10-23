@@ -260,7 +260,7 @@ exports.GetArtistProfile = (id) => {
         albums.tagline = `New Releases by ${artist.name}`
 
 
-        getFile("albums").map( album => {
+        getFile("Albums").map( album => {
           if(album.artistId == id && album.type == "Album"){
              albums.items.push(album)
              // console.log(album)
