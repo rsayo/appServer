@@ -14,7 +14,7 @@ exports.GetFeaturedAlbums = () => {
       "id": uuid.v4(),
       "type": "Featured",
       "tagline": "In the Spotlight",
-      "items": getFile("Fe«aturedAlbums")
+      "items": getFile("FeaturedAlbums")
     }
 
     catalog.push(featured)

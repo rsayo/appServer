@@ -20,7 +20,7 @@ app.get("/api/v1/", (req,res) => {
     res.json(data)
   })
   .catch( err => {
-    console.log(data)
+    console.log(err)
   })
 })
 app.get('/api/v1/album', (req,res) => {
