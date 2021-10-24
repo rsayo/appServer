@@ -23,7 +23,7 @@ app.get("/api/v1/", (req,res) => {
     console.log(err)
   })
 })
-app.get('/api/v1/album', (req,res) => {
+app.get('/api/v1/album', (req,res) => { 
   console.log("getting albums")
 
   db.GetAlbumDetail(req.query.albumId)

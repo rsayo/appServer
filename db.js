@@ -125,7 +125,7 @@ exports.GetAlbumDetail = (id) => {
       let artists = getFile("Artist")
       var tracks = getFile("songs")
       var albums = getFile("Albums")
-
+  
       console.log(id)
 
       albums.map((album, i) => {
@@ -195,12 +195,12 @@ exports.GetUserTrackHistory =() => {
   })
 }
 // Get Tracks
-exports.GetTracks = () => {
+exports.GetTracks = (id) => {
   return new Promise((resolve, reject) => {
     getFile('songs').map((track) => {
-      if(track.Id == req.query.trackId){
+      if(track.Id == id){
           console.log("Track", track)
-            res.json(track)
+          resolve(track)
       }
     })
   })
@@ -340,7 +340,6 @@ function getFile(file){
   })
   return JSON.parse(data)
 }
-
 function Section(){
   this.id = uuid.v4(),
   this.type = null,

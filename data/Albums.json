@@ -65,7 +65,7 @@
         "imageURL": "channelOrange"
     },
     {
-        "id": "2133e19292afc827cc42285f6f0e565c",
+        "id": "85887fd5f072e7140cff1edffc369b13673be09c",
         "type": "Single",
         "title": "In My Room",
         "artist": "Frank Ocean",
@@ -73,7 +73,7 @@
         "imageURL": "inmyroom"
     },
     {
-        "id": "2133e19292afc827cc42285f6f0e565c",
+        "id": "c4a7e366321616dd1500c515f38e6be6c9b7541a",
         "type": "Single",
         "title": "DHL",
         "artist": "Frank Ocean",
@@ -89,7 +89,7 @@
         "imageURL": "moonriver"
     },
     {
-        "id": "2133e19292afc827cc42285f6f0e565c",
+        "id": "af08f2350678e3f108e24a3ce6b7c4262ff61fef",
         "type": "Single",
         "title": "Lens",
         "artist": "Frank Ocean",
@@ -97,7 +97,7 @@
         "imageURL": "lens"
     },
     {
-        "id": "2133e19292afc827cc42285f6f0e565c",
+        "id": "0b12cd0f056e321968c9abade72a80f1c6f351d2",
         "type": "Single",
         "title": "Biking",
         "artist": "Frank Ocean",
@@ -105,7 +105,7 @@
         "imageURL": "biking"
     },
     {
-        "id": "2133e19292afc827cc42285f6f0e565c",
+        "id": "5a9e6bdf99bea400d1c6c8d70037cefa46149159",
         "type": "Single",
         "title": "Chanel",
         "artist": "Frank Ocean",
@@ -119,5 +119,45 @@
         "artist": "Lucky Daye",
         "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
         "imageURL": "Painted-Lucky-Daye"
+    },
+    {
+       "id": "b49f5e809c296624a318e21770e74d37331bdf9e",
+       "type": "Album",
+       "title": "Int Insustry Me",
+       "artist": "Sy Ari Da Kid",
+       "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+       "imageURL": "dakid"
+    },
+    {
+       "id": "2768459bbb0563e984acffb7e56731a83b88c601",
+       "type": "Album",
+       "title": "While We Wait",
+       "artist": "Kehlani",
+       "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
+       "imageURL": "Kehlani_-_While_We_Wait"
+    },
+    {
+       "id": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+       "type": "Album",
+       "title": "Dirt road Diamond",
+       "artist": "Childish Major",
+       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+       "imageURL": "major"
+    },
+    {
+       "id": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
+       "type": "Album",
+       "title": "Dinner Party",
+       "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+       "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
+       "imageURL": "Dinner-Party"
+    },
+    {
+        "id": "a1c0a61a223ab9f42c78ef47827edaa4df8d3430",
+        "type": "Single",
+        "title": "Clean Up",
+        "artist": "Joel",
+        "artistId": "810c95c90fb1a28f4e09ec8194cdd32e8850f188",
+        "imageURL": "cleanup"
     }
 ]

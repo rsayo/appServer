@@ -82,5 +82,23 @@
           "name": "Brent Faiyaz",
           "imageURL": "294F638E_6FA8_4218_9601_A49447684B52.0",
           "isVerified": true
+        },
+        {
+          "id": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+          "name": "Sy Ari Da Kid",
+          "imageURL": "syari",
+          "isVerified": true
+        },
+        {
+          "id": "045c4400b983f685285eda35b519a5b249ff94fb",
+          "name": "Childish Major",
+          "imageURL": "childish",
+          "isVerified": true
+        },
+        {
+          "id": "723a75be95a6adcfb624e9ed3d899aa76011295b",
+          "name": "Terrance Martin",
+          "imageURL": "Terrace-Martin-2017-cr-J3COLLECTION-billboard-1548-compressed",
+          "isVerified": true
         }
 ]

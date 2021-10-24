@@ -1002,5 +1002,492 @@
       "artist": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel"
+  },
+  {
+      "id": "48417f4d62688ddc1007d9d4917dfa490d9a3045",
+      "trackNum": "1",
+      "title": "The Group Chat Has Blueprints",
+      "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+      "artist": "Sy Ari Da Kid",
+      "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
+      "imageURL": "dakid"
+  },
+  {
+      "id": "7efcb3e3dcab23634298fb2ba27dd251a7159407",
+      "trackNum": "2",
+      "title": "Top 10",
+      "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+      "artist": "Sy Ari Da Kid",
+      "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
+      "imageURL": "dakid"
+  },
+  {
+      "id": "1c32a27d9feab5343147f6675c9e80fcc4db7b8b",
+      "trackNum": "3",
+      "title": "The Last Goat",
+      "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+      "artist": "Sy Ari Da Kid",
+      "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
+      "imageURL": "dakid"
+  },
+  {
+      "id": "890942ced7251561ca301f9403034d0f9cbc6043",
+      "trackNum": "3",
+      "title": "The Last Goat",
+      "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+      "artist": "Sy Ari Da Kid",
+      "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
+      "imageURL": "dakid"
+  },
+  {
+      "id": "0a66e2227129e7d8356f8280a2f8b54acb662032",
+      "trackNum": "4",
+      "title": "La Familia",
+      "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+      "artist": "Sy Ari Da Kid",
+      "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
+      "imageURL": "dakid"
+  },
+  {
+      "id": "2cc6ca7a287e1d74bb3e49a146b501a927ce5104",
+      "trackNum": "5",
+      "title": "Invincable Armor",
+      "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+      "artist": "Sy Ari Da Kid",
+      "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
+      "imageURL": "dakid"
+  },
+  {
+      "id": "47cba09a8020165d5bac7e61176be537d13c06fe",
+      "trackNum": "6",
+      "title": "Sy Ari vs.Lord Owen Sparring on Tour! Who Won?",
+      "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+      "artist": "Sy Ari Da Kid",
+      "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
+      "imageURL": "dakid"
+  },
+  {
+      "id": "f0eaa2d65cd6f145ffdeb41168d2e3d6e55c8495",
+      "trackNum": "7",
+      "title": "Curve Cologne",
+      "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+      "artist": "Sy Ari Da Kid",
+      "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
+      "imageURL": "dakid"
+  },
+  {
+      "id": "4c2a01febd4c92cb79878317a65063dea710ac29",
+      "trackNum": "8",
+      "title": "The Old New York Knicks",
+      "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+      "artist": "Sy Ari Da Kid",
+      "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
+      "imageURL": "dakid"
+  },
+  {
+      "id": "f208cd0f4da42c5eaeb103c052c4d24068c51e9b",
+      "trackNum": "1",
+      "title": "Start",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "f70c4dd78f19abfdf40b9f5ea531bac1feaa38c4",
+      "trackNum": "2",
+      "title": "Thinkin Bout You",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "f472b3fb187ee51411ce5595a64d564ad2b8ee01",
+      "trackNum": "3",
+      "title": "Firtilzer",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "18fe5ea5c466e27af7c040c73b10c6cc74ef771e",
+      "trackNum": "4",
+      "title": "Sierra Leone",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "404b99519a962106c834354fbc5e37d0a8cc06e8",
+      "trackNum": "5",
+      "title": "Sweet Life",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "fda041a8f61779f33ab987528f6b46df18e1781e",
+      "trackNum": "6",
+      "title": "Not Just Money",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "46562a455515a4fff96d39c80a8639b35d934bd9",
+      "trackNum": "7",
+      "title": "Super Rich Kids",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "47d6c36c818c83996511d6bf44205faff38d6cf4",
+      "trackNum": "8",
+      "title": "Pilot Jones",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "7607dfb43d6d39b6b9dafae0f292647639925d85",
+      "trackNum": "9",
+      "title": "Crack Rock",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "61a3a0ff393b3d296cdbbfa0a94b86e54f1e09b8",
+      "trackNum": "10",
+      "title": "Pyramids",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "43abae78d9a8be10f49995f84d3e827ea9876c92",
+      "trackNum": "11",
+      "title": "Lost",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "f08ce16fbbc67e3d649b6a0c1fb7938172c38e74",
+      "trackNum": "12",
+      "title": "White",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "8939599573850b82e0d06ce8860d9dee512f522c",
+      "trackNum": "13",
+      "title": "Monk",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "cef7f3374e9f753ed3fe1bd461dadd72d8b1d2df",
+      "trackNum": "14",
+      "title": "Bad Religion",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "ea060607187db03941238ec2e3f39d938a329776",
+      "trackNum": "15",
+      "title": "Pink Matter",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "d6718ce5cf203f69b4f2fbda612eedc10af45ebf",
+      "trackNum": "16",
+      "title": "Forrest Gump",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "12e05e1f8dc0c291801c96e70bf177d676ada521",
+      "trackNum": "17",
+      "title": "End",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "artist": "Frank Ocean",
+      "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
+      "imageURL": "channelOrange"
+  },
+  {
+      "id": "7e724aca2f2bcf4dc95a6a667903d8bc7d0ff836",
+      "trackNum": "1",
+      "title": "Footsteps",
+      "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
+      "artist": "Kehlani",
+      "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
+      "imageURL": "Kehlani_-_While_We_Wait"
+  },
+  {
+      "id": "931c771fa8cd0391113beabbc8c38935e139057f",
+      "trackNum": "2",
+      "title": "Too Deep",
+      "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
+      "artist": "Kehlani",
+      "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
+      "imageURL": "Kehlani_-_While_We_Wait"
+  },
+  {
+      "id": "0727852175105dc55123a4ffb0b5e79ea135a8c3",
+      "trackNum": "3",
+      "title": "Nunya",
+      "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
+      "artist": "Kehlani",
+      "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
+      "imageURL": "Kehlani_-_While_We_Wait"
+  },
+  {
+      "id": "fcf058676aeb60c2a576c136071b585db7bc7c1d",
+      "trackNum": "4",
+      "title": "Morning Glory",
+      "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
+      "artist": "Kehlani",
+      "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
+      "imageURL": "Kehlani_-_While_We_Wait"
+  },
+  {
+      "id": "730a3c30901cd07481fee59004eac2c5b213b655",
+      "trackNum": "5",
+      "title": "Feels",
+      "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
+      "artist": "Kehlani",
+      "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
+      "imageURL": "Kehlani_-_While_We_Wait"
+  },
+  {
+      "id": "a50a22673fb084b7fcb49f0e404297211f2f9e41",
+      "trackNum": "6",
+      "title": "Nights Like This ( Feat. Ty Dolla $ign )",
+      "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
+      "artist": "Kehlani",
+      "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
+      "imageURL": "Kehlani_-_While_We_Wait"
+  },
+  {
+      "id": "01606795676af4c004c9c55ab0f7e54746d9bfb0",
+      "trackNum": "7",
+      "title": "RPG ( Feat. 6lack )",
+      "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
+      "artist": "Kehlani",
+      "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
+      "imageURL": "Kehlani_-_While_We_Wait"
+  },
+  {
+      "id": "8651052c33057d3d31e34654edda093594810b56",
+      "trackNum": "8",
+      "title": "Butterfly",
+      "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
+      "artist": "Kehlani",
+      "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
+      "imageURL": "Kehlani_-_While_We_Wait"
+  },
+  {
+      "id": "d4d884d70c2de0481aaf4445cc95b4d6a40a7dbd",
+      "trackNum": "9",
+      "title": "Love Language",
+      "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
+      "artist": "Kehlani",
+      "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
+      "imageURL": "Kehlani_-_While_We_Wait"
+  },
+  {
+      "id": "d4d884d70c2de0481aaf4445cc95b4d6a40a7dbd",
+      "trackNum": "1",
+      "title": "Necessary Pressure",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "a4db69b0bdc500550ee0b41cc8b4fec281cdaa4a",
+      "trackNum": "2",
+      "title": "To My Little Homie",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "e0f335b325dbaa63abf2fe616b7f57c9d89f5146",
+      "trackNum": "3",
+      "title": "Feelings Hurt",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "3aeb7c69bf22454e43b11f48b7203388b20318cc",
+      "trackNum": "4",
+      "title": "For You",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "22eceff14eab91156eb219d5f7efa1dded12bc7b",
+      "trackNum": "5",
+      "title": "Tenfold",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "bf7e334eaa4d7768ad24207853f0e626a04aeed3",
+      "trackNum": "6",
+      "title": "No Sweat (Feat. Ludacris)",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "5f7aa311ae116c043afc8cfd428b9a19a4d38743",
+      "trackNum": "7",
+      "title": "Pull Up Game Crazy",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "3e01913ceb73e52e336250751b5350db45685049",
+      "trackNum": "8",
+      "title": "Not Numb (Feat. Olu, Buddy)",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "d08358d53ee82f0c1b4709e8ff56d90657c5c956",
+      "trackNum": "9",
+      "title": "Bro",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "31444ce1e819c3b7ad3f9dc1cd9ef3f5c66a719b",
+      "trackNum": "10",
+      "title": "Dream Went Bad",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "8309aa712e85e701515c77dbde346031307791cc",
+      "trackNum": "11",
+      "title": "Shine",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Childish Major",
+      "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
+      "imageURL": "major"
+  },
+  {
+      "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
+      "trackNum": "1",
+      "title": "Sleepless Nights ( Feat. Phoelix)",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
+      "imageURL": "Dinner-Party"
+  },
+  {
+      "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
+      "trackNum": "2",
+      "title": "Love You Bad ( Feat. Phoelix)",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
+      "imageURL": "Dinner-Party"
+  },
+  {
+      "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
+      "trackNum": "3",
+      "title": "From My Heart and Soul ( Feat. Phoelix)",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
+      "imageURL": "Dinner-Party"
+  },
+  {
+      "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
+      "trackNum": "4",
+      "title": "First Responders",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
+      "imageURL": "Dinner-Party"
+  },
+  {
+      "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
+      "trackNum": "5",
+      "title": "The Mighty Tree ( Feat. Kamasi Washington)",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
+      "imageURL": "Dinner-Party"
+  },
+  {
+      "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
+      "trackNum": "6",
+      "title": "Freeze Tag ( Feat. Kamasi Washington)",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
+      "imageURL": "Dinner-Party"
+  },
+  {
+      "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
+      "trackNum": "7",
+      "title": "LUV U",
+      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
+      "imageURL": "Dinner-Party"
+  },
+  {
+      "id": "4b453cdf28792a25c083f667e358abc5c55227ca",
+      "trackNum": "1",
+      "title": "Clean up",
+      "artistId": "810c95c90fb1a28f4e09ec8194cdd32e8850f188",
+      "artist": "Joel",
+      "albumId": "a1c0a61a223ab9f42c78ef47827edaa4df8d3430",
+      "imageURL": "cleanup"
   }
+
 ]
