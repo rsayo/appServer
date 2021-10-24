@@ -32,8 +32,7 @@ app.get('/api/v1/album', (req,res) => {
     res.json(data)
   })
   .catch( err => {
-    console.log(err)
-  })}) // Get Albums
+    console.log(err)})}) // Get Albums
 app.get('/api/v1/trackhistory', (req,res) => {
   let history = getFile("songs")
   res.json(history)}) // Get track history

@@ -29,7 +29,7 @@ exports.GetFeaturedAlbums = () => {
     }
 
     catalog.push(featuredArtists)
-    console.log(featuredArtists)
+    // console.log(featuredArtists)
 
     // get Track History
     // Note: This is a db call
@@ -71,7 +71,7 @@ exports.GetFeaturedAlbums = () => {
 
     let releases = {
       "id": uuid.v4(),
-      "type": "Release",
+      "type": "New Release",
       "tagline": "Fresh Drops",
       "items": getFile("newReleases")
     }
@@ -79,6 +79,15 @@ exports.GetFeaturedAlbums = () => {
     catalog.push(releases)
 
     // get featured Playlists
+
+    let discover = {
+      "id": uuid.v4(),
+      "type": "Discover",
+      "tagline": "Discover Something new ",
+      "items" :  getFile("Discover")
+    }
+
+    catalog.push(discover)
 
     let playlists = {
       "id": uuid.v4(),
@@ -92,7 +101,6 @@ exports.GetFeaturedAlbums = () => {
     resolve(catalog)
   })
 }
-
 // Get albumDetail
 exports.GetAlbumDetail = (id) => {
   return new Promise((resolve, reject) => {
@@ -179,7 +187,6 @@ exports.GetAlbumDetail = (id) => {
 
   })
 }
-
 // Get user Track history
 exports.GetUserTrackHistory =() => {
   return new Promise((resolve, reject) => {
@@ -187,7 +194,6 @@ exports.GetUserTrackHistory =() => {
     resolve(history)
   })
 }
-
 // Get Tracks
 exports.GetTracks = () => {
   return new Promise((resolve, reject) => {
@@ -199,7 +205,6 @@ exports.GetTracks = () => {
     })
   })
 }
-
 // Get AristProfile Data
 exports.GetArtistProfile = (id) => {
   return new Promise((resolve, reject) => {
@@ -222,7 +227,7 @@ exports.GetArtistProfile = (id) => {
         detail.artist = artist.name
         detail.imageURL = artist.imageURL
         detail.followers = artist.followers
-        // detail.listeners = artist.listeners
+        // detail.listeners = "225234534"
         // detail.bio = artist.bio
         // detail.isVerified = artist.isVerified
 
@@ -321,8 +326,6 @@ exports.GetTrackById = (id) => {
     resolve(tracks)
   })
 }
-
-
 
 function getFile(file){
 

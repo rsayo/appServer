@@ -44,13 +44,43 @@
         {
           "id": "6c1d77a1851c78aa2894f8b7be3f7af4",
           "name": "Frank Ocean",
-          "imageURL": "frank",
+          "imageURL": "franky",
           "isVerified": true
         },
         {
           "id": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
           "name": "Lucky Daye",
           "imageURL": "lucky",
+          "isVerified": true
+        },
+        {
+          "id": "810c95c90fb1a28f4e09ec8194cdd32e8850f188",
+          "name": "Joel",
+          "imageURL": "joel",
+          "isVerified": true
+        },
+        {
+          "id": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+          "name": "Tom Misch",
+          "imageURL": "TOMMISCH-LOTI",
+          "isVerified": true
+        },
+        {
+          "id": "92429d82a41e930486c6de5ebda9602d55c39986",
+          "name": "SIR",
+          "imageURL": "sir",
+          "isVerified": true
+        },
+        {
+          "id": "92429d82a41e930486c6de5ebda9602d55c39986",
+          "name": "Freddie Gibbs",
+          "imageURL": "294F638E_6FA8_4218_9601_A49447684B52.0",
+          "isVerified": true
+        },
+        {
+          "id": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+          "name": "Brent Faiyaz",
+          "imageURL": "294F638E_6FA8_4218_9601_A49447684B52.0",
           "isVerified": true
         }
 ]

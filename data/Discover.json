@@ -1,0 +1,37 @@
+[
+  {
+      "id": "a1c0a61a223ab9f42c78ef47827edaa4df8d3430",
+      "type": "Album",
+      "title": "Clean Up",
+      "artistId": "810c95c90fb1a28f4e09ec8194cdd32e8850f188",
+      "imageURL": "cleanup"
+    },
+    {
+      "id": "517fd7530ad5649ba1917e850715efe6b15f4a40",
+      "type": "Album",
+      "title": "What Kind of Music",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "imageURL": "whatkindofmusic"
+    },
+    {
+      "id": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "type": "Album",
+      "title": "November",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "imageURL": "november"
+    },
+    {
+      "id": "457391c9c82bfdcbb4947278c0401e41",
+      "type": "Album",
+      "title": "Bandana",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "imageURL": "bandana"
+    },
+    {
+       "id": "daefb2b1c804343df2740a838eb3776d2e935cba",
+       "type": "Album",
+       "title": "Sonder ",
+       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+       "imageURL": "brent"
+    }
+]
