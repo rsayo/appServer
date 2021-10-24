@@ -125,7 +125,7 @@ exports.GetAlbumDetail = (id) => {
       let artists = getFile("Artist")
       var tracks = getFile("songs")
       var albums = getFile("Albums")
-  
+
       console.log(id)
 
       albums.map((album, i) => {

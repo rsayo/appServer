@@ -8,7 +8,7 @@
       "imageURL": "cleanup"
     },
     {
-      "id": "517fd7530ad5649ba1917e850715efe6b15f4a40",
+      "id": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "type": "Album",
       "title": "What Kind of Music",
       "artist": "Tom Misch",
@@ -19,16 +19,16 @@
       "id": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "type": "Album",
       "title": "November",
-      "artist": "S.I.R.",
+      "artist": "SiR",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
       "imageURL": "november"
     },
     {
-      "id": "457391c9c82bfdcbb4947278c0401e41",
+      "id": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "type": "Album",
       "title": "Bandana",
       "artist": "Freddie Gibbs",
-      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
       "imageURL": "bandana"
     },
     {

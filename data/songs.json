@@ -1421,7 +1421,7 @@
       "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
       "trackNum": "1",
       "title": "Sleepless Nights ( Feat. Phoelix)",
-      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
       "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party"
@@ -1430,7 +1430,7 @@
       "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
       "trackNum": "2",
       "title": "Love You Bad ( Feat. Phoelix)",
-      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
       "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party"
@@ -1439,7 +1439,7 @@
       "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
       "trackNum": "3",
       "title": "From My Heart and Soul ( Feat. Phoelix)",
-      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
       "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party"
@@ -1448,7 +1448,7 @@
       "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
       "trackNum": "4",
       "title": "First Responders",
-      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
       "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party"
@@ -1457,7 +1457,7 @@
       "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
       "trackNum": "5",
       "title": "The Mighty Tree ( Feat. Kamasi Washington)",
-      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
       "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party"
@@ -1466,7 +1466,7 @@
       "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
       "trackNum": "6",
       "title": "Freeze Tag ( Feat. Kamasi Washington)",
-      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
       "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party"
@@ -1475,7 +1475,7 @@
       "id": "af3b49972c3c53eecd4d14f5540edbb5477544c9",
       "trackNum": "7",
       "title": "LUV U",
-      "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
+      "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
       "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party"
@@ -1488,6 +1488,456 @@
       "artist": "Joel",
       "albumId": "a1c0a61a223ab9f42c78ef47827edaa4df8d3430",
       "imageURL": "cleanup"
+  },
+  {
+      "id": "f50f2d72894072efb6c99408a4394e027d934e2f",
+      "trackNum": "1",
+      "title": "What Kind Of Music",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "64c6e58182c71cc123126168c47261e9883f536f",
+      "trackNum": "2",
+      "title": "Festival",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "775429787998f26bf79ac69fdd0b5f549ae30709",
+      "trackNum": "3",
+      "title": "Nightrider",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "77b0c020b48c7245e72bebeadc568143df981c92",
+      "trackNum": "4",
+      "title": "Tidal Wave",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "e6b71aa06c19c5760640d460d7f987c5a338d90e",
+      "trackNum": "6",
+      "title": "Sensational",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "6178918b660f557397f132a875fd5592b695e580",
+      "trackNum": "7",
+      "title": "The Real",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "ef6be9c4b25feb88900949ed03b7da67bf32a611",
+      "trackNum": "7",
+      "title": "Lift Off",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "de7b090104d53277d785accafd00d08cd4890f3d",
+      "trackNum": "8",
+      "title": "I Did it For You",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "0ec2fb2679cd7d574a30ddc52cebf8ab807ee457",
+      "trackNum": "9",
+      "title": "Last 100",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "ddd08ad58664625630c0744e7320a674089384ab",
+      "trackNum": "10",
+      "title": "Kyiv",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "c5663f948c15ce9b7543361962950eaf475f7dce",
+      "trackNum": "11",
+      "title": "Julie Mangos",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "68ed1b11742093fbe583963c8bce6324b56dfba9",
+      "trackNum": "12",
+      "title": "Storm Before The Fog",
+      "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+      "artist": "Tom Misch, Yussif Dayes",
+      "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
+      "imageURL": "whatkindofmusic"
+  },
+  {
+      "id": "65692635802abfc851b85dd1d32028c25dd5abd4",
+      "trackNum": "1",
+      "title": "Gone",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "1028941858eda7ee298255d7074dd3efb16ee082",
+      "trackNum": "2",
+      "title": "That's Right",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "befd2bffa5323a47c7c3f4cf32a719218afa5a19",
+      "trackNum": "3",
+      "title": "Something Foreign",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR, Schoolboy Q",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "f12ca2acb8f1d42180937144d6d6d95c412c88ce",
+      "trackNum": "4",
+      "title": "D'Evils",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "6d54a7faddfabfd476eb82b304f3aa6343a1f2a2",
+      "trackNum": "5",
+      "title": "Something New",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR, Etta Bond",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "dc0447a20777f392115637ef990d5c8dcccbf11e",
+      "trackNum": "6",
+      "title": "I Know",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "6df76204111c344cd9e2c304d516999e1aeb0394",
+      "trackNum": "7",
+      "title": "Never Home",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "1853e42324f853b092302df5c541254523b048e5",
+      "trackNum": "8",
+      "title": "War",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "e6adc4df7310628154676d9c2317d9de46718c43",
+      "trackNum": "9",
+      "title": "Better",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "2a82a91dfcee4d7c5c97f8f74689d22aefd4348a",
+      "trackNum": "10",
+      "title": "Dreaming of Me",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "2b0594cc7a8f07325d267f27ffde2fe3c8153c1a",
+      "trackNum": "11",
+      "title": "Summer in November",
+      "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
+      "artist": "SiR",
+      "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
+      "imageURL": "november"
+  },
+  {
+      "id": "795aabe462289018c2852e158a7fc3ae4b501e8b",
+      "trackNum": "1",
+      "title": "Obrigado",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs,Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "ecdc071738f77a94e2b88ee36c96ec4e3191e3a0",
+      "trackNum": "2",
+      "title": "Freestyle S**t",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "564be03fdd5d51fab9803651cbc9a6aca4b586c3",
+      "trackNum": "3",
+      "title": "Half Manne Half Cocaine",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "7969dd258c34592d9bbbf0d6b29061b5d7f786db",
+      "trackNum": "4",
+      "title": "Crime Pays",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "7969dd258c34592d9bbbf0d6b29061b5d7f786db",
+      "trackNum": "5",
+      "title": "Message Seats",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "49bc5143cd97f4a32932effa3578529d5ffa9f03",
+      "trackNum": "6",
+      "title": "Palmolive ( Feat. Pusha T & Killer Mike)",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "6e9114ce142760ef25e43c5439b268af86a71f66",
+      "trackNum": "7",
+      "title": "Fake Names",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "5ed3ad56b5b081b7fc13f5802f2ce2a9f6d71d8e",
+      "trackNum": "8",
+      "title": "Flat Tummy Tea",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "ebe744526a5ec8c5e612ba1acdb719646424d73a",
+      "trackNum": "9",
+      "title": "Situations",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "b1b9cdb57a71aa543186e578fe131fbde2630916",
+      "trackNum": "10",
+      "title": "Giannis (Feat. Anderson .Paak)",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib, Anderson. Paak",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "9c9d9678154ebf93c06ea9d20609c76f261c716a",
+      "trackNum": "11",
+      "title": "Practice",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "0da159bcf48e89a28336590ececeb7efe8e1ac31",
+      "trackNum": "12",
+      "title": "Cateracts",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "76102990257be08d01de7559e988519a26052b9e",
+      "trackNum": "13",
+      "title": "Gat Damn",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "0fed34445c2846125b8d04c35b3e0e82158c84e5",
+      "trackNum": "14",
+      "title": "Education ( Feat. Yasiin Bey & Black Thought)",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib, Yasiin Bey, Black Thought",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "72b350f2012b1eaeb08d1a65711c1890f11f0533",
+      "trackNum": "15",
+      "title": "Soul Right",
+      "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
+      "artist": "Freddie Gibbs, Madlib, Yasiin Bey",
+      "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
+      "imageURL": "bandana"
+  },
+  {
+      "id": "5b06d453e6d320673109d31f32a2a1466cfe069d",
+      "trackNum": "1",
+      "title": "Home",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "98e096b5f75c9ae9620eedc6adf3092e6e60c898",
+      "trackNum": "2",
+      "title": "Gang Over Love",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "77b181889f8cebf98f9b469882201cc6ef557b6e",
+      "trackNum": "3",
+      "title": "Burn One ( Interlude )",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "c75ed115788a93f48a7f2d1f871da22a31c45f51",
+      "trackNum": "4",
+      "title": "First World Problemz / Nobody Carez",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "9ad0a722aaff121555478e41dbd16a8fcda25931",
+      "trackNum": "5",
+      "title": "Missin Out",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "99d90e228557d11c2b63b049d999dcf6a5f82b87",
+      "trackNum": "6",
+      "title": "Stay Down",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "6becb24b32709843bbf5656cd42041a6970fc143",
+      "trackNum": "7",
+      "title": "L.A.",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "da162c73efa468a848f44f9388ee02d039d49d12",
+      "trackNum": "8",
+      "title": "Talk 2 U",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "38fa6ccd3d4e74ea0c754ba0eba93703739277ae",
+      "trackNum": "9",
+      "title": "Sonder Son ( Interlude )",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "4cb2b3496f7610356a9a3856c4cccd3e234c6e7a",
+      "trackNum": "10",
+      "title": "So Far Gone / Fast Life Bluez",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "4aacd27dacd8db59a84d919a9268fc9b979d47c8",
+      "trackNum": "11",
+      "title": "Needed",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
+  },
+  {
+      "id": "2eef94ecdddfe0b8b07af1e208a6f70534883af2",
+      "trackNum": "12",
+      "title": "All I Want",
+      "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+      "artist": "Brent Faiyaz",
+      "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
+      "imageURL": "brent"
   }
 
 ]
