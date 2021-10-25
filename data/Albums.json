@@ -3,6 +3,7 @@
       "id": "466bc8cef3e71de796ec483e212724a2c2044c68",
       "type": "Album",
       "title": "East Atlanta Love Letter",
+      "name": "6lack",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
       "imageURL": "6lack"
     },
@@ -10,6 +11,7 @@
       "id": "3691308f2a4c2f6983f2880d32e29c84",
       "type": "Album",
       "title": "Drive Slow",
+      "name": "6lack",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "imageURL": "driveSlow"
     },
@@ -17,6 +19,7 @@
       "id": "233692e0aad5a445107564ca1bb68d51",
       "type": "Album",
       "title": "Yesterday's Tomorrow",
+      "name": "6lack",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
       "imageURL": "phoney"
     },
@@ -24,6 +27,7 @@
       "id": "457391c9c82bfdcbb4947278c0401e41",
       "type": "Album",
       "title": "Blonde",
+      "name": "6lack",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
       "imageURL": "frank"
     },
@@ -31,6 +35,7 @@
        "id": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
        "type": "Album",
        "title": "Home For The Holidays",
+       "name": "6lack",
        "artistId": "2133e19292afc827cc42285f6f0e565c",
        "imageURL": "lvrn"
     },
@@ -38,6 +43,7 @@
       "id": "b40981aab75932c5b2f555f50769d878e44913d7",
       "type": "Album",
       "title": "Magic 8ball",
+      "name": "6lack",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "imageURL": "8ball"
     },
@@ -45,6 +51,7 @@
        "id": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
        "type": "Album",
        "title": "Juice Box",
+       "name": "6lack",
        "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
        "imageURL": "juicebox"
     },
@@ -52,7 +59,7 @@
        "id": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
        "type": "Album",
        "title": "Something To Feel",
-       "artist": "mac",
+       "name": "mac",
        "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
        "imageURL": "somethingtofeel"
     },
@@ -60,7 +67,7 @@
         "id": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
         "type": "Album",
         "title": "Channel Orange",
-        "artist": "Frank Ocean",
+        "name": "Frank Ocean",
         "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
         "imageURL": "channelOrange"
     },
@@ -68,7 +75,7 @@
         "id": "85887fd5f072e7140cff1edffc369b13673be09c",
         "type": "Single",
         "title": "In My Room",
-        "artist": "Frank Ocean",
+        "name": "Frank Ocean",
         "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
         "imageURL": "inmyroom"
     },
@@ -76,7 +83,7 @@
         "id": "c4a7e366321616dd1500c515f38e6be6c9b7541a",
         "type": "Single",
         "title": "DHL",
-        "artist": "Frank Ocean",
+        "name": "Frank Ocean",
         "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
         "imageURL": "frank-ocean-dhl"
     },
@@ -84,7 +91,7 @@
         "id": "46dcd4dd65b63d106b8cfb4aad906b23716cc613",
         "type": "Single",
         "title": "Moon River",
-        "artist": "Frank Ocean",
+        "name": "Frank Ocean",
         "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
         "imageURL": "moonriver"
     },
@@ -92,7 +99,7 @@
         "id": "af08f2350678e3f108e24a3ce6b7c4262ff61fef",
         "type": "Single",
         "title": "Lens",
-        "artist": "Frank Ocean",
+        "name": "Frank Ocean",
         "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
         "imageURL": "lens"
     },
@@ -100,7 +107,7 @@
         "id": "0b12cd0f056e321968c9abade72a80f1c6f351d2",
         "type": "Single",
         "title": "Biking",
-        "artist": "Frank Ocean",
+        "name": "Frank Ocean",
         "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
         "imageURL": "biking"
     },
@@ -108,7 +115,7 @@
         "id": "5a9e6bdf99bea400d1c6c8d70037cefa46149159",
         "type": "Single",
         "title": "Chanel",
-        "artist": "Frank Ocean",
+        "name": "Frank Ocean",
         "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
         "imageURL": "chanel"
     },
@@ -116,7 +123,7 @@
         "id": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
         "type": "Album",
         "title": "Painted",
-        "artist": "Lucky Daye",
+        "name": "Lucky Daye",
         "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
         "imageURL": "Painted-Lucky-Daye"
     },
@@ -124,7 +131,7 @@
        "id": "b49f5e809c296624a318e21770e74d37331bdf9e",
        "type": "Album",
        "title": "Int Insustry Me",
-       "artist": "Sy Ari Da Kid",
+       "name": "Sy Ari Da Kid",
        "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
        "imageURL": "dakid"
     },
@@ -132,7 +139,7 @@
        "id": "2768459bbb0563e984acffb7e56731a83b88c601",
        "type": "Album",
        "title": "While We Wait",
-       "artist": "Kehlani",
+       "name": "Kehlani",
        "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
        "imageURL": "Kehlani_-_While_We_Wait"
     },
@@ -140,7 +147,7 @@
        "id": "1f24a33d27eaeca07edd904ff7c42301001acc34",
        "type": "Album",
        "title": "Dirt road Diamond",
-       "artist": "Childish Major",
+       "name": "Childish Major",
        "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
        "imageURL": "major"
     },
@@ -148,7 +155,7 @@
        "id": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
        "type": "Album",
        "title": "Dinner Party",
-       "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+       "name": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
        "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
        "imageURL": "Dinner-Party"
     },
@@ -156,7 +163,7 @@
         "id": "a1c0a61a223ab9f42c78ef47827edaa4df8d3430",
         "type": "Single",
         "title": "Clean Up",
-        "artist": "Joel",
+        "name": "Joel",
         "artistId": "810c95c90fb1a28f4e09ec8194cdd32e8850f188",
         "imageURL": "cleanup"
     },
@@ -164,7 +171,7 @@
         "id": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
         "type": "Album",
         "title": "What Kind of Music",
-        "artist": "Tom Misch",
+        "name": "Tom Misch",
         "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
         "imageURL": "whatkindofmusic"
     },
@@ -172,7 +179,7 @@
         "id": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
         "type": "Album",
         "title": "November",
-        "artist": "SiR",
+        "name": "SiR",
         "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
         "imageURL": "november"
     },
@@ -180,7 +187,7 @@
         "id": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
         "type": "Album",
         "title": "Bandana",
-        "artist": "Freddie Gibbs",
+        "name": "Freddie Gibbs",
         "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
         "imageURL": "bandana"
     },
@@ -188,7 +195,7 @@
        "id": "daefb2b1c804343df2740a838eb3776d2e935cba",
        "type": "Album",
        "title": "Sonder Son ",
-       "artist": "Brent Faiyaz",
+       "name": "Brent Faiyaz",
        "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
        "imageURL": "brent"
     }
