@@ -1,32 +1,27 @@
 [
         {
-            "id": "1",
+            "id": "f7177ebd29eb7c42126957ce07297f197335832b",
             "title": "Rap Life",
-            "artist": "",
             "imageURL": "rap-life"
         },
         {
-            "id": "2",
-            "title": "R&B / Hip Hop",
-            "artist": "",
+            "id": "1d9b6da7aa8932b863ff373b495058f122971476",
+            "title": "Hip-Hop",
             "imageURL": "rnb"
         },
         {
-            "id": "3",
-            "title": "Afro Vibes",
-            "artist": "",
+            "id": "cc686c2b095a00cadf85ce05286b00d6b63bb410",
+            "title": "Alternative",
             "imageURL": "afro"
         },
         {
-            "id": "4",
-            "title": "Pop",
-            "artist": "",
-            "imageURL": "pop"
+            "id": "0f9276941c05eb52db0ea813a070bfc99960cd8e",
+            "title": "Alternative R&B",
+            "imageURL": "04qx8XZGhRamwG24CeXHXnHy3LyBHtgHFNQICgCHeP8"
         },
         {
-            "id": "5",
+            "id": "c9a0b17ba4abc0451c33d0698707e6feab0c85fb",
             "title": "Strictly RnB",
-            "artist": "",
             "imageURL": "rnb"
         }
       ]

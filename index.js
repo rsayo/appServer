@@ -23,7 +23,7 @@ app.get("/api/v1/", (req,res) => {
     console.log(err)
   })
 })
-app.get('/api/v1/album', (req,res) => { 
+app.get('/api/v1/album', (req,res) => {
   console.log("getting albums")
 
   db.GetAlbumDetail(req.query.albumId)
@@ -41,9 +41,9 @@ app.get('/api/v1/playlists', (req,res) => {
   let playlists = getFile("Playlists")
 
   res.json(playlists)}) // get all Playlists
-app.get('/api/v1/tracks', (req,res) => {
-  console.log(req.quert.albumId)
-  db.GetAlbumDetail(req.query.albumId)
+app.get('/api/v1/track', (req,res) => {
+  console.log(req.quert.id)
+  db.GetTrack(req.query.id)
   .then( data => {
     console.log(data)
   })

@@ -29,7 +29,6 @@ exports.GetFeaturedAlbums = () => {
     }
 
     catalog.push(featuredArtists)
-    // console.log(featuredArtists)
 
     // get Track History
     // Note: This is a db call
@@ -53,7 +52,9 @@ exports.GetFeaturedAlbums = () => {
 
     // Sort tracks in decending order by play count
     let tracks = getFile("songs").sort((a, b) => {
-      return b.PlayCount - a.PlayCount
+      console.log(b.playCount - a.playCount)
+      console.log(a)
+      return b.playCount - a.playCount
     })
 
     // add tracks up to 10 to trending Object
@@ -92,7 +93,7 @@ exports.GetFeaturedAlbums = () => {
     let playlists = {
       "id": uuid.v4(),
       "type": "Playlists",
-      "tagline": "something for every mood",
+      "tagline": "Something for every mood",
       "items": getFile("Playlists")
     }
 
@@ -124,53 +125,27 @@ exports.GetAlbumDetail = (id) => {
 
       let artists = getFile("Artist")
       var tracks = getFile("songs")
-      var albums = getFile("Albums")
 
-      console.log(id)
-
-      albums.map((album, i) => {
+      getFile("Albums").map((album, i) => {
 
           if( album.id == id){
 
             // confirm artist
             artists.map((artist, index) => {
-              // console.log(artist.id == album.artistId)
+
               if(artist.id == album.artistId){
 
-                console.log(artist.name)
-                trackSection.artist = artist.name
+                trackSection.name = artist.name
                 trackSection.artistImgURL = artist.imageURL
                 trackSection.title = album.title
                 trackSection.imageURL = album.imageURL
+                trackSection.artistId= album.artistId
 
                 tracks.map((item) => {
                   if(item.albumId == album.id){
                     trackSection.items.push(item)
                   }
                 });
-
-                // configure album section
-                albumSection.artist = artist.name
-                albumSection.title = `Other Albums from ${artist.name}`
-
-                // configure singles section
-                singleSection.title = `Single from ${artist.name}`
-                singleSection.artist = artist.name
-
-                albums.map((item) => {
-                  if(item.artistId == artist.id && item.id != album.id){
-
-                    if(item.type == "Single"){
-                      singleSection.items.push(item)
-                    }else{
-                      albumSection.items.push(item)
-                    }
-                  }
-                })
-
-                // configure artist Section
-                artistsRecommendations.artist = artist.name
-                artistsRecommendations.items = artists
               }
             })
           }
@@ -178,11 +153,6 @@ exports.GetAlbumDetail = (id) => {
 
 
       albumDetail.push(trackSection)
-
-      if(albumSection.items.length != 0){ albumDetail.push(albumSection)}
-      if(singleSection.items.length != 0){ albumDetail.push(singleSection)}
-
-      albumDetail.push(artistsRecommendations)
       resolve(albumDetail)
 
   })
@@ -195,7 +165,7 @@ exports.GetUserTrackHistory =() => {
   })
 }
 // Get Tracks
-exports.GetTracks = (id) => {
+exports.GetTrack = (id) => {
   return new Promise((resolve, reject) => {
     getFile('songs').map((track) => {
       if(track.Id == id){
@@ -224,10 +194,10 @@ exports.GetArtistProfile = (id) => {
 
         detail.id = uuid.v4()
         detail.title = ""
-        detail.artist = artist.name
+        detail.name = artist.name
         detail.imageURL = artist.imageURL
         detail.followers = artist.followers
-        // detail.listeners = "225234534"
+        detail.listeners = artist.listeners
         // detail.bio = artist.bio
         // detail.isVerified = artist.isVerified
 
@@ -294,11 +264,10 @@ exports.GetArtistProfile = (id) => {
 
         collection.push(header)
         collection.push(topTracks)
-        collection.push(albums)
-        if(singles.items.count > 0) {collection.push(singles)}
+        console.log(albums.items.count)
+        if(albums.items.length > 0 ) {collection.push(albums)}
+        if(singles.items.length > 0) {collection.push(singles)}
         collection.push(artists)
-
-        // console.log(collection)
 
         resolve(collection)
       }
@@ -343,8 +312,10 @@ function getFile(file){
 function Section(){
   this.id = uuid.v4(),
   this.type = null,
-  this.artist = null,
+  this.tagline = null,
   this.title = null,
+  this.name = null,
+  this.artistId = null,
   this.artistImgURL = null,
   this.imageURL = null,
   this.items = []
