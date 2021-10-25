@@ -5,7 +5,7 @@
       "trackNum": "1",
       "title": "Unfair",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6lack",
+      "name": "6lack",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -17,7 +17,7 @@
       "trackNum":"2",
       "title": "Loaded Gun",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -29,7 +29,7 @@
       "trackNum": "3",
       "title": "East Atlanta Love Letter",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -41,7 +41,7 @@
       "trackNum": "4",
       "title": "Sorry",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -53,7 +53,7 @@
       "trackNum": "5",
       "title": "Disconnect",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -65,7 +65,7 @@
       "trackNum":"6",
       "title": "Switch",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -77,7 +77,7 @@
       "trackNum": "7",
       "title": "Thugger's Interlude",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -89,7 +89,7 @@
       "trackNum": "8",
       "title": "Balenciago",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -101,7 +101,7 @@
       "trackNum": "9",
       "title": "Scripture",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -113,7 +113,7 @@
       "trackNum": "10",
       "title": "Nonchalant",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -125,7 +125,7 @@
       "trackNum":"11",
       "title": "Seasons",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -137,7 +137,7 @@
       "trackNum":"12",
       "title": "Stan",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "artist": "6alck",
+      "name": "6alck",
       "imageURL": "6lack",
       "type": "album",
       "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
@@ -148,7 +148,7 @@
       "genre": "Alternative",
       "trackNum": "1",
       "title": "intro",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
       "imageURL": "driveSlow",
@@ -160,7 +160,7 @@
       "trackNum": "2",
       "title": "Calvin's Joint",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
       "imageURL": "driveSlow",
       "playCount": 124141
@@ -171,7 +171,7 @@
       "trackNum": "3",
       "title": "Slow Down",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
       "imageURL": "driveSlow",
       "playCount": 421241
@@ -182,7 +182,7 @@
       "trackNum": "3",
       "title": "Should We Take The Van?",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
       "imageURL": "driveSlow",
       "playCount": 122341
@@ -193,7 +193,7 @@
       "trackNum":"5",
       "title": "Show Me",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
       "imageURL": "driveSlow",
       "playCount": 412241
@@ -204,7 +204,7 @@
       "trackNum": "6",
       "title": "Lonely",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
       "imageURL": "driveSlow",
       "playCount": 424131
@@ -215,7 +215,7 @@
       "trackNum": "7",
       "title": "Easy",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
       "imageURL": "driveSlow",
       "playCount": 1431241
@@ -226,7 +226,7 @@
       "trackNum": "8",
       "title": "Change Ya Mind",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "3691308f2a4c2f6983f2880d32e29c84",
       "imageURL": "driveSlow",
       "playCount": 231241
@@ -237,7 +237,7 @@
       "trackNum": "1",
       "title": "Special One",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 234253
@@ -248,7 +248,7 @@
       "trackNum": "2",
       "title": "End Of The niGht",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 5345234
@@ -259,7 +259,7 @@
       "trackNum": "3",
       "title": "Baby Meet My Lover",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 32334
@@ -270,7 +270,7 @@
       "trackNum": "4",
       "title": "Smole To Get Sober",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 2345423
@@ -281,7 +281,7 @@
       "trackNum": "5",
       "title": "HelGa",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 243523
@@ -292,7 +292,7 @@
       "trackNum": "6",
       "title": "Someday",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 343543
@@ -303,7 +303,7 @@
       "trackNum": "7",
       "title": "aGe of You",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 345234
@@ -314,7 +314,7 @@
       "trackNum": "8",
       "title": "RExER",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 45234
@@ -325,7 +325,7 @@
       "trackNum": "9",
       "title": "Why iii Love The Moon",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 3452134
@@ -336,7 +336,7 @@
       "trackNum": "10",
       "title": "Take A Chance.",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 223434
@@ -347,7 +347,7 @@
       "trackNum": "11",
       "title": "Salute Of Liberty.",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 23425
@@ -358,7 +358,7 @@
       "trackNum": "12",
       "title": "Special One. - Interlude",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 234234
@@ -369,7 +369,7 @@
       "trackNum": "13",
       "title": "So Much Better.",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 234234
@@ -380,7 +380,7 @@
       "trackNum": "14",
       "title": "Compromise.",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 34234
@@ -391,7 +391,7 @@
       "trackNum": "15",
       "title": "Somehow.",
       "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
-      "artist": "Phoney Ppl",
+      "name": "Phoney Ppl",
       "albumId": "233692e0aad5a445107564ca1bb68d51",
       "imageURL": "phoney",
       "playCount": 23423
@@ -402,7 +402,7 @@
       "trackNum": "1",
       "title": "Nikes",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 23425
@@ -413,7 +413,7 @@
       "trackNum": "2",
       "title": "Ivy",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount":23234
@@ -424,7 +424,7 @@
       "trackNum": "3",
       "title": "Pink + White",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 234234
@@ -435,7 +435,7 @@
       "trackNum": "4",
       "title": "Be Yourself",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 234234
@@ -446,7 +446,7 @@
       "trackNum": "5",
       "title": "Solo",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 234523
@@ -457,7 +457,7 @@
       "trackNum": "6",
       "title": "Skyline To",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 234234
@@ -468,7 +468,7 @@
       "trackNum": "7",
       "title": "Self Control",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 234234
@@ -479,7 +479,7 @@
       "trackNum": "8",
       "title": "Good Guy",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 234234
@@ -490,7 +490,7 @@
       "trackNum": "9",
       "title": "Nights",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 435346
@@ -501,7 +501,7 @@
       "trackNum": "10",
       "title": "Solo (Reprise)",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 23523
@@ -512,7 +512,7 @@
       "trackNum": "11",
       "title": "Pretty Sweet)",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 245234
@@ -523,7 +523,7 @@
       "trackNum": "12",
       "title": "Facebook Story",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 245234
@@ -534,7 +534,7 @@
       "trackNum": "13",
       "title": "Close To You",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 346234
@@ -545,7 +545,7 @@
       "trackNum": "14",
       "title": "White Ferrari",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 235234
@@ -556,7 +556,7 @@
       "trackNum": "15",
       "title": "Seigfried",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 35234
@@ -567,7 +567,7 @@
       "trackNum": "16",
       "title": "GodSpeed",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 235234
@@ -578,7 +578,7 @@
       "trackNum": "17",
       "title": "Futura Free",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "457391c9c82bfdcbb4947278c0401e41",
       "imageURL": "frank",
       "playCount": 235423
@@ -589,7 +589,7 @@
       "trackNum": "1",
       "title": "Late Night",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 42344
@@ -600,7 +600,7 @@
       "trackNum": "2",
       "title": "Extra",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 232344
@@ -611,7 +611,7 @@
       "trackNum": "3",
       "title": "Concentrate",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 23523
@@ -622,7 +622,7 @@
       "trackNum": "4",
       "title": "Ready For Love (Interlude)",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 3242542
@@ -633,7 +633,7 @@
       "trackNum": "5",
       "title": "Karma",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 234243
@@ -644,7 +644,7 @@
       "trackNum": "6",
       "title": "Paint it",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 232524
@@ -655,7 +655,7 @@
       "trackNum": "7",
       "title": "Real Games",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 234242
@@ -666,7 +666,7 @@
       "trackNum": "8",
       "title": "Misunderstood",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 232341
@@ -677,7 +677,7 @@
       "trackNum": "9",
       "title": "Floods",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 2342534
@@ -688,7 +688,7 @@
       "trackNum": "10",
       "title": "Call.",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 234234
@@ -699,7 +699,7 @@
       "trackNum": "11",
       "title": "Try Your Fire.",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Luckcy Daye",
+      "name": "Luckcy Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 234445
@@ -710,7 +710,7 @@
       "trackNum": "12",
       "title": "Love You Too Much",
       "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "artist": "Lucky Daye",
+      "name": "Lucky Daye",
       "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
       "imageURL": "Painted-Lucky-Daye",
       "playCount": 34252
@@ -721,7 +721,7 @@
       "trackNum": "1",
       "title": "Kitty Ca$h Intro (with Kitty Ca$h)",
       "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
-      "artist": "Love Renaissance (LVRN), Kitty Ca$h",
+      "name": "Love Renaissance (LVRN), Kitty Ca$h",
       "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
       "imageURL": "lvrn",
       "playCount": 421241
@@ -732,7 +732,7 @@
       "trackNum": "2",
       "title": "Ghetto christmas (with 6lack & Summer Walker)",
       "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
-      "artist": "Love Renaissance (LVRN), 6lack, Summer Walker",
+      "name": "Love Renaissance (LVRN), 6lack, Summer Walker",
       "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
       "imageURL": "lvrn",
       "playCount": 421241
@@ -743,7 +743,7 @@
       "trackNum": "3",
       "title": "Faliz Navidad ( with Young Rog & Shelley FKA DRAM)",
       "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
-      "artist": "Love Renaissance (LVRN), Young Rog, ShelleyFKA DRAM",
+      "name": "Love Renaissance (LVRN), Young Rog, ShelleyFKA DRAM",
       "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
       "imageURL": "lvrn",
       "playCount": 421241
@@ -754,7 +754,7 @@
       "trackNum": "4",
       "title": "Kitty's Wish List ( With Kitty Ca$h)",
       "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
-      "artist": "Love Renaissance (LVRN), Kitty Ca$h",
+      "name": "Love Renaissance (LVRN), Kitty Ca$h",
       "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
       "imageURL": "lvrn",
       "playCount": 421241
@@ -765,7 +765,7 @@
       "trackNum": "5",
       "title": "12 Days of Bhrismas ( with OMB Bloodbath & Westside Boogie)",
       "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
-      "artist": "Love Renaissance (LVRN), OMG Bloodbath, Westside Boogie",
+      "name": "Love Renaissance (LVRN), OMG Bloodbath, Westside Boogie",
       "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
       "imageURL": "lvrn",
       "playCount": 421241
@@ -776,7 +776,7 @@
       "trackNum": "6",
       "title": "Ca$h Innovations (with Kitty Ca$h)",
       "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
-      "artist": "Love Renaissance (LVRN), Kitty Ca$h",
+      "name": "Love Renaissance (LVRN), Kitty Ca$h",
       "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
       "imageURL": "lvrn",
       "playCount": 421241
@@ -787,7 +787,7 @@
       "trackNum": "7",
       "title": "Santa Baby (with Summer Walker)",
       "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
-      "artist": "Love Renaissance (LVRN), Summer Walker",
+      "name": "Love Renaissance (LVRN), Summer Walker",
       "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
       "imageURL": "lvrn",
       "playCount": 421241
@@ -798,7 +798,7 @@
       "trackNum": "8",
       "title": "This christmas (with Eli Derby)",
       "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
-      "artist": "Love Renaissance (LVRN), Eli Derby",
+      "name": "Love Renaissance (LVRN), Eli Derby",
       "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
       "imageURL": "lvrn",
       "playCount": 421241
@@ -809,7 +809,7 @@
       "trackNum": "9",
       "title": "This Christmas Song (Chestnuts Roasting on open fire) ( with Shelly FAK DRAM)",
       "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
-      "artist": "Love Renaissance (LVRN), Shelly FAK DRAM",
+      "name": "Love Renaissance (LVRN), Shelly FAK DRAM",
       "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
       "imageURL": "lvrn",
       "playCount": 421241
@@ -820,7 +820,7 @@
       "trackNum": "1",
       "title": "Sunny & 62",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
       "imageURL": "8ball",
       "playCount": 421241
@@ -831,7 +831,7 @@
       "trackNum": "2",
       "title": "Sometimes",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
       "imageURL": "8ball",
       "playCount": 421241
@@ -842,7 +842,7 @@
       "trackNum": "3",
       "title": "Nothing Else",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
       "imageURL": "8ball",
       "playCount": 421241
@@ -853,7 +853,7 @@
       "trackNum": "4",
       "title": "Brand new",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
       "imageURL": "8ball",
       "playCount": 421241
@@ -864,7 +864,7 @@
       "trackNum": "5",
       "title": "Never Let Me Go",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
       "imageURL": "8ball",
       "playCount": 421241
@@ -875,7 +875,7 @@
       "trackNum": "6",
       "title": "Every Time",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
       "imageURL": "8ball",
       "playCount": 421241
@@ -886,7 +886,7 @@
       "trackNum": "7",
       "title": "Where U Goin' Tonight",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
       "imageURL": "8ball",
       "playCount": 421241
@@ -897,7 +897,7 @@
       "trackNum": "8",
       "title": "Almost Home",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "b40981aab75932c5b2f555f50769d878e44913d7",
       "imageURL": "8ball",
       "playCount": 421241
@@ -908,7 +908,7 @@
       "trackNum": "1",
       "title": "I Wana Give up",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -919,7 +919,7 @@
       "trackNum": "2",
       "title": "Shadows",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -930,7 +930,7 @@
       "trackNum": "3",
       "title": "I Just Need Love",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -941,7 +941,7 @@
       "trackNum": "4",
       "title": "Where Do We Go From Here?",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -952,7 +952,7 @@
       "trackNum": "5",
       "title": "Get Away",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -963,7 +963,7 @@
       "trackNum": "6",
       "title": "Summertime - Live",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -974,7 +974,7 @@
       "trackNum": "7",
       "title": "Jumping off the Moon",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox"
   },
@@ -984,7 +984,7 @@
       "trackNum": "8",
       "title": "Walking Home",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -995,7 +995,7 @@
       "trackNum": "9",
       "title": "Shit Covered in Gold",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -1006,7 +1006,7 @@
       "trackNum": "10",
       "title": "Saving",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -1017,7 +1017,7 @@
       "trackNum": "11",
       "title": "Caught up",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -1028,7 +1028,7 @@
       "trackNum": "12",
       "title": "Fears",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -1039,7 +1039,7 @@
       "trackNum": "13",
       "title": "Smile Boy - Live",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -1050,7 +1050,7 @@
       "trackNum": "14",
       "title": "Come Thru",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -1061,7 +1061,7 @@
       "trackNum": "15",
       "title": "Better",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -1072,7 +1072,7 @@
       "trackNum": "16",
       "title": "Something More",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "506822efbe22ec6ef41d5a0929732679a3ce01a8",
       "imageURL": "juicebox",
       "playCount": 421241
@@ -1083,7 +1083,7 @@
       "trackNum": "1",
       "title": "Next to You",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1094,7 +1094,7 @@
       "trackNum": "2",
       "title": "Roses",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1105,7 +1105,7 @@
       "trackNum": "3",
       "title": "Under",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1116,7 +1116,7 @@
       "trackNum": "4",
       "title": "Soon",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1127,7 +1127,7 @@
       "trackNum": "5",
       "title": "Get To You Again",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1138,7 +1138,7 @@
       "trackNum": "6",
       "title": "I've Always Been",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1149,7 +1149,7 @@
       "trackNum": "7",
       "title": "Waiting",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1160,7 +1160,7 @@
       "trackNum": "8",
       "title": "Pickled Ginger",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1171,7 +1171,7 @@
       "trackNum": "9",
       "title": "Something To Feel",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1182,7 +1182,7 @@
       "trackNum": "10",
       "title": "This Bag",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1193,7 +1193,7 @@
       "trackNum": "11",
       "title": "Stay",
       "artistId": "f16cb42875013a1118c1a0b3717202e9536851e0",
-      "artist": "Mac Ayres",
+      "name": "Mac Ayres",
       "albumId": "1af17e73721dbe0c40011b82ed4bb1a7dbe3ce29",
       "imageURL": "somethingtofeel",
       "playCount": 421241
@@ -1204,7 +1204,7 @@
       "trackNum": "1",
       "title": "The Group Chat Has Blueprints",
       "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-      "artist": "Sy Ari Da Kid",
+      "name": "Sy Ari Da Kid",
       "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
       "imageURL": "dakid",
       "playCount": 421241
@@ -1215,7 +1215,7 @@
       "trackNum": "2",
       "title": "Top 10",
       "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-      "artist": "Sy Ari Da Kid",
+      "name": "Sy Ari Da Kid",
       "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
       "imageURL": "dakid",
       "playCount": 421241
@@ -1226,7 +1226,7 @@
       "trackNum": "3",
       "title": "The Last Goat",
       "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-      "artist": "Sy Ari Da Kid",
+      "name": "Sy Ari Da Kid",
       "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
       "imageURL": "dakid",
       "playCount": 421241
@@ -1237,7 +1237,7 @@
       "trackNum": "3",
       "title": "The Last Goat",
       "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-      "artist": "Sy Ari Da Kid",
+      "name": "Sy Ari Da Kid",
       "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
       "imageURL": "dakid",
       "playCount": 421241
@@ -1248,7 +1248,7 @@
       "trackNum": "4",
       "title": "La Familia",
       "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-      "artist": "Sy Ari Da Kid",
+      "name": "Sy Ari Da Kid",
       "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
       "imageURL": "dakid",
       "playCount": 421241
@@ -1259,7 +1259,7 @@
       "trackNum": "5",
       "title": "Invincable Armor",
       "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-      "artist": "Sy Ari Da Kid",
+      "name": "Sy Ari Da Kid",
       "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
       "imageURL": "dakid",
       "playCount": 421241
@@ -1270,7 +1270,7 @@
       "trackNum": "6",
       "title": "Sy Ari vs.Lord Owen Sparring on Tour! Who Won?",
       "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-      "artist": "Sy Ari Da Kid",
+      "name": "Sy Ari Da Kid",
       "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
       "imageURL": "dakid",
       "playCount": 421241
@@ -1281,7 +1281,7 @@
       "trackNum": "7",
       "title": "Curve Cologne",
       "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-      "artist": "Sy Ari Da Kid",
+      "name": "Sy Ari Da Kid",
       "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
       "imageURL": "dakid",
       "playCount": 421241
@@ -1292,7 +1292,7 @@
       "trackNum": "8",
       "title": "The Old New York Knicks",
       "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-      "artist": "Sy Ari Da Kid",
+      "name": "Sy Ari Da Kid",
       "albumId": "b49f5e809c296624a318e21770e74d37331bdf9e",
       "imageURL": "dakid",
       "playCount": 421241
@@ -1303,7 +1303,7 @@
       "trackNum": "1",
       "title": "Start",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1314,7 +1314,7 @@
       "trackNum": "2",
       "title": "Thinkin Bout You",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1325,7 +1325,7 @@
       "trackNum": "3",
       "title": "Firtilzer",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1336,7 +1336,7 @@
       "trackNum": "4",
       "title": "Sierra Leone",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1347,7 +1347,7 @@
       "trackNum": "5",
       "title": "Sweet Life",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1358,7 +1358,7 @@
       "trackNum": "6",
       "title": "Not Just Money",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1369,7 +1369,7 @@
       "trackNum": "7",
       "title": "Super Rich Kids",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1380,7 +1380,7 @@
       "trackNum": "8",
       "title": "Pilot Jones",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1391,7 +1391,7 @@
       "trackNum": "9",
       "title": "Crack Rock",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1402,7 +1402,7 @@
       "trackNum": "10",
       "title": "Pyramids",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1413,7 +1413,7 @@
       "trackNum": "11",
       "title": "Lost",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1424,7 +1424,7 @@
       "trackNum": "12",
       "title": "White",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1435,7 +1435,7 @@
       "trackNum": "13",
       "title": "Monk",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1446,7 +1446,7 @@
       "trackNum": "14",
       "title": "Bad Religion",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1457,7 +1457,7 @@
       "trackNum": "15",
       "title": "Pink Matter",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1468,7 +1468,7 @@
       "trackNum": "16",
       "title": "Forrest Gump",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1479,7 +1479,7 @@
       "trackNum": "17",
       "title": "End",
       "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
-      "artist": "Frank Ocean",
+      "name": "Frank Ocean",
       "albumId": "ef0ebbb77298e1fbd81f756a4efc35b977c93dae",
       "imageURL": "channelOrange",
       "playCount": 421241
@@ -1490,7 +1490,7 @@
       "trackNum": "1",
       "title": "Footsteps",
       "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
-      "artist": "Kehlani",
+      "name": "Kehlani",
       "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
       "imageURL": "Kehlani_-_While_We_Wait",
       "playCount": 421241
@@ -1501,7 +1501,7 @@
       "trackNum": "2",
       "title": "Too Deep",
       "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
-      "artist": "Kehlani",
+      "name": "Kehlani",
       "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
       "imageURL": "Kehlani_-_While_We_Wait",
       "playCount": 421241
@@ -1512,7 +1512,7 @@
       "trackNum": "3",
       "title": "Nunya",
       "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
-      "artist": "Kehlani",
+      "name": "Kehlani",
       "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
       "imageURL": "Kehlani_-_While_We_Wait",
       "playCount": 421241
@@ -1523,7 +1523,7 @@
       "trackNum": "4",
       "title": "Morning Glory",
       "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
-      "artist": "Kehlani",
+      "name": "Kehlani",
       "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
       "imageURL": "Kehlani_-_While_We_Wait",
       "playCount": 421241
@@ -1534,7 +1534,7 @@
       "trackNum": "5",
       "title": "Feels",
       "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
-      "artist": "Kehlani",
+      "name": "Kehlani",
       "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
       "imageURL": "Kehlani_-_While_We_Wait",
       "playCount": 421241
@@ -1545,7 +1545,7 @@
       "trackNum": "6",
       "title": "Nights Like This ( Feat. Ty Dolla $ign )",
       "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
-      "artist": "Kehlani",
+      "name": "Kehlani",
       "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
       "imageURL": "Kehlani_-_While_We_Wait",
       "playCount": 421241
@@ -1556,7 +1556,7 @@
       "trackNum": "7",
       "title": "RPG ( Feat. 6lack )",
       "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
-      "artist": "Kehlani",
+      "name": "Kehlani",
       "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
       "imageURL": "Kehlani_-_While_We_Wait",
       "playCount": 421241
@@ -1567,7 +1567,7 @@
       "trackNum": "8",
       "title": "Butterfly",
       "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
-      "artist": "Kehlani",
+      "name": "Kehlani",
       "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
       "imageURL": "Kehlani_-_While_We_Wait",
       "playCount": 421241
@@ -1578,7 +1578,7 @@
       "trackNum": "9",
       "title": "Love Language",
       "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
-      "artist": "Kehlani",
+      "name": "Kehlani",
       "albumId": "2768459bbb0563e984acffb7e56731a83b88c601",
       "imageURL": "Kehlani_-_While_We_Wait",
       "playCount": 421241
@@ -1589,7 +1589,7 @@
       "trackNum": "1",
       "title": "Necessary Pressure",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1600,7 +1600,7 @@
       "trackNum": "2",
       "title": "To My Little Homie",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1611,7 +1611,7 @@
       "trackNum": "3",
       "title": "Feelings Hurt",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1622,7 +1622,7 @@
       "trackNum": "4",
       "title": "For You",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1633,7 +1633,7 @@
       "trackNum": "5",
       "title": "Tenfold",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1644,7 +1644,7 @@
       "trackNum": "6",
       "title": "No Sweat (Feat. Ludacris)",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1655,7 +1655,7 @@
       "trackNum": "7",
       "title": "Pull Up Game Crazy",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1666,7 +1666,7 @@
       "trackNum": "8",
       "title": "Not Numb (Feat. Olu, Buddy)",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1677,7 +1677,7 @@
       "trackNum": "9",
       "title": "Bro",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1688,7 +1688,7 @@
       "trackNum": "10",
       "title": "Dream Went Bad",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1699,7 +1699,7 @@
       "trackNum": "11",
       "title": "Shine",
       "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-      "artist": "Childish Major",
+      "name": "Childish Major",
       "albumId": "1f24a33d27eaeca07edd904ff7c42301001acc34",
       "imageURL": "major",
       "playCount": 421241
@@ -1710,7 +1710,7 @@
       "trackNum": "1",
       "title": "Sleepless Nights ( Feat. Phoelix)",
       "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
-      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "name": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party",
       "playCount": 421241
@@ -1721,7 +1721,7 @@
       "trackNum": "2",
       "title": "Love You Bad ( Feat. Phoelix)",
       "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
-      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "name": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party",
       "playCount": 421241
@@ -1732,7 +1732,7 @@
       "trackNum": "3",
       "title": "From My Heart and Soul ( Feat. Phoelix)",
       "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
-      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "name": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party",
       "playCount": 421241
@@ -1743,7 +1743,7 @@
       "trackNum": "4",
       "title": "First Responders",
       "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
-      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "name": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party",
       "playCount": 421241
@@ -1754,7 +1754,7 @@
       "trackNum": "5",
       "title": "The Mighty Tree ( Feat. Kamasi Washington)",
       "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
-      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "name": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party",
       "playCount": 421241
@@ -1765,7 +1765,7 @@
       "trackNum": "6",
       "title": "Freeze Tag ( Feat. Kamasi Washington)",
       "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
-      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "name": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party",
       "playCount": 421241
@@ -1776,7 +1776,7 @@
       "trackNum": "7",
       "title": "LUV U",
       "artistId": "723a75be95a6adcfb624e9ed3d899aa76011295b",
-      "artist": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
+      "name": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
       "albumId": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
       "imageURL": "Dinner-Party",
       "playCount": 421241
@@ -1787,7 +1787,7 @@
       "trackNum": "1",
       "title": "Clean up",
       "artistId": "810c95c90fb1a28f4e09ec8194cdd32e8850f188",
-      "artist": "Joel",
+      "name": "Joel",
       "albumId": "a1c0a61a223ab9f42c78ef47827edaa4df8d3430",
       "imageURL": "cleanup",
       "playCount": 421241
@@ -1798,7 +1798,7 @@
       "trackNum": "1",
       "title": "What Kind Of Music",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1809,7 +1809,7 @@
       "trackNum": "2",
       "title": "Festival",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1820,7 +1820,7 @@
       "trackNum": "3",
       "title": "Nightrider",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1831,7 +1831,7 @@
       "trackNum": "4",
       "title": "Tidal Wave",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1842,7 +1842,7 @@
       "trackNum": "6",
       "title": "Sensational",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1853,7 +1853,7 @@
       "trackNum": "7",
       "title": "The Real",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1864,7 +1864,7 @@
       "trackNum": "7",
       "title": "Lift Off",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1875,7 +1875,7 @@
       "trackNum": "8",
       "title": "I Did it For You",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1886,7 +1886,7 @@
       "trackNum": "9",
       "title": "Last 100",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1897,7 +1897,7 @@
       "trackNum": "10",
       "title": "Kyiv",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1908,7 +1908,7 @@
       "trackNum": "11",
       "title": "Julie Mangos",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1919,7 +1919,7 @@
       "trackNum": "12",
       "title": "Storm Before The Fog",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
-      "artist": "Tom Misch, Yussif Dayes",
+      "name": "Tom Misch, Yussif Dayes",
       "albumId": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "imageURL": "whatkindofmusic",
       "playCount": 421241
@@ -1930,7 +1930,7 @@
       "trackNum": "1",
       "title": "Gone",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR",
+      "name": "SiR",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -1941,7 +1941,7 @@
       "trackNum": "2",
       "title": "That's Right",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR",
+      "name": "SiR",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -1952,7 +1952,7 @@
       "trackNum": "3",
       "title": "Something Foreign",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR, Schoolboy Q",
+      "name": "SiR, Schoolboy Q",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -1963,7 +1963,7 @@
       "trackNum": "4",
       "title": "D'Evils",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR",
+      "name": "SiR",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -1974,7 +1974,7 @@
       "trackNum": "5",
       "title": "Something New",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR, Etta Bond",
+      "name": "SiR, Etta Bond",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -1985,7 +1985,7 @@
       "trackNum": "6",
       "title": "I Know",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR",
+      "name": "SiR",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -1996,7 +1996,7 @@
       "trackNum": "7",
       "title": "Never Home",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR",
+      "name": "SiR",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -2007,7 +2007,7 @@
       "trackNum": "8",
       "title": "War",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR",
+      "name": "SiR",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -2018,7 +2018,7 @@
       "trackNum": "9",
       "title": "Better",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR",
+      "name": "SiR",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -2029,7 +2029,7 @@
       "trackNum": "10",
       "title": "Dreaming of Me",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR",
+      "name": "SiR",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -2040,7 +2040,7 @@
       "trackNum": "11",
       "title": "Summer in November",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
-      "artist": "SiR",
+      "name": "SiR",
       "albumId": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "imageURL": "november",
       "playCount": 421241
@@ -2051,7 +2051,7 @@
       "trackNum": "1",
       "title": "Obrigado",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs,Madlib",
+      "name": "Freddie Gibbs,Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2062,7 +2062,7 @@
       "trackNum": "2",
       "title": "Freestyle S**t",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2073,7 +2073,7 @@
       "trackNum": "3",
       "title": "Half Manne Half Cocaine",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2084,7 +2084,7 @@
       "trackNum": "4",
       "title": "Crime Pays",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2095,7 +2095,7 @@
       "trackNum": "5",
       "title": "Message Seats",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2106,7 +2106,7 @@
       "trackNum": "6",
       "title": "Palmolive ( Feat. Pusha T & Killer Mike)",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2117,7 +2117,7 @@
       "trackNum": "7",
       "title": "Fake Names",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2128,7 +2128,7 @@
       "trackNum": "8",
       "title": "Flat Tummy Tea",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2139,7 +2139,7 @@
       "trackNum": "9",
       "title": "Situations",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2150,7 +2150,7 @@
       "trackNum": "10",
       "title": "Giannis (Feat. Anderson .Paak)",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib, Anderson. Paak",
+      "name": "Freddie Gibbs, Madlib, Anderson. Paak",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2161,7 +2161,7 @@
       "trackNum": "11",
       "title": "Practice",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2172,7 +2172,7 @@
       "trackNum": "12",
       "title": "Cateracts",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2183,7 +2183,7 @@
       "trackNum": "13",
       "title": "Gat Damn",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib",
+      "name": "Freddie Gibbs, Madlib",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2194,7 +2194,7 @@
       "trackNum": "14",
       "title": "Education ( Feat. Yasiin Bey & Black Thought)",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib, Yasiin Bey, Black Thought",
+      "name": "Freddie Gibbs, Madlib, Yasiin Bey, Black Thought",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2205,7 +2205,7 @@
       "trackNum": "15",
       "title": "Soul Right",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
-      "artist": "Freddie Gibbs, Madlib, Yasiin Bey",
+      "name": "Freddie Gibbs, Madlib, Yasiin Bey",
       "albumId": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "imageURL": "bandana",
       "playCount": 421241
@@ -2216,7 +2216,7 @@
       "trackNum": "1",
       "title": "Home",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2227,7 +2227,7 @@
       "trackNum": "2",
       "title": "Gang Over Love",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2238,7 +2238,7 @@
       "trackNum": "3",
       "title": "Burn One ( Interlude )",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2249,7 +2249,7 @@
       "trackNum": "4",
       "title": "First World Problemz / Nobody Carez",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2260,7 +2260,7 @@
       "trackNum": "5",
       "title": "Missin Out",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2271,7 +2271,7 @@
       "trackNum": "6",
       "title": "Stay Down",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2282,7 +2282,7 @@
       "trackNum": "7",
       "title": "L.A.",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2293,7 +2293,7 @@
       "trackNum": "8",
       "title": "Talk 2 U",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2304,7 +2304,7 @@
       "trackNum": "9",
       "title": "Sonder Son ( Interlude )",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2315,7 +2315,7 @@
       "trackNum": "10",
       "title": "So Far Gone / Fast Life Bluez",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2326,7 +2326,7 @@
       "trackNum": "11",
       "title": "Needed",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
@@ -2337,7 +2337,7 @@
       "trackNum": "12",
       "title": "All I Want",
       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
-      "artist": "Brent Faiyaz",
+      "name": "Brent Faiyaz",
       "albumId": "daefb2b1c804343df2740a838eb3776d2e935cba",
       "imageURL": "brent",
       "playCount": 421241
