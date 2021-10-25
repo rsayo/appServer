@@ -3,7 +3,7 @@
       "id": "a1c0a61a223ab9f42c78ef47827edaa4df8d3430",
       "type": "Album",
       "title": "Clean Up",
-      "artist": "Joel",
+      "name": "Joel",
       "artistId": "810c95c90fb1a28f4e09ec8194cdd32e8850f188",
       "imageURL": "cleanup"
     },
@@ -11,7 +11,7 @@
       "id": "65a2aaf4fd0da0e854efeca2c25cba29eff44ed1",
       "type": "Album",
       "title": "What Kind of Music",
-      "artist": "Tom Misch",
+      "name": "Tom Misch",
       "artistId": "5b97706611c202a4776db1861c0ef7bac8d6173d",
       "imageURL": "whatkindofmusic"
     },
@@ -19,7 +19,7 @@
       "id": "7d8b810770d4fc4e66cdf295734478f07ec16fe0",
       "type": "Album",
       "title": "November",
-      "artist": "SiR",
+      "name": "SiR",
       "artistId": "92429d82a41e930486c6de5ebda9602d55c39986",
       "imageURL": "november"
     },
@@ -27,7 +27,7 @@
       "id": "ee64f06e664f9f6b0a43c75faf65e3a151bb7416",
       "type": "Album",
       "title": "Bandana",
-      "artist": "Freddie Gibbs",
+      "name": "Freddie Gibbs",
       "artistId": "1222ac938383d8c2708b08ee85c1b3d491797171",
       "imageURL": "bandana"
     },
@@ -35,7 +35,7 @@
        "id": "daefb2b1c804343df2740a838eb3776d2e935cba",
        "type": "Album",
        "title": "Sonder ",
-       "artist": "Brent Faiyaz",
+       "name": "Brent Faiyaz",
        "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
        "imageURL": "brent"
     }
