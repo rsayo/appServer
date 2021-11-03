@@ -42,10 +42,12 @@ app.get('/api/v1/playlists', (req,res) => {
 
   res.json(playlists)}) // get all Playlists
 app.get('/api/v1/track', (req,res) => {
-  console.log(req.quert.id)
-  db.GetTrack(req.query.id)
+  // console.log(req.query.audioname)
+
+  db.getAudioTrack(req.query.audioname)
   .then( data => {
     console.log(data)
+    res.send(data)
   })
   .catch( err => {
     console.log(err)

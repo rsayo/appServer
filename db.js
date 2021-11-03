@@ -175,6 +175,23 @@ exports.GetTrack = (id) => {
     })
   })
 }
+exports.getAudioTrack = (track) => {
+  return new Promise((resolve, reject) => {
+    console.log(track)
+    let audio = fs.readFileSync(path.join(__dirname + "/data/" + track + ".mp3"), (data, err) => {
+      // console.log(data)
+      if(data){
+      //   console.log( "Track:", track)
+        return data
+      }else{
+        reject("Could not load file")
+      }
+
+    })
+
+    resolve(audio)
+  })
+}
 // Get AristProfile Data
 exports.GetArtistProfile = (id) => {
   return new Promise((resolve, reject) => {
