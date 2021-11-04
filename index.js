@@ -24,8 +24,6 @@ app.get("/api/v1/", (req,res) => {
   })
 })
 app.get('/api/v1/album', (req,res) => {
-  console.log("getting albums")
-
   db.GetAlbumDetail(req.query.albumId)
   .then(data => {
     console.log(data)
@@ -42,9 +40,9 @@ app.get('/api/v1/playlists', (req,res) => {
 
   res.json(playlists)}) // get all Playlists
 app.get('/api/v1/track', (req,res) => {
-  // console.log(req.query.audioname)
+  console.log(req.query.audioURL)
 
-  db.getAudioTrack(req.query.audioname)
+  db.getAudioTrack(req.query.audioURL, req.query.artist)
   .then( data => {
     console.log(data)
     res.send(data)

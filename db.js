@@ -178,7 +178,7 @@ exports.GetTrack = (id) => {
 exports.getAudioTrack = (track) => {
   return new Promise((resolve, reject) => {
     console.log(track)
-    let audio = fs.readFileSync(path.join(__dirname + "/data/" + track + ".mp3"), (data, err) => {
+    let audio = fs.readFileSync(path.join(__dirname + "/data/audio/" + track + ".mp3"), (data, err) => {
       // console.log(data)
       if(data){
       //   console.log( "Track:", track)
