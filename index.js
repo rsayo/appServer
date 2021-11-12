@@ -40,16 +40,54 @@ app.get('/api/v1/playlists', (req,res) => {
 
   res.json(playlists)}) // get all Playlists
 app.get('/api/v1/track', (req,res) => {
-  console.log(req.query.audioURL)
+  // console.log(req.query.audioURL)
+  let keys = Object.keys(req.query)
+  console.log(keys)
 
-  db.getAudioTrack(req.query.audioURL, req.query.artist)
-  .then( data => {
-    console.log(data)
-    res.send(data)
-  })
-  .catch( err => {
-    console.log(err)
-  })
+  switch(keys.toString()){
+    case "audioURL":
+      db.getAudioTrack(req.query.audioURL)
+      .then( data => {
+        // console.log(data)
+        res.send(data)
+      })
+      .catch( err => {
+        console.log(err)
+      })
+      // console.log("audio")
+
+    case "isRandom":
+
+      db.getRandomAudio()
+      .then( data => {
+        res.json(data)
+        // console.log(data)
+      })
+      .catch( err => {
+        console.log(err)
+      })
+
+    case "id":
+    // console.log(req.query.id)
+      db.GetTrackById(req.query.id)
+      .then( data => {
+        // console.log(data)
+        res.json(data)
+      })
+      .catch( err => {
+        console.log(err)
+      })
+
+    default:
+    db.GetTracks()
+    .then( data => {
+      res.json(data)
+    })
+    .catch( err => {
+      console.log(err)
+    })
+  }
+
 })
 app.get('/api/v1/artist', (req,res) => {
   console.log(req.query.id)

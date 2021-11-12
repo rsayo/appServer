@@ -165,34 +165,39 @@ exports.GetUserTrackHistory =() => {
   })
 }
 // Get Tracks
-exports.GetTrack = (id) => {
+exports.GetTracks = (id) => {
   return new Promise((resolve, reject) => {
-    getFile('songs').map((track) => {
-      if(track.Id == id){
-          console.log("Track", track)
-          resolve(track)
-      }
-    })
+    let tracks = getFile('songs')
+    // console.log(tracks)
+    resolve()
   })
 }
 exports.getAudioTrack = (track) => {
   return new Promise((resolve, reject) => {
-    console.log(track)
-    let audio = fs.readFileSync(path.join(__dirname + "/data/audio/" + track + ".mp3"), (data, err) => {
-      // console.log(data)
-      if(data){
-      //   console.log( "Track:", track)
-        return data
-      }else{
-        reject("Could not load file")
-      }
-
-    })
+    console.log("playing track", track)
+    let audio = getAudioFile(track)
+    console.log(audio)
 
     resolve(audio)
   })
 }
 // Get AristProfile Data
+exports.getRandomAudio = () => {
+  return new Promise( (resolve, reject) => {
+    let tracks = getFile("songs")
+    // console.log(tracks)
+    let randomTrack = tracks[getRandom(tracks.length)]
+    // console.log(getRandom(tracks.length))
+    resolve(randomTrack)
+
+    // let audio = getAudioFile(randomTrack.audioURL)
+
+    resolve(audio)
+
+
+  // console.log(rand(10))
+  })
+}
 exports.GetArtistProfile = (id) => {
   return new Promise((resolve, reject) => {
     let collection = []
@@ -294,25 +299,30 @@ exports.GetArtistProfile = (id) => {
 // Get TrackById
 exports.GetTrackById = (id) => {
   return new Promise((resolve, reject) => {
-    let tracks = []
+    let track
 
     getFile('songs').map((track) => {
-      if(track.Id == req.query.trackId){
-          // console.log("Track", track)
-            res.json(track)
+      if(track.id == id){
+          console.log("Track", track)
+            resolve(track)
       }
     })
-
-    getFile('songs').map((track, id) => {
-      if(track.id == req.query.albumId){
-            tracks.push(track)
-      }
-    })
-
-    resolve(tracks)
   })
 }
 
+function getAudioFile(file){
+  let audio = fs.readFileSync(path.join(__dirname + "/data/audio/" + file + ".mp3"), (data, err) => {
+    console.log(data)
+    if(data){
+    //   console.log( "Track:", track)
+      return data
+    }else{
+      return("Could not load file")
+    }
+  })
+
+  return audio
+}
 function getFile(file){
 
   let data = fs.readFileSync(path.join(__dirname + "/data/" + file +".json"), (data, err) => {
@@ -365,4 +375,8 @@ function ProfileItem(){
   this.bio = null,
   this.dateJoined = null,
   this.playCount = null
+}
+
+function getRandom(max){
+  return Math.floor(Math.random() * max)
 }
