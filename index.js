@@ -48,7 +48,7 @@ app.get('/api/v1/track', (req,res) => {
     case "audioURL":
       db.getAudioTrack(req.query.audioURL)
       .then( data => {
-        // console.log(data)
+        console.log(data)
         res.send(data)
       })
       .catch( err => {
@@ -66,7 +66,6 @@ app.get('/api/v1/track', (req,res) => {
       .catch( err => {
         console.log(err)
       })
-
     case "id":
     // console.log(req.query.id)
       db.GetTrackById(req.query.id)
@@ -77,7 +76,6 @@ app.get('/api/v1/track', (req,res) => {
       .catch( err => {
         console.log(err)
       })
-
     default:
     db.GetTracks()
     .then( data => {
@@ -107,17 +105,3 @@ app.get('/api/v1/image', (req,res) => {
 app.listen(app.get("port"), () => {
   console.log(`started app on 8080`)
 })
-
-function getFile(file){
-
-  let data = fs.readFileSync(path.join(__dirname + "/data/" + file +".json"), (data, err) => {
-
-    if( err ){
-      console.log(err)
-      return err
-    }
-
-    return data
-  })
-  return JSON.parse(data)
-}

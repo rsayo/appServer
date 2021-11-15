@@ -299,11 +299,11 @@ exports.GetArtistProfile = (id) => {
 // Get TrackById
 exports.GetTrackById = (id) => {
   return new Promise((resolve, reject) => {
-    let track
+    // let track
 
     getFile('songs').map((track) => {
       if(track.id == id){
-          console.log("Track", track)
+          // console.log("Track", track)
             resolve(track)
       }
     })
@@ -336,6 +336,7 @@ function getFile(file){
   })
   return JSON.parse(data)
 }
+
 function Section(){
   this.id = uuid.v4(),
   this.type = null,
