@@ -1,7 +1,45 @@
 const uuid = require('uuid')
 const fs = require('fs')
 const path = require('path')
+const mongoose = require('mongoose')
+const bcrypt = require('bcrypt')
+const models = require('./models.js')
 
+exports.initialize = async () => {
+  try {
+    mongoose.connect("mongodb+srv://rob:12358132121@cluster0.xadsk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  {useNewUrlParser:true})
+    return "connected"
+  }
+  catch(error){
+    throw error
+  }
+}
+
+// register new user
+exports.registerUser = async (username, password) => {
+
+}
+
+// Authenticat user
+exports.authenticate = async (credentials) => {
+  console.log("Authenticating user...")
+  // console.log(credentials.username.toLowerCase())
+  let response = await models.User.findOne({username: credentials.username.toLowerCase()})
+  .exec()
+  .then( user => {
+    if(user.password == credentials.password){
+      return user
+    }else{
+      return
+    }
+  })
+  .catch(err => {
+    throw err
+  })
+
+  return response
+}
 
 // Get Featured albums
 exports.GetFeaturedAlbums = () => {
@@ -29,18 +67,6 @@ exports.GetFeaturedAlbums = () => {
     }
 
     catalog.push(featuredArtists)
-
-    // get Track History
-    // Note: This is a db call
-
-    let history = {
-      "id": uuid.v4(),
-      "type": "History",
-      "tagline": "Recent Spins",
-      "items": getFile("trackHistory")
-    }
-
-    catalog.push(history)
 
     // get Trending songs
     let trending = {
@@ -102,6 +128,7 @@ exports.GetFeaturedAlbums = () => {
     resolve(catalog)
   })
 }
+
 // Get albumDetail
 exports.GetAlbumDetail = (id) => {
   return new Promise((resolve, reject) => {
@@ -141,6 +168,9 @@ exports.GetAlbumDetail = (id) => {
                 trackSection.imageURL = album.imageURL
                 trackSection.artistId= album.artistId
 
+                albumSection.title = `More Albums`
+                singleSection.title = `Singley by ${artist.name}`
+
                 tracks.map((item) => {
                   if(item.albumId == album.id){
                     trackSection.items.push(item)
@@ -148,15 +178,50 @@ exports.GetAlbumDetail = (id) => {
                 });
               }
             })
+
+
+
+
+            getFile("Albums").map( albumitem => {
+              if(album.artistId == albumitem.artistId && album.id != albumitem.id){
+                console.log(albumitem.type)
+                switch(albumitem.type){
+                  case "Album":
+                    albumSection.items.push(albumitem)
+                  break;
+                  case "Single":
+                  console.log(albumitem)
+                    singleSection.items.push(albumitem)
+                    break;
+                }
+
+                if(albumitem.type == "Album"){
+                  // console.log(albumitem)
+
+
+                }
+              }
+
+            })
+
           }
       })
 
-
       albumDetail.push(trackSection)
+      if(albumSection.items.length > 0){
+        albumDetail.push(albumSection)
+      }
+
+
+      if(singleSection.items.length > 0){
+        albumDetail.push(singleSection)
+      }
+
       resolve(albumDetail)
 
   })
 }
+
 // Get user Track history
 exports.GetUserTrackHistory =() => {
   return new Promise((resolve, reject) => {
@@ -164,6 +229,7 @@ exports.GetUserTrackHistory =() => {
     resolve(history)
   })
 }
+
 // Get Tracks
 exports.GetTracks = (id) => {
   return new Promise((resolve, reject) => {
@@ -172,6 +238,7 @@ exports.GetTracks = (id) => {
     resolve()
   })
 }
+
 exports.getAudioTrack = (track) => {
   return new Promise((resolve, reject) => {
     console.log("playing track", track)
@@ -181,6 +248,7 @@ exports.getAudioTrack = (track) => {
     resolve(audio)
   })
 }
+
 // Get AristProfile Data
 exports.getRandomAudio = () => {
   return new Promise( (resolve, reject) => {
@@ -198,6 +266,7 @@ exports.getRandomAudio = () => {
   // console.log(rand(10))
   })
 }
+
 exports.GetArtistProfile = (id) => {
   return new Promise((resolve, reject) => {
     let collection = []
@@ -296,6 +365,7 @@ exports.GetArtistProfile = (id) => {
     })
   })
 }
+
 // Get TrackById
 exports.GetTrackById = (id) => {
   return new Promise((resolve, reject) => {
@@ -307,6 +377,59 @@ exports.GetTrackById = (id) => {
             resolve(track)
       }
     })
+  })
+}
+
+exports.GetUserHomeData = () => {
+  return new Promise((resolve, reject) => {
+    let section = []
+
+    let historySection = new Section()
+    historySection.type = "History"
+    historySection.tagline = "Recent Spins"
+    historySection.items = getFile("trackhistory")
+
+    section.push(historySection)
+
+    let recentAlbums = new Section()
+    recentAlbums.type = "Albums"
+    recentAlbums.tagline = "Jump back into..."
+
+    let playedAblums = []
+    getFile("trackhistory").map( track => {
+      getFile("Albums").map( item => {
+
+        if(track.albumId == item.id){
+          // console.log(item)
+          playedAblums.push(item)
+
+        }
+
+      })
+    })
+
+    recentAlbums.items = playedAblums
+
+    section.push(recentAlbums)
+
+    let playlistSection = new Section()
+    playlistSection.type = "Playlists"
+    playlistSection.tagline = "Your playlists"
+
+    playlistSection.items = getFile("Playlists")
+
+    section.push(playlistSection)
+
+    let albumRecommendation = new Section()
+
+    albumRecommendation.type = "Album"
+    albumRecommendation.tagline = "You may also like"
+    albumRecommendation.items = getFile("Discover")
+
+    section.push(albumRecommendation)
+
+    console.log(section)
+    resolve(section)
   })
 }
 

@@ -1,10 +1,64 @@
 [
   {
-      "id": "d0fa06cd93335c8cae357ffe5cd1c4e9",
-      "title": "East Atlanta Love Letter",
+      "id": "121aa3ee4a7d5b1bbbc760fd0c6de79b",
+      "genre": "Hip-Hop",
+      "trackNum":"6",
+      "title": "Switch",
       "artistId": "2133e19292afc827cc42285f6f0e565c",
-      "albumId":"20fac5f0c1993caefa22ff238a217dc2",
-      "artist": "6lack",
-      "imageURL": "6lack"
+      "name": "6lack",
+      "imageURL": "6lack",
+      "audioURL": "121aa3ee4a7d5b1bbbc760fd0c6de79b",
+      "type": "album",
+      "albumId":"466bc8cef3e71de796ec483e212724a2c2044c68",
+      "playCount": 525342
+  },
+  {
+      "id": "8a13a01d705b372be5da08b0751c65714b10dfe0",
+      "genre": "Alternative",
+      "trackNum": "14",
+      "title": "Compromise.",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "name": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "phoney",
+      "audioURL": "8a13a01d705b372be5da08b0751c65714b10dfe0",
+      "playCount": 34234
+  },
+  {
+      "id": "4ff88aaddbd209d8026924c2cc2836b408698823",
+      "genre": "Alternative",
+      "trackNum": "17",
+      "title": "Futura Free",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "name": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "frank",
+      "audioURL": "4ff88aaddbd209d8026924c2cc2836b408698823",
+      "playCount": 235423
+  },
+  {
+      "id": "b43c4b82570e182eb1c74072896167113d2c7345",
+      "genre": "R&B",
+      "trackNum": "3",
+      "title": "Extra",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "name": "Lucky Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "Painted-Lucky-Daye",
+      "audioURL": "b43c4b82570e182eb1c74072896167113d2c7345",
+      "playCount": 232344
+  },
+  {
+      "id": "9634cd1b08e8c4433775bf8d31de3749a9cdcaf6",
+      "genre": "Hip-Hop",
+      "trackNum": "2",
+      "title": "Ghetto christmas (with 6lack & Summer Walker)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "name": "Love Renaissance (LVRN), 6lack, Summer Walker",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "lvrn",
+      "audioURL": "9634cd1b08e8c4433775bf8d31de3749a9cdcaf6",
+      "playCount": 421241
   }
+
 ]
