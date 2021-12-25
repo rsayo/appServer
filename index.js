@@ -19,6 +19,7 @@ app.use(clientSessions({
   activeDuration: 1000 * 60
 }))
 app.use(function(req, res, next) { res.locals.session = req.session; next();});
+
 app.post('/api/v1/authenticate', (req,res) => {
 
   const agent = req.body.userAgent = req.get('user-agent')
@@ -48,6 +49,7 @@ app.post('/api/v1/authenticate', (req,res) => {
     res.status(400)
   })
 })
+
 app.get("/api/v1/browse", (req,res) => {
   // console.log("path reached")
   // let date = new Date()
@@ -83,21 +85,15 @@ app.get('/api/v1/album', (req,res) => {
     console.log(err)
   })
   })
-  
-// Get Albums
 app.get('/api/v1/trackhistory', (req,res) => {
   let history = getFile("songs")
   res.json(history)
 })
-
-// Get track history
 app.get('/api/v1/playlists', (req,res) => {
   let playlists = getFile("Playlists")
 
   res.json(playlists)
 })
-
- // get all Playlists
 app.get('/api/v1/track', (req,res) => {
   // console.log(req.query.audioURL)
   let keys = Object.keys(req.query)
@@ -161,9 +157,7 @@ app.get('/api/v1/image', (req,res) => {
 })
 
 // Authentication
-app.post('/api/v1/login', (req,res) => {
 
-})
 // app.post('/api/v1/signup', (req,res) => {
 //
 // })
