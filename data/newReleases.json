@@ -5,7 +5,7 @@
            "title": "Int Insustry Me",
            "name": "Sy Ari Da Kid",
            "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-           "imageURL": "dakid"
+           "imageURL": "b49f5e809c296624a318e21770e74d37331bdf9e"
         },
         {
            "id": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097",
@@ -13,7 +13,7 @@
            "title": "Dinner Party",
            "name": "Terrance Martin, Kamasi Washington, Robert Glasper,9th Wonder",
            "artistId": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
-           "imageURL": "Dinner-Party"
+           "imageURL": "e8aa24e5254efe4a0b64aa2fac90bdd0c6be9097"
         },
         {
            "id": "2768459bbb0563e984acffb7e56731a83b88c601",
@@ -21,7 +21,7 @@
            "title": "While we wait",
            "name": "Kehlani",
            "artistId": "f65c7210ab215d55f9b8193e85044801d8661f16",
-           "imageURL": "Kehlani_-_While_We_Wait"
+           "imageURL": "2768459bbb0563e984acffb7e56731a83b88c601"
         },
         {
            "id": "1f24a33d27eaeca07edd904ff7c42301001acc34",
@@ -29,6 +29,6 @@
            "title": "Dirt road Diamond",
            "name": "Childish Major",
            "artistId": "045c4400b983f685285eda35b519a5b249ff94fb",
-           "imageURL": "major"
+           "imageURL": "1f24a33d27eaeca07edd904ff7c42301001acc34"
         }
 ]

@@ -123,7 +123,7 @@ exports.GetFeaturedAlbums = () => {
       "items": getFile("Playlists")
     }
 
-    catalog.push(playlists)
+    // catalog.push(playlists)
     // console.log(catalog)
     resolve(catalog)
   })
@@ -142,8 +142,8 @@ exports.GetAlbumDetail = (id) => {
       let albumSection = new Section()
       albumSection.type = "Album"
 
-      let singleSection = new Section()
-      singleSection.type = "Single"
+      // let singleSection = new Section()
+      // singleSection.type = "Single"
 
 
       let artistsRecommendations = new Section()
@@ -169,7 +169,7 @@ exports.GetAlbumDetail = (id) => {
                 trackSection.artistId= album.artistId
 
                 albumSection.title = `More Albums`
-                singleSection.title = `Singley by ${artist.name}`
+                // singleSection.title = `Singley by ${artist.name}`
 
                 tracks.map((item) => {
                   if(item.albumId == album.id){
@@ -189,16 +189,10 @@ exports.GetAlbumDetail = (id) => {
                   case "Album":
                     albumSection.items.push(albumitem)
                   break;
-                  case "Single":
-                  console.log(albumitem)
-                    singleSection.items.push(albumitem)
-                    break;
-                }
-
-                if(albumitem.type == "Album"){
+                  // case "Single":
                   // console.log(albumitem)
-
-
+                  //   singleSection.items.push(albumitem)
+                  //   break;
                 }
               }
 
@@ -208,14 +202,14 @@ exports.GetAlbumDetail = (id) => {
       })
 
       albumDetail.push(trackSection)
-      if(albumSection.items.length > 0){
-        albumDetail.push(albumSection)
-      }
+      // if(albumSection.items.length > 0){
+      //   albumDetail.push(albumSection)
+      // }
 
 
-      if(singleSection.items.length > 0){
-        albumDetail.push(singleSection)
-      }
+      // if(singleSection.items.length > 0){
+      //   albumDetail.push(singleSection)
+      // }
 
       resolve(albumDetail)
 
@@ -412,13 +406,13 @@ exports.GetUserHomeData = () => {
 
     section.push(recentAlbums)
 
-    let playlistSection = new Section()
-    playlistSection.type = "Playlists"
-    playlistSection.tagline = "Your playlists"
-
-    playlistSection.items = getFile("Playlists")
-
-    section.push(playlistSection)
+    // let playlistSection = new Section()
+    // playlistSection.type = "Playlists"
+    // playlistSection.tagline = "Your playlists"
+    //
+    // playlistSection.items = getFile("Playlists")
+    //
+    // section.push(playlistSection)
 
     let albumRecommendation = new Section()
 

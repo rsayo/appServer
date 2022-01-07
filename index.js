@@ -155,6 +155,9 @@ app.get('/api/v1/artist', (req,res) => {
 app.get('/api/v1/image', (req,res) => {
   console.log(req.query.image)
 })
+app.get('/api/v1/search', (req,res) => {
+  console.log(req.query)
+})
 
 // Authentication
 
