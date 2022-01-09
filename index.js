@@ -70,8 +70,9 @@ app.get("/api/v1/home", (req,res) => {
     console.log("")
     res.json(data)
   })
-  .catch( data => {
+  .catch( err => {
     console.log("")
+    res,json(err)
   })
 })
 app.get('/api/v1/album', (req,res) => {
@@ -158,12 +159,17 @@ app.get('/api/v1/image', (req,res) => {
 app.get('/api/v1/search', (req,res) => {
   console.log(req.query)
 })
+app.get('/api/v1/search/history', (req,res) => {
+  db.GetSearchHistory()
+  .then(data => {
+    console.log(data)
+    res.json(data)
+  })
+  .catch( err => {
+    console.log(err)
+  })
+})
 
-// Authentication
-
-// app.post('/api/v1/signup', (req,res) => {
-//
-// })
 db.initialize()
 .then( (data) => {
 

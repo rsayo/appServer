@@ -1,0 +1,75 @@
+[
+  {
+      "id": "121aa3ee4a7d5b1bbbc760fd0c6de79b",
+      "type": "track",
+      "genre": "Hip-Hop",
+      "trackNum":"6",
+      "title": "Switch",
+      "artistId": "2133e19292afc827cc42285f6f0e565c",
+      "name": "6lack",
+      "imageURL": "5575c186af624d52a5434292f2f5aa23",
+      "audioURL": "121aa3ee4a7d5b1bbbc760fd0c6de79b",
+      "albumId":"5575c186af624d52a5434292f2f5aa23",
+      "playCount": 525342
+  },
+  {
+      "id": "b43c4b82570e182eb1c74072896167113d2c7345",
+      "genre": "R&B",
+      "trackNum": "3",
+      "title": "Extra",
+      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+      "name": "Lucky Daye",
+      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "imageURL": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+      "audioURL": "b43c4b82570e182eb1c74072896167113d2c7345",
+      "playCount": 232344
+  },
+  {
+      "id": "9634cd1b08e8c4433775bf8d31de3749a9cdcaf6",
+      "genre": "Hip-Hop",
+      "trackNum": "2",
+      "title": "Ghetto christmas (with 6lack & Summer Walker)",
+      "artistId": "466bc8cef3e71de796ec483e212724a2c2044c68",
+      "name": "Love Renaissance (LVRN), 6lack, Summer Walker",
+      "albumId": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "imageURL": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
+      "audioURL": "9634cd1b08e8c4433775bf8d31de3749a9cdcaf6",
+      "playCount": 421241
+  },
+  {
+      "id": "67725c09bc145e469ec5a11876aac1dc69f66ef6",
+      "genre": "Alternative",
+      "trackNum": "1",
+      "title": "Special One",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "name": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "233692e0aad5a445107564ca1bb68d51",
+      "audioURL": "67725c09bc145e469ec5a11876aac1dc69f66ef6",
+      "playCount": 234253
+  },
+  {
+      "id": "b521f9394fabb794ecc4f5902d1f4b42ca0b4744",
+      "genre": "Alternative",
+      "trackNum": "12",
+      "title": "Special One. - Interlude",
+      "artistId": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+      "name": "Phoney Ppl",
+      "albumId": "233692e0aad5a445107564ca1bb68d51",
+      "imageURL": "233692e0aad5a445107564ca1bb68d51",
+      "audioURL": "b521f9394fabb794ecc4f5902d1f4b42ca0b4744",
+      "playCount": 234234
+  },
+  {
+      "id": "49f25741ff0db65a7c4290aa73f34b4d4a3644c6",
+      "genre": "Alternative",
+      "trackNum": "5",
+      "title": "Solo",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "name": "Frank Ocean",
+      "albumId": "457391c9c82bfdcbb4947278c0401e41",
+      "imageURL": "457391c9c82bfdcbb4947278c0401e41",
+      "audioURL": "49f25741ff0db65a7c4290aa73f34b4d4a3644c6",
+      "playCount": 234523
+  }
+]

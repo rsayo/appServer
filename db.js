@@ -15,13 +15,9 @@ exports.initialize = async () => {
     throw error
   }
 }
-
-// register new user
 exports.registerUser = async (username, password) => {
 
 }
-
-// Authenticat user
 exports.authenticate = async (credentials) => {
   console.log("Authenticating user...")
   // console.log(credentials.username.toLowerCase())
@@ -40,8 +36,6 @@ exports.authenticate = async (credentials) => {
 
   return response
 }
-
-// Get Featured albums
 exports.GetFeaturedAlbums = () => {
   return new Promise((resolve, reject) => {
     let catalog = []
@@ -128,8 +122,6 @@ exports.GetFeaturedAlbums = () => {
     resolve(catalog)
   })
 }
-
-// Get albumDetail
 exports.GetAlbumDetail = (id) => {
   return new Promise((resolve, reject) => {
     console.log("getting albums")
@@ -215,16 +207,12 @@ exports.GetAlbumDetail = (id) => {
 
   })
 }
-
-// Get user Track history
 exports.GetUserTrackHistory =() => {
   return new Promise((resolve, reject) => {
     let history = getFile("songs")
     resolve(history)
   })
 }
-
-// Get Tracks
 exports.GetTracks = (id) => {
   return new Promise((resolve, reject) => {
     let tracks = getFile('songs')
@@ -232,7 +220,6 @@ exports.GetTracks = (id) => {
     resolve()
   })
 }
-
 exports.getAudioTrack = (track) => {
   return new Promise((resolve, reject) => {
     console.log("playing track", track)
@@ -242,8 +229,6 @@ exports.getAudioTrack = (track) => {
     resolve(audio)
   })
 }
-
-// Get AristProfile Data
 exports.getRandomAudio = () => {
   return new Promise( (resolve, reject) => {
     let tracks = getFile("songs")
@@ -260,7 +245,6 @@ exports.getRandomAudio = () => {
   // console.log(rand(10))
   })
 }
-
 exports.GetArtistProfile = (id) => {
   return new Promise((resolve, reject) => {
     let collection = []
@@ -359,8 +343,6 @@ exports.GetArtistProfile = (id) => {
     })
   })
 }
-
-// Get TrackById
 exports.GetTrackById = (id) => {
   return new Promise((resolve, reject) => {
     // let track
@@ -373,7 +355,6 @@ exports.GetTrackById = (id) => {
     })
   })
 }
-
 exports.GetUserHomeData = () => {
   return new Promise((resolve, reject) => {
     let section = []
@@ -425,6 +406,10 @@ exports.GetUserHomeData = () => {
     console.log(section)
     resolve(section)
   })
+}
+exports.GetSearchHistory = async () => {
+  let history = getFile('searchHistory')
+  return history
 }
 
 function getAudioFile(file){
