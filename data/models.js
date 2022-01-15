@@ -1,35 +1,37 @@
 const mongoose = require('mongoose')
 const schema = mongoose.Schema
 
-let albumSchema = new schema({
-  id: {type:  mongoose.ObjectId },
-  type: {type: String},
-  title: {type: String},
-  name: {type: String},
-  artistId: {type:  mongoose.ObjectId },
-  imageURL: {type: String}
-})
-exports.Album = mongoose.model('Album', albumSchema)
-
 let artistSchema = new schema({
-  id: {type:  mongoose.ObjectId },
+  id: {type:  String },
   name: {type: String},
   imageURL: {type: String},
   isVerified: {type: Boolean},
-  followers: {type: Number}
+  subscribers: {type: Number},
+  joinDate: {type: Date}
 })
 exports.Artist = mongoose.model('Artist', artistSchema)
 
+let albumSchema = new schema({
+  id: {type:  String },
+  type: {type: String},
+  title: {type: String},
+  name: {type: String},
+  artistId: {type:  String},
+  imageURL: {type: String},
+  releaseDate: {type: Date}
+})
+exports.Album = mongoose.model('Album', albumSchema)
+
 let trackSchema = new schema({
-  id: {type:  mongoose.ObjectId },
+  id: {type:  String },
   type: {type: String},
   genre: {type: String},
   trackNum: {type: Number},
   title: {type: String},
-  artistId: {type:  mongoose.ObjectId },
+  artistId: {type:  String },
   name: {type: String},
-  imageURL: {type:  mongoose.ObjectId },
-  audioURL: {type:  mongoose.ObjectId },
+  imageURL: {type:  String },
+  audioURL: {type:  String },
   albumId: {type: String},
   playCount: {type: Number}
 })
@@ -40,16 +42,18 @@ let userSchema = new schema({
   password: {type: String},
   email: {type: String},
   listeningHistory: {type: [trackSchema]},
-  following: {type: [artistSchema]}
+  following: {type: [artistSchema]},
+  joinDate: {type: Date}
 })
 exports.User = mongoose.model('User', userSchema)
 
 let playlistSchema = new schema({
-  id: {type:  mongoose.ObjectId },
+  id: {type:  String },
   title: {type: String},
-  user: {type: userSchema},
+  userId: {type: String},
   tracks: {type: [trackSchema]},
-  imageURL: {type: String}
+  imageURL: {type: String},
+  isPrivate: {type: Boolean}
 
 })
 exports.Playlist = mongoose.model('Playlist',playlistSchema)

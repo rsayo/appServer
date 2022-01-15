@@ -76,10 +76,10 @@ app.get("/api/v1/home", (req,res) => {
   })
 })
 app.get('/api/v1/album', (req,res) => {
-
+  // console.log(req)
   db.GetAlbumDetail(req.query.albumId)
   .then(data => {
-    console.log(data)
+    // console.log(data)
     res.json(data)
   })
   .catch( err => {
@@ -96,21 +96,11 @@ app.get('/api/v1/playlists', (req,res) => {
   res.json(playlists)
 })
 app.get('/api/v1/track', (req,res) => {
-  // console.log(req.query.audioURL)
+
   let keys = Object.keys(req.query)
   console.log(keys)
 
   switch(keys.toString()){
-    case "audioURL":
-      db.getAudioTrack(req.query.audioURL)
-      .then( data => {
-        console.log(data)
-        res.send(data)
-      })
-      .catch( err => {
-        console.log(err)
-      })
-      // console.log("audio")
     case "isRandom":
 
       db.getRandomAudio()
@@ -121,8 +111,9 @@ app.get('/api/v1/track', (req,res) => {
       .catch( err => {
         console.log(err)
       })
+      break
     case "id":
-    // console.log(req.query.id)
+    console.log(req.query.id)
       db.GetTrackById(req.query.id)
       .then( data => {
         // console.log(data)
@@ -131,14 +122,16 @@ app.get('/api/v1/track', (req,res) => {
       .catch( err => {
         console.log(err)
       })
+      break
     default:
-    db.GetTracks()
+    db.GetTracksByAlbumId(req.query.albumId)
     .then( data => {
       res.json(data)
     })
     .catch( err => {
       console.log(err)
     })
+    break
   }
 
 })
@@ -146,15 +139,12 @@ app.get('/api/v1/artist', (req,res) => {
   console.log(req.query.id)
   db.GetArtistProfile(req.query.id)
   .then( data => {
-    console.log(data)
+    // console.log(data)
     res.json(data)
   })
   .catch( err => {
     console.log(err)
   })
-})
-app.get('/api/v1/image', (req,res) => {
-  console.log(req.query.image)
 })
 app.get('/api/v1/search', (req,res) => {
   console.log(req.query)
@@ -170,9 +160,20 @@ app.get('/api/v1/search/history', (req,res) => {
   })
 })
 
+app.post("/api/v1/artist", (req,res) => {
+  db.createNewArtist(req.body)
+  .then( () => {
+    res.sendStatus(200)
+  })
+  .catch( err => {
+    console.log(err)
+    res.sendStatus(200)
+  })
+})
+
 db.initialize()
 .then( (data) => {
-
+  
 console.log(data)
   app.listen(app.get("port"), () => {
     console.log(`started app on 8080`)
