@@ -38,10 +38,10 @@ let trackSchema = new schema({
 exports.Track = mongoose.model('Track', trackSchema)
 
 let userSchema = new schema({
+  id: {type: String},
   username: {type: String},
   password: {type: String},
   email: {type: String},
-  listeningHistory: {type: [trackSchema]},
   following: {type: [artistSchema]},
   joinDate: {type: Date}
 })
@@ -57,3 +57,19 @@ let playlistSchema = new schema({
 
 })
 exports.Playlist = mongoose.model('Playlist',playlistSchema)
+
+let historySchema = new schema({
+  id: {type: String},
+  userId: {type: String},
+  type: {type: String},
+  genre: {type: String},
+  title: {type: String},
+  name: {type: String},
+  imageURL: {type: String},
+  audioURL: {type: String},
+  albumId: {type: String},
+  artistId: {type: String},
+  timestamp: {type: Date}
+})
+
+exports.History = mongoose.model("history", historySchema)

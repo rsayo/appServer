@@ -28,9 +28,11 @@ app.post('/api/v1/authenticate', (req,res) => {
   .then((user) => {
 
     console.log("response returned ")
+    console.log(user)
     if(user != undefined){
 
       req.session.user = {
+       userId: user.id,
        username: user.username,
        apiKey: uuid.v4()
       }
@@ -50,29 +52,15 @@ app.post('/api/v1/authenticate', (req,res) => {
   })
 })
 
-app.get("/api/v1/browse", (req,res) => {
-  // console.log("path reached")
-  // let date = new Date()
-  // console.log(`${date.getDay()}/${date.getMonth()}/${date.getYear()} `)
+app.get("/api/v1/home", (req,res) => {
 
-  db.GetFeaturedAlbums()
+  db.GetUserHomeData(req.query.user)
+
   .then( data => {
-    console.log(data)
     res.json(data)
   })
   .catch( err => {
     console.log(err)
-  })
-})
-app.get("/api/v1/home", (req,res) => {
-  db.GetUserHomeData()
-  .then( data => {
-    console.log("")
-    res.json(data)
-  })
-  .catch( err => {
-    console.log("")
-    res,json(err)
   })
 })
 app.get('/api/v1/album', (req,res) => {
@@ -147,7 +135,14 @@ app.get('/api/v1/artist', (req,res) => {
   })
 })
 app.get('/api/v1/search', (req,res) => {
-  console.log(req.query)
+  db.SearchWithQuery(req.query.q)
+  .then( data => {
+    res.json(data)
+  })
+  .catch( err => {
+    console.log(err)
+    res.sendStatus(404)
+  })
 })
 app.get('/api/v1/search/history', (req,res) => {
   db.GetSearchHistory()
@@ -173,7 +168,7 @@ app.post("/api/v1/artist", (req,res) => {
 
 db.initialize()
 .then( (data) => {
-  
+
 console.log(data)
   app.listen(app.get("port"), () => {
     console.log(`started app on 8080`)

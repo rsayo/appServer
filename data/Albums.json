@@ -198,5 +198,13 @@
        "name": "Brent Faiyaz",
        "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
        "imageURL": "daefb2b1c804343df2740a838eb3776d2e935cba"
+    },
+    {
+       "id": "d891600403b3236c0f5ef0fe00067d91",
+       "type": "Album",
+       "title": "1123",
+       "name": " Bj The Chicago Kid",
+       "artistId": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+       "imageURL": "d891600403b3236c0f5ef0fe00067d91"
     }
 ]

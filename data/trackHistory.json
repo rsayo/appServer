@@ -1,6 +1,7 @@
 [
   {
       "id": "121aa3ee4a7d5b1bbbc760fd0c6de79b",
+      "type": "track",
       "genre": "Hip-Hop",
       "trackNum":"6",
       "title": "Switch",
@@ -14,6 +15,7 @@
   },
   {
       "id": "8a13a01d705b372be5da08b0751c65714b10dfe0",
+      "type": "track",
       "genre": "Alternative",
       "trackNum": "14",
       "title": "Compromise.",
@@ -26,6 +28,7 @@
   },
   {
       "id": "4ff88aaddbd209d8026924c2cc2836b408698823",
+      "type": "track",
       "genre": "Alternative",
       "trackNum": "17",
       "title": "Futura Free",
@@ -38,6 +41,7 @@
   },
   {
       "id": "b43c4b82570e182eb1c74072896167113d2c7345",
+      "type": "track",
       "genre": "R&B",
       "trackNum": "3",
       "title": "Extra",
@@ -50,6 +54,7 @@
   },
   {
       "id": "9634cd1b08e8c4433775bf8d31de3749a9cdcaf6",
+      "type": "track",
       "genre": "Hip-Hop",
       "trackNum": "2",
       "title": "Ghetto christmas (with 6lack & Summer Walker)",
@@ -59,6 +64,21 @@
       "imageURL": "e83249bd3ba79932e16fb1fb5100dafade9954c2",
       "audioURL": "9634cd1b08e8c4433775bf8d31de3749a9cdcaf6",
       "playCount": 421241
+  },
+  {
+      "id": "457391c9c82bfdcbb4947278c0401e41",
+      "type": "Album",
+      "title": "Blonde",
+      "name": "6lack",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "imageURL": "457391c9c82bfdcbb4947278c0401e41"
+  },
+  {
+      "id": "0b12cd0f056e321968c9abade72a80f1c6f351d2",
+      "type": "Single",
+      "title": "Biking",
+      "name": "Frank Ocean",
+      "artistId": "6c1d77a1851c78aa2894f8b7be3f7af4",
+      "imageURL": "0b12cd0f056e321968c9abade72a80f1c6f351d2"
   }
-
 ]
