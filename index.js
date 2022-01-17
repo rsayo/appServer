@@ -7,7 +7,7 @@ const path = require('path')
 const uuid = require('uuid')
 const clientSessions = require('client-sessions')
 
-app.set('port',process.env.PORT || 8080 )
+app.set('port',process.env.PORT || 80 )
 
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded( {extended: false}))
