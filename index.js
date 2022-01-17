@@ -170,7 +170,7 @@ db.initialize()
 .then( (data) => {
 
 console.log(data)
-  app.listen(app.get("port"), () => {
+  app.listen(process.env.PORT || 8080, () => {
     console.log(`started app on 8080`)
   })
 
