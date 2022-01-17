@@ -3,6 +3,7 @@ const schema = mongoose.Schema
 
 let artistSchema = new schema({
   id: {type:  String },
+  type: {type: String},
   name: {type: String},
   imageURL: {type: String},
   isVerified: {type: Boolean},

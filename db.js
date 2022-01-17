@@ -52,7 +52,7 @@ function getRandomNumber() {
   let num = Math.floor(random)
   return num
 }
-exports.initialize = async () => {
+exports.initialize = async() => {
   try {
     mongoose.connect("mongodb+srv://rob:12358132121@cluster0.xadsk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   {useNewUrlParser:true})
@@ -71,7 +71,7 @@ exports.initialize = async () => {
 
   // user.save()
 
-  getFile("trackhistory").map( item => {
+  getFile("songs").map( item => {
     // console.log(item)
     let track = new models.Track
     track.id = item.id
@@ -105,6 +105,7 @@ exports.initialize = async () => {
 
     let artist = new models.Artist
     artist.id = item.id
+    artist.type = item.type
     artist.name = item.name
     artist.imageURL = item.imageURL
     artist.isVerified = item.isVerified
@@ -133,11 +134,11 @@ exports.initialize = async () => {
     throw error
   }
 }
-exports.registerUser = async (username, password) => {
+exports.registerUser = async(username, password) => {
 
 }
 
-exports.GetUserHomeData = async (id) => {
+exports.GetUserHomeData = async(id) => {
   // return new Promise((resolve, reject) => {
     let section = []
 x
@@ -192,7 +193,7 @@ x
   // })
 }
 
-exports.authenticate = async (credentials) => {
+exports.authenticate = async(credentials) => {
   console.log("Authenticating user...")
   // console.log(credentials.username.toLowerCase())
   let response = await models.User.findOne({username: credentials.username.toLowerCase()})
@@ -408,20 +409,57 @@ exports.GetUserTrackHistory = async() => {
   return history
 }
 
-exports.SearchWithQuery = async (q) => {
+exports.SearchWithQuery = async(q) => {
 
-  let result = await models.Track.find({title: {$in: /^q/ }})
+  let collection = []
+
+  let query = new RegExp(q)
+
+  await models.Track.find({title: {$regex: query, $options: "m" }})
   .then( data => {
     // console.log(data);
     if( data != null && data.length > 0){
-      console.log(data);
-      return data
+      // console.log(data);
+
+      // collection.push(data)
+      data.forEach( ( item ) => {
+        collection.push(item)
+      })
+
+      return
     }
-    else{ console.log("No result found for: ", q)}
+    else{ return }
   })
   .catch( err => { return err })
 
-  return result
+  await models.Album.find({title: {$regex: query, $options: "m"}})
+  .exec()
+  .then( data => {
+    if(data != null && data.length > 0){
+
+      data.forEach( item => {
+        collection.push(item)
+      })
+      return
+    }
+  })
+  .catch( err => { return err })
+
+  await models.Artist.find({name: {$regex: query, $options: "m"}})
+  .exec()
+  .then( data => {
+    if( data != null && data.length > 0){
+      data.forEach( item => {
+        collection.push(item)
+      })
+      return
+    }
+    else{ return }
+  })
+  .catch( err => { return err})
+
+  console.log(collection)
+  return collection
 }
 // exports.GetTracksByAlbumId = async (id) => {
 //

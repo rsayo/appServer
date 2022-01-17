@@ -1,6 +1,7 @@
 [
       {
           "id": "2133e19292afc827cc42285f6f0e565c",
+          "type": "Artist",
           "name": "6lack",
           "imageURL": "2133e19292afc827cc42285f6f0e565c",
           "isVerified": true,
@@ -8,6 +9,7 @@
         },
         {
           "id": "f16cb42875013a1118c1a0b3717202e9536851e0",
+          "type": "Artist",
           "name": "Mac Ayres",
           "imageURL": "f16cb42875013a1118c1a0b3717202e9536851e0",
           "isVerified": true,
@@ -15,6 +17,7 @@
         },
         {
           "id": "f65c7210ab215d55f9b8193e85044801d8661f16",
+          "type": "Artist",
           "name": "Kehlani",
           "imageURL": "f65c7210ab215d55f9b8193e85044801d8661f16",
           "isVerified": true,
@@ -22,6 +25,7 @@
         },
         {
           "id": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
+          "type": "Artist",
           "name": "Phoney Ppl",
           "imageURL": "f8cee59de17a4d91526a3d19b57163ba26eae1f9",
           "isVerified": true,
@@ -29,6 +33,7 @@
         },
         {
           "id": "6c1d77a1851c78aa2894f8b7be3f7af4",
+          "type": "Artist",
           "name": "Frank Ocean",
           "imageURL": "6c1d77a1851c78aa2894f8b7be3f7af4",
           "isVerified": true,
@@ -36,6 +41,7 @@
         },
         {
           "id": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
+          "type": "Artist",
           "name": "Lucky Daye",
           "imageURL": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
           "isVerified": true,
@@ -43,6 +49,7 @@
         },
         {
           "id": "810c95c90fb1a28f4e09ec8194cdd32e8850f188",
+          "type": "Artist",
           "name": "Joel",
           "imageURL": "810c95c90fb1a28f4e09ec8194cdd32e8850f188",
           "isVerified": true,
@@ -50,6 +57,7 @@
         },
         {
           "id": "5b97706611c202a4776db1861c0ef7bac8d6173d",
+          "type": "Artist",
           "name": "Tom Misch",
           "imageURL": "5b97706611c202a4776db1861c0ef7bac8d6173d",
           "isVerified": true,
@@ -57,6 +65,7 @@
         },
         {
           "id": "92429d82a41e930486c6de5ebda9602d55c39986",
+          "type": "Artist",
           "name": "SiR",
           "imageURL": "92429d82a41e930486c6de5ebda9602d55c39986",
           "isVerified": true,
@@ -64,6 +73,7 @@
         },
         {
           "id": "1222ac938383d8c2708b08ee85c1b3d491797171",
+          "type": "Artist",
           "name": "Freddie Gibbs",
           "imageURL": "1222ac938383d8c2708b08ee85c1b3d491797171",
           "isVerified": true,
@@ -71,6 +81,7 @@
         },
         {
           "id": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
+          "type": "Artist",
           "name": "Brent Faiyaz",
           "imageURL": "12936c34ec16e4bc58cb50903b5aeb04518f88ff",
           "isVerified": true,
@@ -78,6 +89,7 @@
         },
         {
           "id": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
+          "type": "Artist",
           "name": "Sy Ari Da Kid",
           "imageURL": "d781079843d530af1f0a02d431f8e5335c1bc5e6",
           "isVerified": true,
@@ -85,6 +97,7 @@
         },
         {
           "id": "045c4400b983f685285eda35b519a5b249ff94fb",
+          "type": "Artist",
           "name": "Childish Major",
           "imageURL": "045c4400b983f685285eda35b519a5b249ff94fb",
           "isVerified": true,
@@ -92,6 +105,7 @@
         },
         {
           "id": "723a75be95a6adcfb624e9ed3d899aa76011295b",
+          "type": "Artist",
           "name": "Terrance Martin",
           "imageURL": "723a75be95a6adcfb624e9ed3d899aa76011295b",
           "isVerified": true,
@@ -99,6 +113,7 @@
         },
         {
           "id": "723a75be95a6adcfb624e9ed3d899aa76011295b",
+          "type": "Artist",
           "name": "Bj The Chicago Kid",
           "imageURL": "723a75be95a6adcfb624e9ed3d899aa76011295b",
           "isVerified": true,

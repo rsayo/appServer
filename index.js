@@ -43,12 +43,12 @@ app.post('/api/v1/authenticate', (req,res) => {
       res.json(credentials)
     }else{
       console.log("could not authenticate user")
-      res.send(403)
+      res.sendStatus(403)
     }
   })
   .catch((err) => {
     console.log(err)
-    res.status(400)
+    res.status(500)
   })
 })
 
