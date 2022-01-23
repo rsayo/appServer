@@ -8,13 +8,16 @@ let artistSchema = new schema({
   imageURL: {type: String},
   isVerified: {type: Boolean},
   subscribers: {type: Number},
-  joinDate: {type: Date}
+  joinDate: {type: Date},
+  genre: {type: String},
+  about: {type: String}
 })
 exports.Artist = mongoose.model('Artist', artistSchema)
 
 let albumSchema = new schema({
   id: {type:  String },
   type: {type: String},
+  genre: {type: String},
   title: {type: String},
   name: {type: String},
   artistId: {type:  String},
@@ -43,8 +46,12 @@ let userSchema = new schema({
   username: {type: String},
   password: {type: String},
   email: {type: String},
-  following: {type: [artistSchema]},
-  joinDate: {type: Date}
+  subscribed: {type: [artistSchema]},
+  joinDate: {type: Date},
+  savedAlbums: {type: [albumSchema]},
+  savedTracks: {type: [trackSchema]},
+  playlists: {type: [albumSchema]},
+  listeningHistory:  {type: [trackSchema]}
 })
 exports.User = mongoose.model('User', userSchema)
 
@@ -72,5 +79,13 @@ let historySchema = new schema({
   artistId: {type: String},
   timestamp: {type: Date}
 })
-
 exports.History = mongoose.model("history", historySchema)
+
+let featuredSchema = new schema({
+  id: {type: String},
+  type: {type: String},
+  title: {type: String},
+  artist: {type: String},
+  imageURL: {type: String}
+})
+exports.Featured = mongoose.model("feature", featuredSchema)

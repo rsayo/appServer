@@ -52,6 +52,15 @@ app.post('/api/v1/authenticate', (req,res) => {
   })
 })
 
+app.get('/api/v1/library', (req, res) => {
+  db.GetUserLibraryData(req.query.user)
+  .then( data => {
+    res.json(data)
+  })
+  .catch( err => {
+    res.sendStatus(500)
+  })
+})
 app.get("/api/v1/home", (req,res) => {
 
   db.GetUserHomeData(req.query.user)
@@ -91,10 +100,11 @@ app.get('/api/v1/track', (req,res) => {
   switch(keys.toString()){
     case "isRandom":
 
+    console.log("is random")
       db.getRandomAudio()
       .then( data => {
         res.json(data)
-        // console.log(data)
+        console.log(data)
       })
       .catch( err => {
         console.log(err)
