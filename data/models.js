@@ -1,6 +1,12 @@
 const mongoose = require('mongoose')
 const schema = mongoose.Schema
 
+let artistInfoSchema = new schema({
+  genre: {type: String},
+  about: {type: String},
+  label: {type: String},
+  country: {type: String}
+})
 let artistSchema = new schema({
   id: {type:  String },
   type: {type: String},
@@ -9,9 +15,9 @@ let artistSchema = new schema({
   isVerified: {type: Boolean},
   subscribers: {type: Number},
   joinDate: {type: Date},
-  genre: {type: String},
-  about: {type: String}
+  artistInfo: {type: artistInfoSchema}
 })
+
 exports.Artist = mongoose.model('Artist', artistSchema)
 
 let albumSchema = new schema({

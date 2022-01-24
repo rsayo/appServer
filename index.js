@@ -32,12 +32,10 @@ app.post('/api/v1/authenticate', (req,res) => {
     if(user != undefined){
 
       req.session.user = {
-       userId: user.id,
-       username: user.username,
        apiKey: uuid.v4()
       }
 
-      let credentials = req.session.user
+      let credentials = user
 
       console.log(credentials)
       res.json(credentials)
@@ -164,7 +162,17 @@ app.get('/api/v1/search/history', (req,res) => {
     console.log(err)
   })
 })
-
+app.get('/api/v1/user', (req,res) => {
+  console.log( req.query)
+  db.checkIfFollowing(req.query)
+  .then( data => {
+    console.log(data)
+    // res.sendStatus(data)
+  })
+  .catch( err => {
+    res.sendStatus(500)
+  })
+})
 app.post("/api/v1/artist", (req,res) => {
   db.createNewArtist(req.body)
   .then( () => {
@@ -174,6 +182,10 @@ app.post("/api/v1/artist", (req,res) => {
     console.log(err)
     res.sendStatus(200)
   })
+})
+
+app.put('/api/v1/user', (req,res) => {
+  console.log("req", req)
 })
 
 db.initialize()
