@@ -53,6 +53,7 @@ app.post('/api/v1/authenticate', (req,res) => {
 app.get('/api/v1/library', (req, res) => {
   db.GetUserLibraryData(req.query.user)
   .then( data => {
+    console.log(data)
     res.json(data)
   })
   .catch( err => {
@@ -162,15 +163,15 @@ app.get('/api/v1/search/history', (req,res) => {
     console.log(err)
   })
 })
-app.get('/api/v1/user', (req,res) => {
-  console.log( req.query)
-  db.checkIfFollowing(req.query)
+
+app.get('/api/v1/user/subscriptions', (req,res) => {
+  db.checkIfFollowing(req)
   .then( data => {
-    console.log(data)
-    // res.sendStatus(data)
+    res.sendStatus(data)
   })
   .catch( err => {
-    res.sendStatus(500)
+    // console.log(err)
+    res.sendStatus(err)
   })
 })
 app.post("/api/v1/artist", (req,res) => {
@@ -184,10 +185,19 @@ app.post("/api/v1/artist", (req,res) => {
   })
 })
 
+app.post('/api/v1/user/subscriptions', (req,res) => {
+  db.AddNewSubscriber(req.query.id, req.body)
+  .then( data => {
+    res.sendStatus(data)
+  })
+  .catch( err => { console.log(err)})
+})
 app.put('/api/v1/user', (req,res) => {
   console.log("req", req)
 })
-
+app.delete('/api/v1/user/subscriptions', (req,res) => {
+  console.log(req)
+})
 db.initialize()
 .then( (data) => {
 

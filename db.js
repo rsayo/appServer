@@ -5,18 +5,6 @@ const mongoose = require('mongoose')
 const bcrypt = require('bcrypt')
 const models = require('./data/models.js')
 
-
-// function Section(){
-//   this.id = uuid.v4(),
-//   this.type = null,
-//   this.tagline = null,
-//   this.title = null,
-//   this.name = null,
-//   this.artistId = null,
-//   this.artistImgURL = null,
-//   this.imageURL = null,
-//   this.items = []
-// }
 function AlbumSection(){
   this.id = uuid.v4(),
   this.type = "",
@@ -160,8 +148,18 @@ exports.GetUserLibraryData = async(id) => {
     let artists = new Section
     artists.id = uuid.v4()
     artists.type = "Artists"
-    artists.tagline = "subscribed to"
-    artists.items = user.subscribed
+    artists.tagline = "Your Artists"
+
+    await models.Subscribed.find({userId: user.id})
+    .exec()
+    .then( data => {
+      if(data != null && data.length > 0){
+        artists.items = data
+        return
+      }
+      else{ return}
+    })
+    .catch( err => { return err})
 
     artists.items.length > 0 ? section.push(artists) : null
 
@@ -199,7 +197,6 @@ exports.GetUserLibraryData = async(id) => {
 
     return section
 }
-
 exports.authenticate = async(credentials) => {
   console.log("Authenticating user...")
   // console.log(credentials.username.toLowerCase())
@@ -413,7 +410,9 @@ exports.GetUserTrackHistory = async() => {
 
   return history
 }
+exports.PostSubscription = async() => {
 
+}
 exports.SearchWithQuery = async(q) => {
 
   let collection = []
@@ -567,27 +566,53 @@ exports.GetArtistProfile = async (id) => {
     // console.log(header)
     return header
 }
+
 exports.checkIfFollowing = async (query) => {
   let user = query.user
-  let result = await models.User.findOne({id: user})
+
+console.log(query)
+  let result = await models.Subscribed.findOne({id: query.id, userId: query.user})
   .exec()
   .then( data => {
-    // console.log( data)
+    console.log( data)
     if( data != null){
       console.log( data)
-      data.subscribed.map( item => {
-        console.log( item)
-        if( item.id == query.id){
-          console.log( item)
-          return item
-        }
-      })
+      return 200
+
     }
-    else{ return }
+    else{ return 404 }
   })
-  .catch( err => console.log(err))
+  .catch( err => { return err })
 
   return result
+}
+
+exports.AddNewSubscriber = async (id, item) => {
+
+  let result = await models.Subscribed.findOne({userId: id, id: item.id})
+  .exec()
+  .then( data => {
+    return data
+  })
+  .catch( err => { return err})
+
+  if( result == null){
+    let subscription = new models.Subscribed
+    subscription.id = item.id
+    subscription.userId = id
+    subscription.type = item.type
+    subscription.name = item.name
+    subscription.imageURL = item.imageURL
+
+    subscription.save()
+    console.log(subscription)
+
+    return 200
+  }
+  else{
+      return 404
+  }
+
 }
 exports.GetSearchHistory = async () => {
   let history = getFile('searchHistory')

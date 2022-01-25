@@ -54,12 +54,49 @@ let userSchema = new schema({
   email: {type: String},
   subscribed: {type: [artistSchema]},
   joinDate: {type: Date},
-  savedAlbums: {type: [albumSchema]},
-  savedTracks: {type: [trackSchema]},
   playlists: {type: [albumSchema]},
   listeningHistory:  {type: [trackSchema]}
 })
 exports.User = mongoose.model('User', userSchema)
+
+let subscribedShema = new schema({
+  id: {type:  String },
+  userId: {type: String},
+  type: {type: String},
+  name: {type: String},
+  imageURL: {type: String},
+  isVerified: {type: Boolean},
+})
+exports.Subscribed = mongoose.model("subscriber", subscribedShema)
+
+let savedTrackSchema = new schema({
+  userId: {type: String},
+  id: {type:  String },
+  type: {type: String},
+  genre: {type: String},
+  trackNum: {type: Number},
+  title: {type: String},
+  artistId: {type:  String },
+  name: {type: String},
+  imageURL: {type:  String },
+  audioURL: {type:  String },
+  albumId: {type: String},
+  playCount: {type: Number}
+})
+exports.SavedTrack = mongoose.model("savedTrack", savedTrackSchema)
+
+let savedAlbumSchema = new schema({
+  userId: {type: String},
+  id: {type:  String },
+  type: {type: String},
+  genre: {type: String},
+  title: {type: String},
+  name: {type: String},
+  artistId: {type:  String},
+  imageURL: {type: String},
+  releaseDate: {type: Date}
+})
+exports.SavedAlbums = mongoose.model("savedAlbum", savedAlbumSchema)
 
 let playlistSchema = new schema({
   id: {type:  String },
