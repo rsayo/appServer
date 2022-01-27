@@ -138,63 +138,68 @@ exports.GetUserLibraryData = async(id) => {
     let section = []
 
     // console.log(id)
-    let user = await models.User.findOne({id: id})
-    .exec()
-    .then( data => {
-      return data
-    })
-    .catch( err => { console.log(err)})
-
     let artists = new Section
     artists.id = uuid.v4()
     artists.type = "Artists"
     artists.tagline = "Your Artists"
 
-    await models.Subscribed.find({userId: user.id})
+    let user = await models.Following.find({userId: id})
     .exec()
     .then( data => {
-      if(data != null && data.length > 0){
-        artists.items = data
-        return
-      }
-      else{ return}
+      console.log(data)
+      artists.items = data
+      return
     })
-    .catch( err => { return err})
+    .catch( err => { console.log(err)})
+
+    console.log(artists)
+    // await models.Us.find({id: user.id})
+    // .exec()
+    // .then( data => {
+    //   if(data != null && data.length > 0){
+    //     console.log(data)
+    //     return
+    //   }
+    //   else{ return}
+    // })
+    // .catch( err => { return err})
 
     artists.items.length > 0 ? section.push(artists) : null
+    // console.log(section)
 
     let history = new Section
     history.id = uuid.v4()
     history.type = "History"
     history.tagline = "Recent Tracks"
-    history.items = user.listeningHistory
+    // history.items = user.listeningHistory
 
-    history.items > 0 ? section.push(history) : null
+    // history.items > 0 ? section.push(history) : null
 
     let savedAlbums = new Section
     savedAlbums.id = uuid.v4()
     savedAlbums.type = "Saved Albums"
     savedAlbums.tagline = "Your favourites"
-    savedAlbums.items = user.savedAlbums
+    // savedAlbums.items = user.savedAlbums
 
-    savedAlbums.items > 0 ? section.push(savedAlbums) : null
+    // savedAlbums.items > 0 ? section.push(savedAlbums) : null
 
     let savedTracks = new Section
     savedTracks.id = uuid.v4()
     savedTracks.type = "Saved Tracks"
     savedTracks.tagline = "Songs you like"
-    savedTracks.items = user.savedTracks
+    // savedTracks.items = user.savedTracks
 
-    savedTracks.items > 0 ? section.push(savedTracks) : null
+    // savedTracks.items > 0 ? section.push(savedTracks) : null
 
     let playlists = new Section
     playlists.id = uuid.v4()
     playlists.type = "Playlist"
     playlists.tagline = "Your playlists"
-    playlists.items = user.playlists
+    // playlists.items = user.playlists
 
-    playlists.items > 0 ? section.push(playlists) : null
+    // playlists.items > 0 ? section.push(playlists) : null
 
+    // console.log(section)
     return section
 }
 exports.authenticate = async(credentials) => {
@@ -571,14 +576,12 @@ exports.checkIfFollowing = async (query) => {
   let user = query.user
 
 console.log(query)
-  let result = await models.Subscribed.findOne({id: query.id, userId: query.user})
+  let result = await models.Following.find({"userId": user, "id":  query.id})
   .exec()
   .then( data => {
     console.log( data)
-    if( data != null){
-      console.log( data)
+    if( data.length != 0){
       return 200
-
     }
     else{ return 404 }
   })
@@ -587,33 +590,58 @@ console.log(query)
   return result
 }
 
-exports.AddNewSubscriber = async (id, item) => {
+exports.AddNewFollower = async (id, item) => {
 
-  let result = await models.Subscribed.findOne({userId: id, id: item.id})
+console.log(item)
+  let user = await models.Following.find({"id":  item.id})
   .exec()
   .then( data => {
-    return data
+    console.log(data)
+
+    if( data.length == 0){
+      let following = new models.Following
+      following.id = item.id
+      following.userId = id
+      following.type = item.type
+      following.name = item.name
+      following.imageURL = item.imageURL
+      following.isVerified = item.isVerified
+      following.subscribers = item.subscribers
+      following.joinDate = item.joinDate
+
+      following.save()
+
+      return true
+    }
+    else{ return false }
   })
-  .catch( err => { return err})
+  .catch( err => { return err })
 
-  if( result == null){
-    let subscription = new models.Subscribed
-    subscription.id = item.id
-    subscription.userId = id
-    subscription.type = item.type
-    subscription.name = item.name
-    subscription.imageURL = item.imageURL
+  console.log(user)
+  if(!user || user == null){
 
-    subscription.save()
-    console.log(subscription)
-
-    return 200
+    //  await models.User.updateOne({id: id},{ $push: {following: item}})
+    // .exec()
+    // .then( data => {
+    //   return 200
+    // })
+    // .catch( err => { return err})
   }
-  else{
-      return 404
-  }
-
+  else{ return 200}
 }
+exports.UnfollowArtist = async (id, artistId) => {
+  console.log(id)
+  let result = await models.Following.deleteOne({"userId": id, "id": artistId})
+  .exec()
+  .then( data =>{
+    return data.deletedCount == 1 ? 200 : 404
+  })
+  .catch( err => { return 500})
+
+  return result
+}
+
+
 exports.GetSearchHistory = async () => {
   let history = getFile('searchHistory')
   return history
