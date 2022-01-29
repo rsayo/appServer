@@ -466,8 +466,7 @@ exports.SearchWithQuery = async(q) => {
     else{ return }
   })
   .catch( err => { return err})
-
-  console.log(collection)
+  
   return collection
 }
 
@@ -487,7 +486,7 @@ exports.getRandomAudio = async() => {
 }
 exports.GetArtistProfile = async (id) => {
 
-  console.log("id", id)
+  // console.log("id", id)
 
     let header = new ProfileHeader
     let topTracks = new Section
@@ -568,18 +567,17 @@ exports.GetArtistProfile = async (id) => {
     })
     .catch( err => { return err })
 
-    // console.log(header)
     return header
 }
 
 exports.checkIfFollowing = async (query) => {
   let user = query.user
 
-console.log(query)
+// console.log(query)
   let result = await models.Following.find({"userId": user, "id":  query.id})
   .exec()
   .then( data => {
-    console.log( data)
+    // console.log( data)
     if( data.length != 0){
       return 200
     }
@@ -642,9 +640,17 @@ exports.UnfollowArtist = async (id, artistId) => {
 }
 
 
-exports.GetSearchHistory = async () => {
-  let history = getFile('searchHistory')
+exports.GetSearchHistory = async (id) => {
+  let history = await models.History.find({userId: id})
+  .exec()
+  .then( data =>  { return data })
+  .catch( err => { return err })
+
   return history
+}
+
+exports.AddItemSearchToHistory = async (item) => {
+
 }
 //
 // exports.createNewArtist = async (data) => {

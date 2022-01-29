@@ -155,16 +155,20 @@ app.get('/api/v1/search', (req,res) => {
   })
 })
 app.get('/api/v1/search/history', (req,res) => {
-  db.GetSearchHistory()
+
+  // console.log(req.query.userId)
+  db.GetSearchHistory(req.query.userId)
   .then(data => {
-    console.log(data)
-    res.json(data)
+    // console.log(data)
+    if( data.length > 0){
+      res.json(data)
+    }
+    else{ res.sendStatus(404)}
   })
   .catch( err => {
     console.log(err)
   })
 })
-
 app.get('/api/v1/user/subscriptions', (req,res) => {
   db.checkIfFollowing(req.query)
   .then( data => {
@@ -174,6 +178,19 @@ app.get('/api/v1/user/subscriptions', (req,res) => {
     res.sendStatus(err)
   })
 })
+
+app.post('/api/v1/user/history', (req,res) => {
+  console.log( req.body)
+  db.AddItemSearchToHistory(req.body)
+  .then( data => {
+
+  })
+  .catch( err => {
+    console.log(err)
+    res.sendStatus(500)
+  })
+})
+
 app.post("/api/v1/artist", (req,res) => {
   db.createNewArtist(req.body)
   .then( () => {
