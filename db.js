@@ -171,17 +171,21 @@ exports.GetUserLibraryData = async(id) => {
     history.id = uuid.v4()
     history.type = "History"
     history.tagline = "Recent Tracks"
-    // history.items = user.listeningHistory
 
     // history.items > 0 ? section.push(history) : null
 
     let savedAlbums = new Section
     savedAlbums.id = uuid.v4()
     savedAlbums.type = "Saved Albums"
-    savedAlbums.tagline = "Your favourites"
-    // savedAlbums.items = user.savedAlbums
+    savedAlbums.tagline = "Jumpback into"
 
-    // savedAlbums.items > 0 ? section.push(savedAlbums) : null
+    savedAlbums.items = await models.SavedAlbum.find({userId: id})
+    .then( data => {
+      return data
+    })
+    .catch( err => { console.log( err )})
+
+    savedAlbums.items.length > 0 ? section.push(savedAlbums) : null
 
     let savedTracks = new Section
     savedTracks.id = uuid.v4()
@@ -373,7 +377,8 @@ exports.GetAlbumDetail = async(id) => {
       .catch( err => { return err})
 
       let albumSection = new Section
-      albumSection.type = "Tracks"
+      albumSection.id = album.id
+      albumSection.type = "Album"
       albumSection.name = artist.name
       albumSection.artistImgURL = artist.imageURL
       albumSection.title = album.title
@@ -466,7 +471,7 @@ exports.SearchWithQuery = async(q) => {
     else{ return }
   })
   .catch( err => { return err})
-  
+
   return collection
 }
 
@@ -639,7 +644,65 @@ exports.UnfollowArtist = async (id, artistId) => {
   return result
 }
 
+exports.CheckIfAlbumSaved = async( query) => {
 
+  let result = await models.SavedAlbum.findOne({id: query.id})
+  .exec()
+  .then( result => {
+    if( result != null){
+      return 200
+    }
+    else{
+      return 404
+    }
+  })
+  .catch( err => { console.log( err )})
+
+  return result
+}
+exports.SaveAlbum = async (id, item) =>  {
+
+  let album = new models.SavedAlbum
+  album.id = item.id
+  album.userId = id
+  album.type = item.type
+  album.genre = item.genre
+  album.title = item.title
+  album.name = item.name
+  album.artistId = item.artistId
+  album.imageURL = item.imageURL
+  album.releaseDate = item.releaseDate
+
+  // make sure item doesnt already exist in collection
+
+  console.log(item.id)
+
+  let result = models.SavedAlbum.findOne({"userId": id, "id": item.id})
+  .then( result => {
+    console.log(result)
+    if(result != null){
+      return 200
+    }else{
+      album.save()
+      return 200
+    }
+  })
+  .catch( err => { console.log( err)})
+
+  return result
+
+}
+exports.RemoveAlbumFromSaved = async (id, item) => {
+
+    let result = await models.SavedAlbum.deleteOne({"userId": id, "id": item})
+    .exec()
+    .then( result => {
+      return 200
+    })
+    .catch( err => { console.log( err )})
+
+    return result
+}
 exports.GetSearchHistory = async (id) => {
   let history = await models.History.find({userId: id})
   .exec()

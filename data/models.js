@@ -54,8 +54,7 @@ let userSchema = new schema({
   email: {type: String},
   following: {type: [artistSchema]},
   joinDate: {type: Date},
-  savedAlbums: {type: [albumSchema]},
-  savedTracks: {type: [trackSchema]},
+  saved: {type: [albumSchema]},
   playlists: {type: [albumSchema]},
   listeningHistory:  {type: [trackSchema]}
 })
@@ -71,6 +70,19 @@ let followingSchema = new schema({
   subscribers: {type: Number},
   joinDate: {type: Date}
 })
+
+let savedAlbumSchema = new schema({
+  userId: {type: String},
+  id: {type:  String },
+  type: {type: String},
+  genre: {type: String},
+  title: {type: String},
+  name: {type: String},
+  artistId: {type:  String},
+  imageURL: {type: String},
+  releaseDate: {type: Date}
+})
+exports.SavedAlbum = mongoose.model("SaveAlbum", savedAlbumSchema)
 
 exports.Following = mongoose.model("Following", followingSchema)
 

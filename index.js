@@ -178,7 +178,29 @@ app.get('/api/v1/user/subscriptions', (req,res) => {
     res.sendStatus(err)
   })
 })
+app.get('/api/v1/user/saved', (req,res) => {
+  // res.sendStatus(200)
+  db.CheckIfAlbumSaved(req.query)
+  .then( result => {
+    res.sendStatus(result)
+  })
+  .catch( err => {
+    res.sendStatus(500)
+  })
+})
 
+app.post('/api/v1/user/saved', (req,res) => {
+
+  db.SaveAlbum(req.query.userId, req.body)
+  .then( result => {
+    res.sendStatus(result)
+  })
+  .catch( err => {
+    console.log( err )
+    res.sendStatus(500)
+  })
+
+})
 app.post('/api/v1/user/history', (req,res) => {
   console.log( req.body)
   db.AddItemSearchToHistory(req.body)
@@ -190,7 +212,6 @@ app.post('/api/v1/user/history', (req,res) => {
     res.sendStatus(500)
   })
 })
-
 app.post("/api/v1/artist", (req,res) => {
   db.createNewArtist(req.body)
   .then( () => {
@@ -201,7 +222,6 @@ app.post("/api/v1/artist", (req,res) => {
     res.sendStatus(200)
   })
 })
-
 app.post('/api/v1/user/subscriptions', (req,res) => {
   db.AddNewFollower(req.query.id, req.body)
   .then( data => {
@@ -209,9 +229,7 @@ app.post('/api/v1/user/subscriptions', (req,res) => {
   })
   .catch( err => { console.log(err)})
 })
-app.put('/api/v1/user', (req,res) => {
-  console.log("req", req)
-})
+
 app.delete('/api/v1/user/subscriptions', (req,res) => {
   db.UnfollowArtist(req.query.user, req.query.id)
   .then( data => {
@@ -219,6 +237,17 @@ app.delete('/api/v1/user/subscriptions', (req,res) => {
     res.sendStatus(data)
   })
   .catch( err => {
+    res.sendStatus(500)
+  })
+})
+app.delete('/api/v1/user/saved', (req, res) => {
+  console.log(req.query)
+  db.RemoveAlbumFromSaved(req.query.userId, req.query.id)
+  .then( result => {
+    res.sendStatus(result)
+  })
+  .catch( err => {
+    console.log( err )
     res.sendStatus(500)
   })
 })
