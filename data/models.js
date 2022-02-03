@@ -47,6 +47,18 @@ let trackSchema = new schema({
 })
 exports.Track = mongoose.model('Track', trackSchema)
 
+
+let playlistSchema = new schema({
+  id: {type:  String },
+  title: {type: String},
+  userId: {type: String},
+  tracks: {type: [trackSchema]},
+  imageURL: {type: String},
+  isPrivate: {type: Boolean}
+})
+exports.Playlist = mongoose.model('Playlist',playlistSchema)
+
+
 let userSchema = new schema({
   id: {type: String},
   username: {type: String},
@@ -55,7 +67,8 @@ let userSchema = new schema({
   following: {type: [artistSchema]},
   joinDate: {type: Date},
   saved: {type: [albumSchema]},
-  playlists: {type: [albumSchema]},
+  albums: {type: [albumSchema]},
+  playlists: {type: [playlistSchema]},
   listeningHistory:  {type: [trackSchema]}
 })
 exports.User = mongoose.model('User', userSchema)
@@ -85,17 +98,6 @@ let savedAlbumSchema = new schema({
 exports.SavedAlbum = mongoose.model("SaveAlbum", savedAlbumSchema)
 
 exports.Following = mongoose.model("Following", followingSchema)
-
-let playlistSchema = new schema({
-  id: {type:  String },
-  title: {type: String},
-  userId: {type: String},
-  tracks: {type: [trackSchema]},
-  imageURL: {type: String},
-  isPrivate: {type: Boolean}
-
-})
-exports.Playlist = mongoose.model('Playlist',playlistSchema)
 
 let historySchema = new schema({
   id: {type: String},

@@ -170,9 +170,15 @@ app.get('/api/v1/search/history', (req,res) => {
   })
 })
 app.get('/api/v1/user/subscriptions', (req,res) => {
+  console.log(req.query)
   db.checkIfFollowing(req.query)
   .then( data => {
-    res.sendStatus(data)
+    if( data != null){
+      res.sendStatus(data)
+    }
+    else{
+      res.sendStatus(404)
+    }
   })
   .catch( err => {
     res.sendStatus(err)
@@ -182,11 +188,19 @@ app.get('/api/v1/user/saved', (req,res) => {
   // res.sendStatus(200)
   db.CheckIfAlbumSaved(req.query)
   .then( result => {
+    console.log( result )
     res.sendStatus(result)
   })
   .catch( err => {
     res.sendStatus(500)
   })
+})
+app.get('/api/v1/user/savedTracks', (req,res) => {
+  db.getSavedTrack(req.query.id, req.query.user)
+  .then( result => {
+    res.sendStatus(result)
+  })
+  .catch( err => { console.log( err )})
 })
 
 app.post('/api/v1/user/saved', (req,res) => {
@@ -200,6 +214,13 @@ app.post('/api/v1/user/saved', (req,res) => {
     res.sendStatus(500)
   })
 
+})
+app.post('/api/v1/user/savedTracks', (req,res) => {
+  db.saveTrack(req.query.user, req.body)
+  .then( result => {
+    res.sendStatus(result)
+  })
+  .catch( err => { res.sendStatus( 500)})
 })
 app.post('/api/v1/user/history', (req,res) => {
   console.log( req.body)

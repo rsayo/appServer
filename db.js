@@ -38,6 +38,7 @@ function getRandomNumber() {
   let num = Math.floor(random)
   return num
 }
+
 exports.initialize = async() => {
   try {
     mongoose.connect("mongodb+srv://rob:12358132121@cluster0.xadsk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
@@ -137,73 +138,53 @@ exports.GetUserLibraryData = async(id) => {
   // return new Promise((resolve, reject) => {
     let section = []
 
+    let user = await models.User.findOne({id: id})
+    .exec()
+    .then( result => {
+      return result
+    })
+    .catch( err => { return err })
+
     // console.log(id)
     let artists = new Section
     artists.id = uuid.v4()
     artists.type = "Artists"
     artists.tagline = "Your Artists"
-
-    let user = await models.Following.find({userId: id})
-    .exec()
-    .then( data => {
-      console.log(data)
-      artists.items = data
-      return
-    })
-    .catch( err => { console.log(err)})
-
-    console.log(artists)
-    // await models.Us.find({id: user.id})
-    // .exec()
-    // .then( data => {
-    //   if(data != null && data.length > 0){
-    //     console.log(data)
-    //     return
-    //   }
-    //   else{ return}
-    // })
-    // .catch( err => { return err})
+    artists.items = user.following
 
     artists.items.length > 0 ? section.push(artists) : null
-    // console.log(section)
 
     let history = new Section
     history.id = uuid.v4()
     history.type = "History"
     history.tagline = "Recent Tracks"
+    history.items = user.listeningHistory
 
-    // history.items > 0 ? section.push(history) : null
+    history.items > 0 ? section.push(history) : null
 
     let savedAlbums = new Section
     savedAlbums.id = uuid.v4()
     savedAlbums.type = "Saved Albums"
     savedAlbums.tagline = "Jumpback into"
-
-    savedAlbums.items = await models.SavedAlbum.find({userId: id})
-    .then( data => {
-      return data
-    })
-    .catch( err => { console.log( err )})
-
+    savedAlbums.items = user.albums
     savedAlbums.items.length > 0 ? section.push(savedAlbums) : null
 
     let savedTracks = new Section
     savedTracks.id = uuid.v4()
     savedTracks.type = "Saved Tracks"
     savedTracks.tagline = "Songs you like"
-    // savedTracks.items = user.savedTracks
+    // savedTracks.items = user.saved
 
-    // savedTracks.items > 0 ? section.push(savedTracks) : null
+    savedTracks.items.length > 0 ? section.push(savedTracks) : null
 
     let playlists = new Section
     playlists.id = uuid.v4()
     playlists.type = "Playlist"
     playlists.tagline = "Your playlists"
-    // playlists.items = user.playlists
+    playlists.items = user.playlists
 
-    // playlists.items > 0 ? section.push(playlists) : null
+    playlists.items > 0 ? section.push(playlists) : null
 
-    // console.log(section)
     return section
 }
 exports.authenticate = async(credentials) => {
@@ -576,83 +557,139 @@ exports.GetArtistProfile = async (id) => {
 }
 
 exports.checkIfFollowing = async (query) => {
-  let user = query.user
 
-// console.log(query)
-  let result = await models.Following.find({"userId": user, "id":  query.id})
+  let user = await models.User.findOne({id: query.user })
   .exec()
-  .then( data => {
-    // console.log( data)
-    if( data.length != 0){
-      return 200
+  .then( result => {
+    if(result != null){
+      for( i in result.following ){
+        if( result.following[i].id == query.id){
+          return 200
+        }
+        else if( i == result.following.length){
+          return null
+        }
+      }
     }
-    else{ return 404 }
   })
-  .catch( err => { return err })
+  .catch( err => { console.log( err )})
 
-  return result
+  return user
 }
 
-exports.AddNewFollower = async (id, item) => {
+exports.AddNewFollower = async (id, artist) => {
 
-console.log(item)
-  let user = await models.Following.find({"id":  item.id})
-  .exec()
-  .then( data => {
-    console.log(data)
-
-    if( data.length == 0){
-      let following = new models.Following
-      following.id = item.id
-      following.userId = id
-      following.type = item.type
-      following.name = item.name
-      following.imageURL = item.imageURL
-      following.isVerified = item.isVerified
-      following.subscribers = item.subscribers
-      following.joinDate = item.joinDate
-
-      following.save()
-
-      return true
-    }
-    else{ return false }
+  let user = await models.User.findOne({id: id})
+  .then( result =>  {
+    return result
   })
-  .catch( err => { return err })
+  .catch( err => { console.log( err )})
 
-  console.log(user)
-  if(!user || user == null){
+  // console.log(user)
 
-    //  await models.User.updateOne({id: id},{ $push: {following: item}})
-    // .exec()
-    // .then( data => {
-    //   return 200
-    // })
-    // .catch( err => { return err})
+  // check if user following array is not empty
+  if( user.following.length > 0 ){
+
+    // for every user check if id matches
+    for (i in user.following){
+      if( user.following[i].id == artist.id){
+        return 200
+      }
+
+      // if end of following array and no user found
+      else if( i == user.following.length -1){
+
+        user.following.push(artist)
+
+        // update user item in collection
+        await models.User.updateOne({id: id}, {$set: {"following": user.following} })
+        .exec()
+        .then( result => {
+          return
+        })
+        .catch( err => { console.log( err )})
+
+        return 200
+      }
+    }
+
   }
-  else{ return 200}
+  else{
+    user.following.push(artist)
+
+    console.log(user)
+
+    await models.User.updateOne({id: id}, {$set: {"following": user.following} })
+    .exec()
+    .then( result => {
+      return
+    })
+    .catch( err => { console.log( err )})
+
+    return 200
+  }
+
 }
 exports.UnfollowArtist = async (id, artistId) => {
-  console.log(id)
-  let result = await models.Following.deleteOne({"userId": id, "id": artistId})
-  .exec()
-  .then( data =>{
-    return data.deletedCount == 1 ? 200 : 404
-  })
-  .catch( err => { return 500})
 
-  return result
+console.log( artistId)
+
+  let user = await models.User.findOne({id: id})
+  .exec()
+  .then( user => {
+    console.log(user)
+
+    for( i in user.following){
+      // console.log(user.following[i])
+      if( user.following[i].id == artistId){
+        user.following.splice(i,1)
+
+        return user
+      }
+      else if( i == user.following.length -1){
+        console.log("done")
+        return null
+      }
+    }
+  })
+  .catch( err => { console.log( err )})
+
+  console.log( user)
+
+  if( user != null){
+   let result = await models.User.updateOne({id: id}, { $set: {"following": user.following}})
+   .exec()
+   .then( result => {
+     console.log( result)
+     return 200
+   })
+   .catch( err => {
+     console.log( err )
+   })
+
+   return result
+ }
+
 }
 
 exports.CheckIfAlbumSaved = async( query) => {
 
-  let result = await models.SavedAlbum.findOne({id: query.id})
+  let result = await models.User.findOne({id: query.userId})
   .exec()
   .then( result => {
-    if( result != null){
-      return 200
+    if(result.albums.length > 0){
+
+      for( i in result.albums ){
+        if( result.albums[i].id == query.id){
+          return 200
+        }
+        else if( result.albums.length == i){
+          return 404
+        }
+      }
+
     }
-    else{
+    else {
       return 404
     }
   })
@@ -677,31 +714,139 @@ exports.SaveAlbum = async (id, item) =>  {
 
   console.log(item.id)
 
-  let result = models.SavedAlbum.findOne({"userId": id, "id": item.id})
+  // let user = models.User.findOne({id: id})
+  // .exec()
+  // .then( result => {
+  //   return result
+  // })
+  // .catch( err => {
+  //   console.log(err)
+  // })
+
+  let result = await models.User.findOne({id: id})
+  .exec()
   .then( result => {
-    console.log(result)
-    if(result != null){
-      return 200
-    }else{
-      album.save()
-      return 200
+    if( result.albums.length > 0){
+
+      for( i in result.albums){
+        if( result.albums[i].id == item.id){
+          return 500
+        }
+        else if( i == result.albums.length -1 ){
+          result.albums.push(album)
+          return result
+        }
+      }
+    }
+    else{
+      result.albums.push(album)
+      return result
     }
   })
-  .catch( err => { console.log( err)})
+  .catch( err => { console.log( err )})
+
+  console.log( result
+  )
+
+  if( result  != 500){
+    result = await models.User.updateOne({id: id}, {$set: {albums: result.albums}})
+    .exec()
+    .then( result => { return 200 })
+    .catch( err => { console.log( err )})
+  }
 
   return result
 
 }
 exports.RemoveAlbumFromSaved = async (id, item) => {
 
-    let result = await models.SavedAlbum.deleteOne({"userId": id, "id": item})
+    let result = await models.User.findOne({id: id})
     .exec()
     .then( result => {
-      return 200
+      if( result.albums.length > 0 ){
+
+        for( i in result.albums ){
+          if( result.albums[i].id == item){
+            result.albums.splice(i, 1)
+            return result
+          }
+          else{ return 404}
+        }
+      }
+      else{ return 404}
     })
     .catch( err => { console.log( err )})
 
+    if( result != 404){
+      result = await models.User.updateOne({id: id}, {$set: { albums: result.albums}})
+      .exec()
+      .then( result => { return 200})
+      .catch( err => { console.log( err )})
+    }
+    // let result = await models.SavedAlbum.deleteOne({"userId": id, "id": item})
+    // .exec()
+    // .then( result => {
+    //   return 200
+    // })
+    // .catch( err => { console.log( err )})
+
     return result
+}
+
+exports.getSavedTrack = async (id, userId ) => {
+
+  let result = await models.User.findOne({id: userId})
+  .then( result => {
+    console.log( result)
+    if( result.saved.length > 0){
+
+      for( i in result.saved){
+        if( result.saved[i].id == id){
+          return 200
+        }
+        else if( i == result.saved.length-1){
+          return 404
+        }
+      }
+
+    }
+    else{
+      return 404
+    }
+  })
+  .catch( err => { console.log( err )})
+
+  return result
+}
+exports.saveTrack = async (id, item) => {
+
+  let result = await models.User.findOne({id: id})
+  .exec()
+  .then( result => {
+    if( result.saved.length > 0){
+      for(i in result.saved){
+        if( result.saved[i].id == item.id){
+          result.saved.splice(i, 1)
+          return result
+        }
+      }
+    }
+      result.saved.push(item)
+      return result
+  })
+  .catch( err => { console.log( err )})
+
+  result = await models.User.updateOne({id: id}, {$set: { saved: result.saved}})
+  .exec()
+  .then( success => {
+    return 200
+  })
+  .catch( err => { console.log( err )})
+
+  return result
+}
+exports.removeSavedTrack = async( id, userId ) => {
+  // let user =
 }
 exports.GetSearchHistory = async (id) => {
   let history = await models.History.find({userId: id})
@@ -711,7 +856,6 @@ exports.GetSearchHistory = async (id) => {
 
   return history
 }
-
 exports.AddItemSearchToHistory = async (item) => {
 
 }
