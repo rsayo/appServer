@@ -145,7 +145,6 @@ exports.GetUserLibraryData = async(id) => {
     })
     .catch( err => { return err })
 
-    // console.log(id)
     let artists = new Section
     artists.id = uuid.v4()
     artists.type = "Artists"
@@ -162,6 +161,13 @@ exports.GetUserLibraryData = async(id) => {
 
     history.items > 0 ? section.push(history) : null
 
+    let playlists = new Section
+    playlists.id = uuid.v4()
+    playlists.type = "Playlist"
+    playlists.tagline = "Your playlists"
+    playlists.items = user.playlists
+    playlists.items.length > 0 ? section.push(playlists) : null
+
     let savedAlbums = new Section
     savedAlbums.id = uuid.v4()
     savedAlbums.type = "Saved Albums"
@@ -177,14 +183,7 @@ exports.GetUserLibraryData = async(id) => {
 
     savedTracks.items.length > 0 ? section.push(savedTracks) : null
 
-    let playlists = new Section
-    playlists.id = uuid.v4()
-    playlists.type = "Playlist"
-    playlists.tagline = "Your playlists"
-    playlists.items = user.playlists
-
-    playlists.items > 0 ? section.push(playlists) : null
-
+    console.log(playlists)
     return section
 }
 exports.authenticate = async(credentials) => {
@@ -383,7 +382,7 @@ exports.GetAlbumDetail = async(id) => {
 
       albumDetail.push(albumSection)
 
-      console.log(albumDetail)
+      // console.log(albumDetail)
       return albumSection
 
 }
@@ -797,22 +796,19 @@ exports.getSavedTrack = async (id, userId ) => {
 
   let result = await models.User.findOne({id: userId})
   .then( result => {
-    console.log( result)
-    if( result.saved.length > 0){
 
-      for( i in result.saved){
-        if( result.saved[i].id == id){
-          return 200
-        }
-        else if( i == result.saved.length-1){
-          return 404
+    if( result.playlists.length > 0){
+      for( i in result.playlists){
+        if( result.playlists[i].title == "Saved Tracks" && result.playlists[i].tracks.length > 0 ){
+          for(x in result.playlists[i].tracks){
+            if( result.playlists[i].tracks[x].id == id){
+              return 200
+            }
+          }
         }
       }
-
     }
-    else{
-      return 404
-    }
+    return 404
   })
   .catch( err => { console.log( err )})
 
@@ -820,33 +816,81 @@ exports.getSavedTrack = async (id, userId ) => {
 }
 exports.saveTrack = async (id, item) => {
 
+  // console.log(item)
   let result = await models.User.findOne({id: id})
   .exec()
   .then( result => {
-    if( result.saved.length > 0){
-      for(i in result.saved){
-        if( result.saved[i].id == item.id){
-          result.saved.splice(i, 1)
+
+    if( result.playlists.length > 0 ){
+      for(i in result.playlists ){
+        if( result.playlists[i].title == "Saved Tracks" ){
+
+          for(x in result.playlists[i].tracks ){
+
+            if( result.playlists[i].tracks[x].id == item.id){
+              result.playlists[i].tracks.splice(x,1)
+              return result
+            }
+          }
+
+          result.playlists[i].tracks.push(item)
           return result
         }
       }
     }
-      result.saved.push(item)
-      return result
+
+    let savedPlaylist = {
+      id: uuid.v4(),
+      title: "Saved Tracks",
+      type: "Playlist",
+      userId: id,
+      tracks: item,
+      imageURL: "Hip-Hop",
+      isPrivate: true
+    }
+
+    result.playlists.push(savedPlaylist)
+
+    // if( result.saved.length > 0){
+    //   for(i in result.saved){
+    //     if( result.saved[i].id == item.id){
+    //       result.saved.splice(i, 1)
+    //       return result
+    //     }
+    //   }
+    // }
+    // result.saved.push(item)
+    return result
   })
   .catch( err => { console.log( err )})
 
-  result = await models.User.updateOne({id: id}, {$set: { saved: result.saved}})
+  result = await models.User.updateOne({id: id}, {$set: { playlists: result.playlists}})
   .exec()
   .then( success => {
     return 200
   })
   .catch( err => { console.log( err )})
 
+console.log(result);
   return result
 }
-exports.removeSavedTrack = async( id, userId ) => {
-  // let user =
+exports.removeSavedTrack = async (id, item) => {
+  
+}
+exports.getPlaylist = async( id, user) => {
+
+  console.log(user);
+  let result = await models.User.findOne({id: user})
+  .then( response => {
+    for( i in response.playlists ){
+      if( response.playlists[i].id == id){
+        return response.playlists[i]
+      }
+    }
+  })
+  .catch( err => { console.log( err )})
+
+  return result
 }
 exports.GetSearchHistory = async (id) => {
   let history = await models.History.find({userId: id})

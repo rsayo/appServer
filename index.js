@@ -202,6 +202,16 @@ app.get('/api/v1/user/savedTracks', (req,res) => {
   })
   .catch( err => { console.log( err )})
 })
+app.get('/api/v1/user/playlist', (req,res) => {
+  db.getPlaylist(req.query.id, req.query.user)
+  .then( response => {
+    res.json(response)
+  })
+  .catch( err => {
+    // console.log( err )
+    res.sendStatus(err)
+  })
+})
 
 app.post('/api/v1/user/saved', (req,res) => {
 
@@ -220,7 +230,8 @@ app.post('/api/v1/user/savedTracks', (req,res) => {
   .then( result => {
     res.sendStatus(result)
   })
-  .catch( err => { res.sendStatus( 500)})
+  .catch( err => {
+    res.sendStatus( 500 )})
 })
 app.post('/api/v1/user/history', (req,res) => {
   console.log( req.body)

@@ -51,13 +51,13 @@ exports.Track = mongoose.model('Track', trackSchema)
 let playlistSchema = new schema({
   id: {type:  String },
   title: {type: String},
+  type: {type: String},
   userId: {type: String},
   tracks: {type: [trackSchema]},
   imageURL: {type: String},
   isPrivate: {type: Boolean}
 })
 exports.Playlist = mongoose.model('Playlist',playlistSchema)
-
 
 let userSchema = new schema({
   id: {type: String},
