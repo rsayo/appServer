@@ -467,6 +467,7 @@ exports.getRandomAudio = async() => {
     })
     .catch( err => { return err})
 
+console.log( track)
     return track
 }
 exports.GetArtistProfile = async (id) => {
@@ -875,7 +876,7 @@ console.log(result);
   return result
 }
 exports.removeSavedTrack = async (id, item) => {
-  
+
 }
 exports.getPlaylist = async( id, user) => {
 

@@ -283,6 +283,7 @@ app.delete('/api/v1/user/saved', (req, res) => {
     res.sendStatus(500)
   })
 })
+app.delete('/api/')
 db.initialize()
 .then( (data) => {
 
