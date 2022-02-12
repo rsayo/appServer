@@ -145,6 +145,8 @@ exports.GetUserLibraryData = async(id) => {
     })
     .catch( err => { return err })
 
+    console.log(user)
+
     let artists = new Section
     artists.id = uuid.v4()
     artists.type = "Artists"
@@ -382,7 +384,7 @@ exports.GetAlbumDetail = async(id) => {
 
       albumDetail.push(albumSection)
 
-      // console.log(albumDetail)
+      console.log(albumSection.items)
       return albumSection
 
 }

@@ -106,9 +106,7 @@ app.get('/api/v1/track', (req,res) => {
         res.json(data)
         console.log(data)
       })
-      .catch( err => {
-        console.log(err)
-      })
+      .catch( err => { console.log(err) })
       break
     case "id":
     console.log(req.query.id)
