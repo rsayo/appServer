@@ -64,7 +64,6 @@ app.get('/api/v1/library', (req, res) => {
 app.get("/api/v1/home", (req,res) => {
 
   db.GetUserHomeData(req.query.user)
-
   .then( data => {
     res.json(data)
   })

@@ -173,7 +173,7 @@ exports.GetUserLibraryData = async(id) => {
     let savedAlbums = new Section
     savedAlbums.id = uuid.v4()
     savedAlbums.type = "Saved Albums"
-    savedAlbums.tagline = "Jumpback into"
+    savedAlbums.tagline = "Jump back into"
     savedAlbums.items = user.albums
     savedAlbums.items.length > 0 ? section.push(savedAlbums) : null
 
@@ -184,6 +184,25 @@ exports.GetUserLibraryData = async(id) => {
     // savedTracks.items = user.saved
 
     savedTracks.items.length > 0 ? section.push(savedTracks) : null
+
+    let releases = new Section
+    releases.id = uuid.v4()
+    releases.type = "New Release"
+    releases.tagline =  "Fresh Drops for you"
+
+    await models.Album.find()
+    .sort({releaseDate: -1})
+    .limit(5)
+    .exec()
+    .then( data => {
+      if( data != null && data.length > 0){
+        releases.items = data
+        section.push(releases)
+      }
+      else{ return }
+    })
+    .catch( err => { return err})
+
 
     console.log(playlists)
     return section
@@ -208,27 +227,6 @@ exports.authenticate = async(credentials) => {
 }
 exports.GetUserHomeData = async(id) => {
     let catalog = []
-
-    // let artistSection =  new Section
-    // artistSection.id = uuid.v4()
-    // artistSection.type = "Artists",
-    // artistSection.tagline = "Hot & Fresh"
-    //
-    // await models.Artist.find()
-    // .limit(10)
-    // .exec()
-    // .then( data => {
-    //   // console.log("Artists")
-    //   if( data != null && data.length > 0){
-    //     artistSection.items = data
-    //     catalog.push(artistSection)
-    //
-    //     return
-    //   }
-    //   else{ return }
-    //   // console.log(data)
-    // })
-    // .catch( err => { return err  })
 
     let featured = new Section
     featured.id = uuid.v4()
@@ -268,6 +266,29 @@ exports.GetUserHomeData = async(id) => {
     })
     .catch( err => { console.log( err)})
 
+    let artistSection =  new Section
+    artistSection.id = uuid.v4()
+    artistSection.type = "Artists",
+    artistSection.tagline = "Hot & Fresh"
+
+    await models.Artist.find()
+    .limit(10)
+    .exec()
+    .then( data => {
+      // console.log("Artists")
+      if( data != null && data.length > 0){
+        artistSection.items = data
+        catalog.push(artistSection)
+
+        return
+      }
+      else{ return }
+      // console.log(data)
+    })
+    .catch( err => { return err  })
+
+    console.log("Artist", artistSection.items)
+
     let albumSection = new Section
     albumSection.type = "Albums"
     albumSection.tagline = "Jump back into"
@@ -286,34 +307,15 @@ exports.GetUserHomeData = async(id) => {
     })
     .catch( err => { return err })
 
-
-    let releases = new Section
-    releases.id = uuid.v4()
-    releases.type = "New Release"
-    releases.tagline =  "Fresh Drops for you"
-
-    await models.Album.find()
-    .sort({releaseDate: -1})
-    .limit(5)
-    .exec()
-    .then( data => {
-      if( data != null && data.length > 0){
-        releases.items = data
-        catalog.push(releases)
-      }
-      else{ return }
-    })
-    .catch( err => { return err})
-
     let discover = {
       "id": uuid.v4(),
       "type": "Discover",
-      "tagline": "Discover Something new ",
+      "tagline": "Discover ",
       "items" :  getFile("Discover")
     }
-    //
-    catalog.push(discover)
 
+    catalog.push(discover)
+    
     let playlists = new Section
     playlists.id = uuid.v4()
     playlists.type =  "Playlists"
@@ -382,7 +384,7 @@ exports.GetAlbumDetail = async(id) => {
       })
       .catch( err => { return err})
 
-      albumDetail.push(albumSection)
+      albumDetail.push("Album:", albumSection)
 
       console.log(albumSection.items)
       return albumSection
