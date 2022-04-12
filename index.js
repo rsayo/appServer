@@ -6,6 +6,43 @@ const fs = require('fs')
 const path = require('path')
 const uuid = require('uuid')
 const clientSessions = require('client-sessions')
+const GetObjectCommand = require("@aws-sdk/client-s3").GetObjectCommand
+const readStream = require("stream")
+const s3Client = require("./s3Client.js").s3Client
+
+let audioBucket = {
+  Bucket: "prophile",
+  Key: ""
+}
+
+const imageBucket = {
+  bucket: "",
+  key: ""
+}
+
+const getChunksFromStream = (stream) => {
+  let chunks = []
+  return new Promise((resolve, reject) => {
+    stream.on("data", (chunk) => chunks.push(Buffer.from(chunk)))
+    // console.log(chunks)
+    stream.on("error", (error) => console.log( error))
+    stream.on("end", resolve(Buffer.concat(chunks).toString("utf8")))
+  })
+}
+
+const run = async (bucketParams) => {
+  try {
+    const response = await s3Client.send(new GetObjectCommand(bucketParams));
+    console.log(response)
+    const data = await getChunksFromStream(response.Body);
+    console.log(response.body)
+    fs.writeFileSync("/tmp/local-file.ext", data);
+    console.log("Success", data);
+    return data;
+  } catch (err) {
+    console.log("Error", err);
+  }
+};
 
 app.set('port',process.env.PORT || 80 )
 
@@ -193,21 +230,78 @@ app.get('/api/v1/user/saved', (req,res) => {
   })
 })
 app.get('/api/v1/user/savedTracks', (req,res) => {
+
   db.getSavedTrack(req.query.id, req.query.user)
   .then( result => {
     res.sendStatus(result)
   })
   .catch( err => { console.log( err )})
+
 })
 app.get('/api/v1/user/playlist', (req,res) => {
-  db.getPlaylist(req.query.id, req.query.user)
-  .then( response => {
-    res.json(response)
+
+  if(req.query.id){
+    db.getPlaylist(req.query.id, req.query.user)
+    .then( response => {
+      res.json(response)
+    })
+    .catch( err => {
+      res.sendStatus(err)
+    })
+  }
+  else{
+    db.getAllPlaylistsForUser(req.query.user)
+    .then( result => {
+      console.log("playlist")
+      res.json(result)
+    })
+    .catch( err => console.log( err ))
+  }
+})
+app.get('/api/v1/user/albums', (req,res) => {
+  db.getAllUserSavedAlbums(req.query.user)
+  .then( result => {
+    res.json( result )
   })
-  .catch( err => {
-    // console.log( err )
-    res.sendStatus(err)
+})
+app.get('/api/v1/user/following', (req, res) => {
+
+  db.getFollowing(req.query.user)
+  .then( result => {
+    console.log(result)
+    res.json(result)
   })
+  .catch(error => {
+
+  })
+})
+app.get("/api/v1/audio", (req,res) => {
+  // console.log(req.query.audio)
+  audioBucket.Key = req.query.audio
+  console.log(audioBucket)
+
+  s3Client.getObject(audioBucket, function(err, data) {
+     if (err) console.log(err, err.stack); // an error occurred
+     else     console.log(data);           // successful response
+     /*
+     data = {
+      AcceptRanges: "bytes",
+      ContentLength: 3191,
+      ContentType: "image/jpeg",
+      ETag: "\"6805f2cfc46c0f04559748bb039d69ae\"",
+      LastModified: <Date Representation>,
+      Metadata: {
+      },
+      TagCount: 2,
+      VersionId: "null"
+     }
+     */
+   });
+
+  // run(audioBucket)
+  // .then(( data => {
+    // res.sendStatus(200)
+  // }))
 })
 
 app.post('/api/v1/user/saved', (req,res) => {
