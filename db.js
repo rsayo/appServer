@@ -178,7 +178,7 @@ exports.GetUserLibraryData = async(id) => {
 
     let history = new Section
     history.id = uuid.v4()
-    history.type = "History"
+    history.type = "Track History"
     history.tagline = "Recent Tracks"
     history.items = user.listeningHistory
 
@@ -215,7 +215,7 @@ exports.GetUserHomeData = async(id) => {
     let featured = new Section
     featured.id = uuid.v4()
     featured.type = "Featured"
-    featured.tagline = "Announcements"
+    featured.tagline = "Featured"
 
     await models.Featured.find()
     .exec()
@@ -223,12 +223,35 @@ exports.GetUserHomeData = async(id) => {
       if( data != null && data.length > 0){
         featured.items = data
         catalog.push(featured)
-        console.log(featured.items)
+        // console.log(featured.items)
         return
       }
       else{ return }
     })
     .catch( err => { return err })
+
+    let artistSection =  new Section
+    artistSection.id = uuid.v4()
+    artistSection.type = "Artists",
+    artistSection.tagline = "Artist Picks"
+
+    await models.Artist.find()
+    .sort({joinDate: -1})
+    .limit(10)
+    .exec()
+    .then( data => {
+      // console.log("Artists")
+      if( data != null && data.length > 0){
+        artistSection.items = data
+        catalog.push(artistSection)
+        // console.log(artistSection)
+
+        return
+      }
+      else{ return }
+      // console.log(data)
+    })
+    .catch( err => { return err  })
 
     let trending = new Section
     trending.id = uuid.v4(),
@@ -251,28 +274,6 @@ exports.GetUserHomeData = async(id) => {
       else { return }
     })
     .catch( err => { console.log( err)})
-    let artistSection =  new Section
-    artistSection.id = uuid.v4()
-    artistSection.type = "Artists",
-    artistSection.tagline = "Dysc Recommendation"
-
-    await models.Artist.find()
-    .sort({joinDate: -1})
-    .limit(10)
-    .exec()
-    .then( data => {
-      // console.log("Artists")
-      if( data != null && data.length > 0){
-        artistSection.items = data
-        catalog.push(artistSection)
-        // console.log(artistSection)
-
-        return
-      }
-      else{ return }
-      // console.log(data)
-    })
-    .catch( err => { return err  })
 
     // console.log("Artist", artistSection.items)
 
@@ -346,6 +347,7 @@ exports.GetAlbumDetail = async(id) => {
       .exec()
       .then( data => {
         if(data != null){
+          // console.log(data)
           return data
         }
         else{ return }
@@ -372,21 +374,7 @@ exports.GetAlbumDetail = async(id) => {
       albumSection.artistId= album.artistId
       albumSection.releaseDate = album.releaseDate
 
-
-      await models.Track.find({artistId: artist.id, albumId: album.id})
-      .exec()
-      .then( data => {
-        if(data != null && data.length > 0){
-          albumSection.items = data
-          return data
-        }
-        else {
-          return
-        }
-      })
-      .catch( err => { return err})
-
-      albumDetail.push("Album:", albumSection)
+      // albumDetail.push("Album:", albumSection)
 
       console.log(albumSection)
       return albumSection
@@ -935,7 +923,45 @@ exports.GetSearchHistory = async (id) => {
 exports.AddItemSearchToHistory = async (item) => {
 
 }
-//
+exports.GetTracksByAlbumId = async (id) => {
+
+console.log(id)
+  let tracks = models.Track.find({albumId: id})
+  .exec()
+  .then( result => {
+    return result
+  })
+  .catch( err => {
+    console.log(err)
+  })
+
+  return tracks
+}
+
+// Videos
+exports.getVideosWithAlbumId = async (id) => {
+
+  let result = models.Videos.find({albumId: id})
+  .exec()
+  .then( data => {
+    return data
+  })
+
+  return result
+}
+exports.getVideoWithId = async (id) => {
+
+  let result = models.Videos.findOne({id: id})
+  .exec()
+  .then( data => {
+    return data
+  })
+  .catch( err => {
+    return err
+  })
+
+  return result
+}
 // exports.createNewArtist = async (data) => {
 //
 // console.log(data.id)

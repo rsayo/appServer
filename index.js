@@ -155,6 +155,17 @@ app.get('/api/v1/track', (req,res) => {
         console.log(err)
       })
       break
+    case "albumId":
+
+    db.GetTracksByAlbumId(req.query.albumId)
+    .then( data => {
+      res.json(data)
+    })
+    .catch( err => {
+      console.log( err )
+      res.sendStatus(500)
+    })
+    break
     default:
     db.GetTracksByAlbumId(req.query.albumId)
     .then( data => {
@@ -302,6 +313,79 @@ app.get("/api/v1/audio", (req,res) => {
   // .then(( data => {
     // res.sendStatus(200)
   // }))
+})
+
+// VideoRoute
+app.get('/api/v1/video', (req,res) => {
+
+
+})
+app.get('/api/v1/videos', (req,res) => {
+
+  let keys = Object.keys(req.query)
+
+  console.log("keys:", keys)
+
+  switch( keys.toString()){
+    case "album":
+    console.log("album id ")
+
+    db.getVideosWithAlbumId(req.query.album)
+    .then( data => {
+      res.json(data)
+    })
+    .catch( err => [
+      console.log( err)
+    ])
+
+      // try {
+      //
+      //   let data = fs.readFileSync( "./data/videos.json")
+      //   let jsonData = JSON.parse(data)
+      //
+      //   let collection = []
+      //
+      //   jsonData.map( item => {
+      //     if(item.albumId == req.query.album){
+      //       console.log(item)
+      //       collection.push(item)
+      //     }
+      //   })
+      //
+      //   res.json(collection)
+      //
+      // }
+      // catch (err ){
+      //   console.log( err)
+      // }
+
+    break;
+    case "id":
+
+    db.getVideoWithId(req.query.id)
+    .then( data => {
+      let date = new Date()
+      console.log( date)
+      res.json(data)
+    })
+    .catch( err => {
+      console.log( err )
+      res.sendStatus(500)
+    })
+
+      break;
+    default:
+
+    try {
+        let data = fs.readFileSync( "./data/videoSection.json")
+        console.log( JSON.parse(data))
+        res.json(JSON.parse(data))
+    }
+    catch (err ){
+      console.log( err)
+    }
+  }
+
 })
 
 app.post('/api/v1/user/saved', (req,res) => {

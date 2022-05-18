@@ -47,7 +47,6 @@ let trackSchema = new schema({
 })
 exports.Track = mongoose.model('Track', trackSchema)
 
-
 let playlistSchema = new schema({
   id: {type:  String },
   title: {type: String},
@@ -83,6 +82,7 @@ let followingSchema = new schema({
   subscribers: {type: Number},
   joinDate: {type: Date}
 })
+exports.Following = mongoose.model("Following", followingSchema)
 
 let savedAlbumSchema = new schema({
   userId: {type: String},
@@ -96,8 +96,6 @@ let savedAlbumSchema = new schema({
   releaseDate: {type: Date}
 })
 exports.SavedAlbum = mongoose.model("SaveAlbum", savedAlbumSchema)
-
-exports.Following = mongoose.model("Following", followingSchema)
 
 let historySchema = new schema({
   id: {type: String},
@@ -122,3 +120,15 @@ let featuredSchema = new schema({
   imageURL: {type: String}
 })
 exports.Featured = mongoose.model("feature", featuredSchema)
+
+let videoSchema = new schema({
+  id: {type: String},
+  videoURL: {type: String},
+  posterURL: {type: String},
+  title: {type: String},
+  artist: {type: String},
+  albumId: {type: String},
+  views: {type: Number},
+  releaseDate: {type: Date}
+})
+exports.Videos = mongoose.model("Videos", videoSchema)

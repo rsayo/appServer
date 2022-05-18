@@ -1,14 +1,112 @@
 [
   {
-      "id": "c9c64e071d2853bc7906c017a231ad1cc46ab630",
-      "genre": "R&B",
-      "title": "Real Games",
-      "artistId": "1ce1416347075b6070a35ce5e9d26b61d91ea6c3",
-      "name": "Lucky Daye",
-      "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
-      "imageURL": "Painted-Lucky-Daye",
-      "audioURL": "c9c64e071d2853bc7906c017a231ad1cc46ab630",
-      "videoURL": "",
-      "playCount": 234242
+    "id": "5c3e07656efc75a2a365a6103415619eff58d412",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/f8856321095006adba848aa554353a5c4911b933.mp4",
+    "posterURL": "Capture-25",
+    "title": "Nights Like This (feat. Ty Dolla $ign) [Official Music Video]",
+    "artist": "Kehlani",
+    "albumId": "",
+    "views": 413
+  },
+  {
+    "id": "b740b9c3f5982eabfd6b891ba2c1dc301a3763cb",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/8a94e2f767e42cfe9cb4355b31ffbf85f3cd6eb9.mp4",
+    "posterURL": "Kehlani44",
+    "title": "Show me your Love",
+    "artist": "Kehlani",
+    "albumId": "",
+    "views": 413
+  },
+  {
+    "id": "524c43b4ff0c51b88054680abd84eb877378be35",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/524c43b4ff0c51b88054680abd84eb877378be35.mp4",
+    "posterURL": "mgid_ao_image_mtv",
+    "title": "Butterfly",
+    "artist": "Kehlani",
+    "albumId": "",
+    "views": 413
+  },
+  {
+    "id": "9812998d0ab75229bfc7fe5ba4db5fc8bff18c2a",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/fcca79ad7dadf27bd9311c10fc0c61e35a773614.mp4",
+    "posterURL": "lucky-daye-roll-some-mo-video",
+    "title": "Roll Some more ",
+    "artist": "Lucky Daye",
+    "artistImageURL": "f65c7210ab215d55f9b8193e85044801d8661f16",
+    "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+    "views": 413
+  },
+  {
+    "id": "028b78a391ba8ec29dd3bee1ef9470936b2ea627",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/028b78a391ba8ec29dd3bee1ef9470936b2ea627.mp4",
+    "posterURL": "brysontillerexchange",
+    "title": "Exchange ",
+    "artist": "Bryson Tiller",
+    "artistImageURL": "f65c7210ab215d55f9b8193e85044801d8661f16",
+    "views": 413
+  },
+  {
+    "id": "a37c73b66a699d2ba93ea0c73f066290692b5e01",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/a37c73b66a699d2ba93ea0c73f066290692b5e01.mp4",
+    "posterURL": "SiR-7",
+    "title": "Summer in November ",
+    "artist": "Sir",
+    "artistImageURL": "f65c7210ab215d55f9b8193e85044801d8661f16",
+    "views": 413
+  },
+  {
+    "id": "c32b4e3c0a6d21def57e9d03f1a09a9e6aaa7f40",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/c32b4e3c0a6d21def57e9d03f1a09a9e6aaa7f40.mp4",
+    "posterURL": "mqdefault",
+    "title": "Tadow ",
+    "artist": "FKJ & Masego",
+    "artistImageURL": "f65c7210ab215d55f9b8193e85044801d8661f16",
+    "views": 413
+  },
+  {
+    "id": "b95f9e9ca54c89b18a4f82d90353df4a3bc04af1",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/b95f9e9ca54c89b18a4f82d90353df4a3bc04af1.mp4",
+    "posterURL": "sir-devils-video",
+    "title": "D'Evils ",
+    "artist": "SIR",
+    "artistImageURL": "f65c7210ab215d55f9b8193e85044801d8661f16",
+    "views": 413
+  },
+  {
+    "id": "d05a0180d3cdf07831a85443a9bff244bb5244fa",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/d05a0180d3cdf07831a85443a9bff244bb5244fa.mp4",
+    "posterURL": "MV5BMGNjNTlmYmUtNGM2Zi00MmRlLWJlZGMtNzM2NjRiM2RjZmE5XkEyXkFqcGdeQXVyMTk2NTA3MjU@._V1_FMjpg_UX1000_",
+    "title": "She ft Frank Ocean ",
+    "artist": "Tyler The Creator",
+    "artistImageURL": "f65c7210ab215d55f9b8193e85044801d8661f16",
+    "views": 413
+  },
+  {
+    "id": "e22a9ff7c2d4fee5cf2e4d2368ad923d64c1511e",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/e22a9ff7c2d4fee5cf2e4d2368ad923d64c1511e.mp4",
+    "posterURL": "childish-gambino-3005-bear-video",
+    "title": "3005 ",
+    "artist": "Childish Gambino",
+    "artistImageURL": "f65c7210ab215d55f9b8193e85044801d8661f16",
+    "views": 413
+  },
+  {
+    "id": "20e51a9e85206ce22899b02e2fa7429dcec2f16a",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/20e51a9e85206ce22899b02e2fa7429dcec2f16a.mp4",
+    "posterURL": "1435705490-popo",
+    "title": "Alright ",
+    "artist": "Kendrick Lamar",
+    "artistImageURL": "f65c7210ab215d55f9b8193e85044801d8661f16",
+    "views": 413
+  },
+  {
+    "id": "e9c4c8e41e6cfcb45bddcddac72042ef86a1d148",
+    "videoURL": "https://prophile.nyc3.digitaloceanspaces.com/Videos/e9c4c8e41e6cfcb45bddcddac72042ef86a1d148.mp4",
+    "posterURL": "Lucky-Daye-Real-Games-768x443",
+    "title": "Real Games ",
+    "artist": "Lucky Daye",
+    "artistImageURL": "f65c7210ab215d55f9b8193e85044801d8661f16",
+    "albumId": "5e3b687ec0d28caa6fe647f53d684e9fd3ebb000",
+    "views": 413
   }
 ]
